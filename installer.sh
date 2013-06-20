@@ -23,10 +23,12 @@ EOB
 	which php || which php-cli || return 1
 }
 
+INSTALL_DIR=$1
 if [ -z "$INSTALL_DIR" ]; then
 	INSTALL_DIR=$HOME/.composer
 fi
 
+VERSION=$2
 if [ -z "$VERSION" ]; then
 	VERSION='@stable'
 fi
