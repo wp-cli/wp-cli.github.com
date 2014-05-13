@@ -120,6 +120,10 @@ Then, you can call `wp` without the `--url` parameter again:
 wp theme status
 ~~~
 
+<h2>Upgrading</h2>
+
+Updating to the latest version simply required replacing your wp-cli.phar file with the latest release. Follow the [installation](#install) steps once again until executing `wp --info` shows you the latest version number.
+
 <h2>Adding commands</h2>
 
 Adding commands to WP-CLI is as easy as creating a PHP class. See the [Commands Cookbook](https://github.com/wp-cli/wp-cli/wiki/Commands-Cookbook) for more info.
