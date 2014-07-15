@@ -4,7 +4,9 @@
 
 2. Install dev dependencies with `composer install --dev`
 
-3. Build:
+3. Install phpDocumentor with `wget http://phpdoc.org/phpDocumentor.phar; chmod +x phpDocumentor.phar`
+
+4. Build:
 
 ```bash
 vendor/bin/phake

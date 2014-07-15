@@ -4,3 +4,8 @@ Gemfile.lock
 composer.lock
 vendor
 _drafts/
+
+# PHPdocumentor
+/phpdoc
+/output
+phpDocumentor.phar
