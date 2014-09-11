@@ -21,8 +21,6 @@ title: 'wp cron event schedule'
 
 ### EXAMPLES
 
-    wp cron event schedule cron_test
-
     wp cron event schedule cron_test now hourly
 
     wp cron event schedule cron_test '+1 hour' --foo=1 --bar=2
