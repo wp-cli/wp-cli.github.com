@@ -8,7 +8,7 @@ title: 'wp plugin update'
 ### OPTIONS
 
 [&lt;plugin&gt;...]
-: One or more plugins to update.
+: One or more plugins to update. Either the Repo name or a local ZIP file
 
 [\--all]
 : If set, all plugins that have updates will be updated.
@@ -18,6 +18,9 @@ title: 'wp plugin update'
 
 [\--dry-run]
 : Preview which plugins would be updated.
+
+[\--force]
+: Force the plugin update; useful when updating a plugin from a zip file
 
 ### EXAMPLES
 
@@ -56,6 +59,7 @@ title: 'wp plugin update'
 
   \--quiet
       Suppress informational messages
+
 
 
 
