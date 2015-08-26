@@ -14,7 +14,7 @@ title: 'wp theme update'
 : If set, all themes that have updates will be updated.
 
 [\--version=&lt;version&gt;]
-: If set, the plugin will be updated to the specified version.
+: If set, the theme will be updated to the specified version.
 
 [\--dry-run]
 : Preview which themes would be updated.
