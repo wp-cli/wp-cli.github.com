@@ -125,6 +125,27 @@ task( 'param-list', function( $app ) {
 	file_put_contents( '_includes/param-list.html', $out );
 });
 
+desc( 'Generate pages for classes based on PHPdoc.' );
+task( 'class-list', function( $app ) {
+
+	$wp = invoke_wp_cli( 'wp cli info --format=json', $app );
+	$class_dir_path = $wp['wp_cli_dir_path'] . '/php';
+	if ( ! is_dir( $class_dir_path ) ) {
+		echo "WP-CLI must be available as a non-Phar install.\n";
+		die(1);
+	}
+
+	ob_start();
+	@system( "./phpDocumentor.phar -d $class_dir_path -t 'phpdoc' --template='xml'" );
+	ob_get_clean();
+
+	if ( ! is_dir( './phpdoc' ) ) {
+		echo "Something broke generating the PHPdoc XML file.\n";
+		die(1);
+	}
+
+});
+
 desc( 'Build the site.' );
-task( 'default', 'cmd-list', 'param-list' );
+task( 'default', 'cmd-list', 'param-list', 'class-list' );
 

@@ -6,7 +6,9 @@ These files comprise wp-cli.org. However, all command documentation is dynamical
 
 2. Install dev dependencies with `composer install --dev`
 
-3. Build:
+3. Install phpDocumentor with `wget http://phpdoc.org/phpDocumentor.phar; chmod +x phpDocumentor.phar`
+
+4. Build:
 
 ```bash
 vendor/bin/phake
