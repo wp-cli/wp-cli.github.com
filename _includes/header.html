@@ -14,7 +14,8 @@
 		<title>{{ page.title }} | WP-CLI</title>
 	</head>
 
-	<body>
+	<body class="{{ page.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
+
 
 		<header class="cf">
 		<div class="container">
@@ -27,4 +28,3 @@
 
 		<div class="container">
 			<section id="main_content">
-
