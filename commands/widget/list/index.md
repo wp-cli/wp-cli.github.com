@@ -29,7 +29,7 @@ There are no optionally available fields.
 
 ### EXAMPLES
 
-    wp sidebar widget list &lt;sidebar-id&gt; --fields=name --format=csv
+    wp widget list sidebar-1 --fields=name --format=csv
 
 ### GLOBAL PARAMETERS
 
