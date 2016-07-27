@@ -35,9 +35,9 @@ Additionally, alias groups let you register groups of aliases. If I want to run 
 Aliases can be registered in your project's `wp-cli.yml` file, or your user's global `~/.wp-cli/config.yml` file:
 
     @prod:
-      ssh: runcommand@runcommand.io~/webapps/production
+      ssh: runcommand@runcommand.io:~/webapps/production
     @dev:
-      ssh: vagrant@192.168.50.10/srv/www/runcommand.dev
+      ssh: vagrant@192.168.50.10:/srv/www/runcommand.dev
     @both:
       - @prod
       - @dev
