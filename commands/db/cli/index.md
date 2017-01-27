@@ -12,6 +12,11 @@ display_global_parameters: true
 
 <hr />
 
+### OPTIONS
+
+[\--&lt;field&gt;=&lt;value&gt;]
+: Extra arguments to pass to mysql
+
 ### EXAMPLES
 
     # Open MySQL console
