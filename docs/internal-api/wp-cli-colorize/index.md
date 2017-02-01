@@ -68,7 +68,7 @@ settings. Choose from the following tokens (and note 'reset'):
 * %U => ['style' => 'underline'],
 * %8 => ['style' => 'inverse'],
 * %9 => ['style' => 'bright'],
-* %_ => ['style' => 'bright')
+* %_ => ['style' => 'bright']
 
 
 *Internal API documentation is generated from the WP-CLI codebase on every release. To suggest improvements, please submit a pull request.*

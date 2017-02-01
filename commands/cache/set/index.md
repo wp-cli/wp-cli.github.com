@@ -24,6 +24,9 @@ Errors if the value can't be set.
 
 [&lt;group&gt;]
 : Method for grouping data within the cache which allows the same key to be used across groups.
+\---
+default: default
+\---
 
 [&lt;expiration&gt;]
 : Define how long to keep the value, in seconds. `0` means as long as possible.

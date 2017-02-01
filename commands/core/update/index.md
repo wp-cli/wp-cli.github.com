@@ -14,6 +14,10 @@ display_global_parameters: true
 
 Defaults to updating WordPress to the latest version.
 
+If you see "Error: Another update is currently in progress.", you may
+need to run `wp option delete core_updater.lock` after verifying another
+update isn't actually running.
+
 ### OPTIONS
 
 [&lt;zip&gt;]
@@ -23,7 +27,7 @@ Defaults to updating WordPress to the latest version.
 : Only perform updates for minor releases (e.g. update from WP 4.3 to 4.3.3 instead of 4.4.2).
 
 [\--version=&lt;version&gt;]
-: Update to a specific version, instead of to the latest version.
+: Update to a specific version, instead of to the latest version. Alternatively accepts 'nightly'.
 
 [\--force]
 : Update even when installed WP version is greater than the requested version.
