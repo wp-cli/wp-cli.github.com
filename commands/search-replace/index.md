@@ -62,7 +62,7 @@ You might want to change this depending on your database configuration
 
 [\--skip-columns=&lt;columns&gt;]
 : Do not perform the replacement on specific columns. Use commas to
-specify multiple columns. 'guid' is skipped by default.
+specify multiple columns.
 
 [\--include-columns=&lt;columns&gt;]
 : Perform the replacement on specific columns. Use commas to
@@ -80,8 +80,11 @@ pass --no-recurse-objects to disable.
 : Prints rows to the console as they're updated.
 
 [\--regex]
-: Runs the search using a regular expression. Warning: search-replace
-will take about 15-20x longer when using --regex.
+: Runs the search using a regular expression (without delimiters).
+Warning: search-replace will take about 15-20x longer when using --regex.
+
+[\--regex-flags=&lt;regex-flags&gt;]
+: Pass PCRE modifiers to regex search-replace (e.g. 'i' for case-insensitivity).
 
 ### EXAMPLES
 
@@ -90,6 +93,9 @@ will take about 15-20x longer when using --regex.
 
     # Run search/replace operation but dont save in database
     $ wp search-replace 'foo' 'bar' wp_posts wp_postmeta wp_terms --dry-run
+
+    # Run case-insensitive regex search/replace operation (slow)
+    $ wp search-replace '\[foo id="([0-9]+)"' '[bar id="\1"' --regex --regex-flags='i'
 
     # Turn your production multisite database into a local dev database
     $ wp search-replace --url=example.com example.com example.dev 'wp_*options' wp_blogs

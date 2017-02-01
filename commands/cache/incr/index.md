@@ -20,10 +20,16 @@ Errors if the value can't be incremented.
 : Cache key.
 
 [&lt;offset&gt;]
-: The amount by which to increment the item's value. Default is 1.
+: The amount by which to increment the item's value.
+\---
+default: 1
+\---
 
 [&lt;group&gt;]
 : Method for grouping data within the cache which allows the same key to be used across groups.
+\---
+default: default
+\---
 
 ### EXAMPLES
 

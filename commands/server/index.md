@@ -30,7 +30,8 @@ default: 8080
 \---
 
 [\--docroot=&lt;path&gt;]
-: The path to use as the document root.
+: The path to use as the document root. If the path global parameter is
+set, the default value is it.
 
 [\--config=&lt;file&gt;]
 : Configure the server with a specific .ini file.
