@@ -70,7 +70,7 @@ display_global_parameters: true
 		</tr>
 		<tr>
 			<td><a href="/commands/site/option/">option</a></td>
-			<td>Manage site options.</td>
+			<td>Manage site options in a multisite install.</td>
 		</tr>
 		<tr>
 			<td><a href="/commands/site/spam/">spam</a></td>

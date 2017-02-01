@@ -21,6 +21,9 @@ Errors if the value can't be deleted.
 
 [&lt;group&gt;]
 : Method for grouping data within the cache which allows the same key to be used across groups.
+\---
+default: default
+\---
 
 ### EXAMPLES
 

@@ -62,6 +62,9 @@ default:
 [\--skip-check]
 : If set, the database connection is not checked.
 
+[\--force]
+: Overwrites existing files, if present.
+
 ### EXAMPLES
 
     # Standard wp-config.php file

@@ -64,7 +64,7 @@ default: travis
 options:
   - travis
   - circle
-	 - gitlab
+  - gitlab
 \---
 
 [\--activate]

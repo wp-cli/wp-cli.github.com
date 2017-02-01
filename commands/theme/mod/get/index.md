@@ -17,6 +17,9 @@ display_global_parameters: true
 [&lt;mod&gt;...]
 : One or more mods to get.
 
+[\--field=&lt;field&gt;]
+: Returns the value of a single field.
+
 [\--all]
 : List all theme mods
 
@@ -33,7 +36,7 @@ options:
 
 ### EXAMPLES
 
-    # Get all theme mods
+    # Get all theme mods.
     $ wp theme mod get --all
     +------------------+---------+
     | key              | value   |
@@ -43,11 +46,15 @@ options:
     | main_text_color  | #8224e3 |
     +------------------+---------+
 
-    # Get single theme mod in JSON format
+    # Get single theme mod in JSON format.
     $ wp theme mod get background_color --format=json
     [{"key":"background_color","value":"dd3333"}]
 
-    # Get multiple theme mods
+    # Get value of a single theme mod.
+    $ wp theme mod get background_color --field=value
+    dd3333
+
+    # Get multiple theme mods.
     $ wp theme mod get background_color header_textcolor
     +------------------+--------+
     | key              | value  |
