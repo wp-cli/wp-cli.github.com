@@ -17,6 +17,9 @@ display_global_parameters: true
 [\--search=&lt;pattern&gt;]
 : Use wildcards ( * and ? ) to match option name.
 
+[\--site_id=&lt;id&gt;]
+: Limit options to those of a particular site id.
+
 [\--field=&lt;field&gt;]
 : Prints the value of a single field.
 
