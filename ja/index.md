@@ -8,7 +8,7 @@ title: Command line interface for WordPress
 
 最新情報を得たい人は、[@wpcli on Twitter](https://twitter.com/wpcli) をフォローするか、[メーリングリストにサインアップ](http://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e)してください。[ロードマップ](https://wp-cli.org/docs/roadmap/)で、今後のリリースの予定をしることができます。
 
-[![Build Status](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Dependency Status](https://gemnasium.com/badges/github.com/wp-cli/wp-cli.svg)](https://gemnasium.com/github.com/wp-cli/wp-cli) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
+[![Build Status](https://travis-ci.org/wp-cli/wp-cli.svg?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Dependency Status](https://gemnasium.com/badges/github.com/wp-cli/wp-cli.svg)](https://gemnasium.com/github.com/wp-cli/wp-cli) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
 Quick links: [使い方](#section) &#124; [インストール方法](#section-1) &#124; [サポート](#section-4) &#124; [拡張](#section-5) &#124; [貢献](#section-6) &#124; [クレジット](#section-8)
 
@@ -79,7 +79,7 @@ WP-CLI root dir:        /home/wp-cli/.wp-cli
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 1.0.0
+WP-CLI version: 1.1.0
 ```
 
 ## アップデート
@@ -113,7 +113,7 @@ WP-CLI のメンテナーとその貢献者たちはボランティアで、一�
 - [runcommand tips](https://runcommand.io/tips/)
 - [WordPress StackExchange forums](http://wordpress.stackexchange.com/questions/tagged/wp-cli)
 
-みなさんのプロジェクトでサポートが必要ですか？ ビジネスユーザーは、[runcommand プレミアムサポート](https://runcommand.io/pricing/) を検討するといいかもしれません。さらに、[WordPress.org Slack organization](https://make.wordpress.org/chat/) の`#cli`チャンネルに参加するとコミュニティメンバーが答えを知っているかもしれません。
+さらに、[WordPress.org Slack organization](https://make.wordpress.org/chat/) の`#cli`チャンネルに参加するとコミュニティメンバーが答えを知っているかもしれません。
 
 GitHub Issues は、既存のコマンドの改良やバグを追跡するために使用されており、一般的なサポートのためには使用されていません。バグレポートを投稿する際には、[ベストプラクティス](https://wp-cli.org/docs/bug-reports/)を確認して、あなたが抱える問題が適時確実に伝わるように心がけてください。
 
@@ -181,9 +181,9 @@ WP-CLIは以下の個人によってリードされています。
 
 [composer.json](composer.json) に記載されているライブラリに依存しており、以下のプロジェクトからコードやアイディアを得ています。
 
-* [Drush](http://drush.ws/) for... a lot of things
-* [wpshell](http://code.trac.wordpress.org/browser/wpshell) for `wp shell`
-* [Regenerate Thumbnails](http://wordpress.org/plugins/regenerate-thumbnails/) for `wp media regenerate`
+* [Drush](https://drush.ws/) for... a lot of things
+* [wpshell](https://code.trac.wordpress.org/browser/wpshell) for `wp shell`
+* [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) for `wp media regenerate`
 * [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) for `wp search-replace`
 * [WordPress-CLI-Exporter](https://github.com/Automattic/WordPress-CLI-Exporter) for `wp export`
 * [WordPress-CLI-Importer](https://github.com/Automattic/WordPress-CLI-Importer) for `wp import`
