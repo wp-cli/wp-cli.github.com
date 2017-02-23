@@ -513,6 +513,8 @@ function gen_cmd_pages( $cmd, $parent = array() ) {
 		$docs = preg_replace( '/ &gt; /', ' > ', $docs );
 		$docs = preg_replace( '/ &lt;&lt;/', ' <<', $docs );
 		$docs = preg_replace( '/&quot;/', '"', $docs );
+		$docs = preg_replace( '/wp&gt; /', 'wp> ', $docs );
+		$docs = preg_replace( '/=&gt;/', '=>', $docs );
 
 		// Strip global parameters -> added in footer
 		$docs = preg_replace( '/#?## GLOBAL PARAMETERS.+/s', '', $docs );
