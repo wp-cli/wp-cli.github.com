@@ -31,16 +31,16 @@ options:
     # Dump the list of global parameters.
     $ wp cli param-dump --format=var_export
     array (
-      'path' =&gt;
+      'path' =>
       array (
-        'runtime' =&gt; '=&lt;path&gt;',
-        'file' =&gt; '&lt;path&gt;',
-        'synopsis' =&gt; '',
-        'default' =&gt; NULL,
-        'multiple' =&gt; false,
-        'desc' =&gt; 'Path to the WordPress files.',
+        'runtime' => '=&lt;path&gt;',
+        'file' => '&lt;path&gt;',
+        'synopsis' => '',
+        'default' => NULL,
+        'multiple' => false,
+        'desc' => 'Path to the WordPress files.',
       ),
-      'url' =&gt;
+      'url' =>
       array (
 
 

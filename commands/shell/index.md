@@ -27,8 +27,8 @@ that you can use within a WordPress plugin, for example.
 
     # Call get_bloginfo() to get the name of the site.
     $ wp shell
-    wp&gt; get_bloginfo( 'name' );
-    =&gt; string(6) "WP-CLI"
+    wp> get_bloginfo( 'name' );
+    => string(6) "WP-CLI"
 
 
 

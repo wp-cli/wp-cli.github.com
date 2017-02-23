@@ -17,7 +17,7 @@ display_global_parameters: true
     # Get a list of super-admins
     $ wp network meta get 1 site_admins
     array (
-      0 =&gt; 'supervisor',
+      0 => 'supervisor',
     )
 
 
