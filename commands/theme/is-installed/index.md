@@ -22,7 +22,7 @@ Returns exit code 0 when installed, 1 when uninstalled.
 ### EXAMPLES
 
     # Check whether theme is installed; exit status 0 if installed, otherwise 1
-    $ wp theme is-installed hello-dolly
+    $ wp theme is-installed hello
     $ echo $?
     1
 
