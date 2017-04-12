@@ -22,7 +22,7 @@ Returns exit code 0 when installed, 1 when uninstalled.
 ### EXAMPLES
 
     # Check whether plugin is installed; exit status 0 if installed, otherwise 1
-    $ wp plugin is-installed hello-dolly
+    $ wp plugin is-installed hello
     $ echo $?
     1
 

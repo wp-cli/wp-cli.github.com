@@ -15,18 +15,18 @@ display_global_parameters: true
 ### EXAMPLES
 
     # Activate plugin
-    $ wp plugin activate hello-dolly
-    Plugin 'hello-dolly' activated.
+    $ wp plugin activate hello
+    Plugin 'hello' activated.
     Success: Activated 1 of 1 plugins.
 
     # Deactivate plugin
-    $ wp plugin deactivate hello-dolly
-    Plugin 'hello-dolly' deactivated.
+    $ wp plugin deactivate hello
+    Plugin 'hello' deactivated.
     Success: Deactivated 1 of 1 plugins.
 
     # Delete plugin
-    $ wp plugin delete hello-dolly
-    Deleted 'hello-dolly' plugin.
+    $ wp plugin delete hello
+    Deleted 'hello' plugin.
     Success: Deleted 1 of 1 plugins.
 
     # Install the latest version from wordpress.org and activate
