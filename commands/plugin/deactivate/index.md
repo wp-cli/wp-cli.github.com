@@ -29,8 +29,8 @@ display_global_parameters: true
 ### EXAMPLES
 
     # Deactivate plugin
-    $ wp plugin deactivate hello-dolly
-    Plugin 'hello-dolly' deactivated.
+    $ wp plugin deactivate hello
+    Plugin 'hello' deactivated.
     Success: Deactivated 1 of 1 plugins.
 
 
