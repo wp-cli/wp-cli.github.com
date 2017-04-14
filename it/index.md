@@ -13,7 +13,7 @@ Collegamenti rapidi: [Utilizzo](#utilizzo) &#124; [Installazione](#installazione
 
 ## Utilizzo
 
-L'obiettivo di WP-CLI è quello di fornire un interfaccia da linea di comando per le azioni che normalmente si possono effettuare attraverso l'area amministrativa. Per esempio, `wp plugin install --activate` ([doc](https://wp-cli.org/commands/plugin/install/)) vi permette di installare ed attivare un plugin di WordPress:
+L'obiettivo di WP-CLI è quello di fornire un'interfaccia da linea di comando per le azioni che normalmente si possono effettuare attraverso l'area amministrativa. Per esempio, `wp plugin install --activate` ([doc](https://wp-cli.org/commands/plugin/install/)) vi permette di installare ed attivare un plugin di WordPress:
 
 ```bash
 $ wp plugin install rest-api --activate
