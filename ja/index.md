@@ -104,7 +104,7 @@ source /FULL/PATH/TO/wp-completion.bash
 
 `source ~/.bash_profile` を実行するのを忘れないでください。
 
-ZSH の場合は、`bashcompinit` ロードしてから `wp-completion.bash` を読み込ませる必要があるかもしれません。`.zshrc` へ次のコードを追加してください。
+ZSH の場合は、`bashcompinit` を読み込ませたあとに `wp-completion.bash` を読み込ませる必要があるかもしれません。`.zshrc` へ次のコードを追加してください。
 
 ```bash
 autoload bashcompinit
@@ -159,13 +159,13 @@ WP-CLI では、様々な実行可能なクラス、関数、クロージャを�
  *     Success: Deleted 'my_option' option.
  */
 $delete_option_cmd = function( $args ) {
-    list( $key ) = $args;
+	list( $key ) = $args;
 
-    if ( ! delete_option( $key ) ) {
-        WP_CLI::error( "Could not delete '$key' option. Does it exist?" );
-    } else {
-        WP_CLI::success( "Deleted '$key' option." );
-    }
+	if ( ! delete_option( $key ) ) {
+		WP_CLI::error( "Could not delete '$key' option. Does it exist?" );
+	} else {
+		WP_CLI::success( "Deleted '$key' option." );
+	}
 };
 WP_CLI::add_command( 'option delete', $delete_option_cmd );
 ```
@@ -186,7 +186,7 @@ WP-CLI は、多くのコマンドにより構成されており、カスタム�
 
 WP-CLI には2人のメンテナーがいます: [danielbachhuber](https://github.com/danielbachhuber) と [schlessera](http://github.com/schlessera) です。
 
-能力があり、プロジェクトを発展させるために、時間をかけて投資していることを示してくれたコントリビューターへ[コミット権限を与えることがあります](https://github.com/orgs/wp-cli/teams/committers)。
+能力があり、プロジェクトを発展させるために、時間をかけて投資していることを示してくれたコントリビューターへ、[コミット権限を与えることがあります](https://github.com/orgs/wp-cli/teams/committers)。
 
 プロジェクトの[ガバナンス](https://wp-cli.org/docs/governance/)と[完全な貢献者リスト](https://github.com/wp-cli/wp-cli/contributors)も読んでください。
 
