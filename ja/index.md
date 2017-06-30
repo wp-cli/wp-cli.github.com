@@ -104,6 +104,14 @@ source /FULL/PATH/TO/wp-completion.bash
 
 `source ~/.bash_profile` を実行するのを忘れないでください。
 
+ZSH の場合は、`bashcompinit` を読み込ませたあとに `wp-completion.bash` を読み込ませる必要があるかもしれません。`.zshrc` へ次のコードを追加してください。
+
+```bash
+autoload bashcompinit
+bashcompinit
+source /FULL/PATH/TO/wp-completion.bash
+```
+
 ## サポート
 
 WP-CLI のメンテナーとその貢献者たちが一般的な質問に答えられる時間は限られています。[最新版](http://wp-cli.org/docs/roadmap/) のみが公式にサポートされるバージョンです。
@@ -176,11 +184,9 @@ WP-CLI は、多くのコマンドにより構成されており、カスタム�
 
 ### プロジェクトリーダー
 
-WP-CLIは以下の個人によってリードされています。
+WP-CLI には2人のメンテナーがいます: [danielbachhuber](https://github.com/danielbachhuber) と [schlessera](http://github.com/schlessera) です。
 
-* [Daniel Bachhuber](https://github.com/danielbachhuber/) - 現在のメンテナー
-* [Cristi Burcă](https://github.com/scribu) - 前メンテナー
-* [Andreas Creten](https://github.com/andreascreten) - 創始者
+能力があり、プロジェクトを発展させるために、時間をかけて投資していることを示してくれたコントリビューターへ、[コミット権限を与えることがあります](https://github.com/orgs/wp-cli/teams/committers)。
 
 プロジェクトの[ガバナンス](https://wp-cli.org/docs/governance/)と[完全な貢献者リスト](https://github.com/wp-cli/wp-cli/contributors)も読んでください。
 
