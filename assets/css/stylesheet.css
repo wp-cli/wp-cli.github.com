@@ -288,6 +288,10 @@ header h1 {
 	margin-bottom: 20px;
 }
 
+header h1 img {
+	vertical-align: middle;
+}
+
 header h1 span {
 	margin-left: 3px;
 }
