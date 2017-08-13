@@ -192,7 +192,7 @@ WP-CLI には2人のメンテナーがいます: [danielbachhuber](https://githu
 
 ## クレジット
 
-[composer.json](composer.json) に記載されているライブラリに依存しており、以下のプロジェクトからコードやアイディアを得ています。
+[composer.json](https://github.com/wp-cli/wp-cli/blob/master/composer.json) に記載されているライブラリに依存しており、以下のプロジェクトからコードやアイディアを得ています。
 
 * [Drush](https://github.com/drush-ops/drush) for... a lot of things
 * [wpshell](https://code.trac.wordpress.org/browser/wpshell) for `wp shell`
