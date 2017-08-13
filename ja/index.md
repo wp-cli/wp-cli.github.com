@@ -33,7 +33,7 @@ Plugin 'user-switching' activated.
 Success: Installed 1 of 1 plugins.
 ```
 
-さらに WP-CLI は、WordPress の管理画面ではできない多くのことが可能です。たとえば、`wp transient delete --all` ([doc](https://developer.wordpress.org/cli/commands/transient/delete-all/)) は、Transient に保存されているすべてのデータを削除することを可能にしています。
+さらに WP-CLI は、WordPress の管理画面ではできない多くのことが可能です。たとえば、`wp transient delete --all` ([doc](https://developer.wordpress.org/cli/commands/transient/delete/)) は、Transient に保存されているすべてのデータを削除することを可能にしています。
 
 ```bash
 $ wp transient delete --all
