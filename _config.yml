@@ -18,18 +18,15 @@ exclude:
   - README.md
 navigation:
 - text: Commands
-  url: /commands/
+  url: https://developer.wordpress.org/cli/commands/
 - text: Configuration
-  url: /config/
-- text: Docs
-  url: /docs/
+  url: https://make.wordpress.org/cli/handbook/config/
+- text: Handbook
+  url: https://make.wordpress.org/cli/handbook/
 - text: Blog
-  url: /blog/
-  layout: post
-- text: Packages
-  url: /package-index/
-- text: RESTful WP-CLI
-  url: /restful/
+  url: https://make.wordpress.org/cli/
+- text: Contributing
+  url: https://make.wordpress.org/cli/handbook/contributing/
 languages:
 - label: English
   iso-alpha2: en
