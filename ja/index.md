@@ -10,7 +10,7 @@ title: Command line interface for WordPress
 
 <a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://www.dreamhost.com/"><img class="aligncenter size-full wp-image-324" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/dreamhost.png" alt="" width="160" height="30" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/siteground.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
 
-最新情報を得たい人は、[@wpcli on Twitter](https://twitter.com/wpcli) をフォローするか、[メーリングリストにサインアップ](http://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e)してください。[ロードマップ](https://make.wordpress.org/cli/handbook/roadmap/)で、今後のリリースの予定をしることができます。
+現在の最新バージョンは [1.3.0](https://make.wordpress.org/cli/2017/10/17/version-1-4-0-released/) です。 最新情報を得たい人は、[@wpcli on Twitter](https://twitter.com/wpcli) をフォローするか、[メーリングリストにサインアップ](http://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e)してください。[ロードマップ](https://make.wordpress.org/cli/handbook/roadmap/)で、今後のリリースの予定をしることができます。
 
 [![Build Status](https://travis-ci.org/wp-cli/wp-cli.svg?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Dependency Status](https://gemnasium.com/badges/github.com/wp-cli/wp-cli.svg)](https://gemnasium.com/github.com/wp-cli/wp-cli) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
@@ -84,7 +84,7 @@ WP-CLI root dir:        /home/wp-cli/.wp-cli
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 1.2.1
+WP-CLI version: 1.4.0
 ```
 
 ## アップデート
@@ -186,7 +186,7 @@ WP-CLI は、多くのコマンドにより構成されており、カスタム�
 
 WP-CLI には2人のメンテナーがいます: [danielbachhuber](https://github.com/danielbachhuber) と [schlessera](http://github.com/schlessera) です。
 
-能力があり、プロジェクトを発展させるために、時間をかけて投資していることを示してくれたコントリビューターへ、[コミット権限を与えることがあります](https://github.com/orgs/wp-cli/teams/committers)。
+能力があり、プロジェクトを発展させるために、時間をかけて投資していることを示してくれたコントリビューターへ、[コミット権限を与えることがあります](https://make.wordpress.org/cli/handbook/committers-credo/)。
 
 プロジェクトの運営に関する詳細については、[ハンドブック内のガバナンス](https://make.wordpress.org/cli/handbook/governance/) を読んで下さい。
 
