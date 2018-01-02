@@ -75,13 +75,15 @@ If WP-CLI was installed successfully, you should see something like this when yo
 
 ```bash
 $ wp --info
-PHP binary:    /usr/bin/php5
-PHP version:    5.5.9-1ubuntu4.14
-php.ini used:   /etc/php5/cli/php.ini
-WP-CLI root dir:        /home/wp-cli/.wp-cli
+PHP binary:     /usr/bin/php7.0
+PHP version:    7.0.26-1~dotdeb+8.2
+php.ini used:   /etc/php/7.0/cli/php.ini
+WP-CLI root dir:        phar://wp-cli.phar
+WP-CLI vendor dir:      phar://wp-cli.phar/vendor
+WP_CLI phar path:       /home/wp-cli/website/html
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
-WP-CLI project config:
+WP-CLI project config:  /home/wp-cli/website/wp-cli.yml
 WP-CLI version: 1.4.1
 ```
 
