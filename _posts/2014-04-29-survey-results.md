@@ -16,20 +16,20 @@ Many thanks to the 56 people who took our first user survey. We appreciate your 
 
 Even with its variety of commands, WP-CLI is largely used to install and update. 37.5% of respondents reported using WP-CLI to install WordPress (with 30.36% using it to update WordPress), and 32.14% reported using it to update plugins and themes.
 
-After code management, WP-CLI is popularly used (23.21%) to perform migrations. Respondents reported using [`wp db export`](http://wp-cli.org/commands/db/export/) and [`wp db import`](http://wp-cli.org/commands/db/import/) in conjunction with [`wp search-replace`](http://wp-cli.org/commands/search-replace/), or [`wp export`](http://wp-cli.org/commands/export/) and [`wp import`](http://wp-cli.org/commands/import/).
+After code management, WP-CLI is popularly used (23.21%) to perform migrations. Respondents reported using [`wp db export`](https://wp-cli.org/commands/db/export/) and [`wp db import`](https://wp-cli.org/commands/db/import/) in conjunction with [`wp search-replace`](https://wp-cli.org/commands/search-replace/), or [`wp export`](https://wp-cli.org/commands/export/) and [`wp import`](https://wp-cli.org/commands/import/).
 
 A subset of respondents reported using WP-CLI to perform specialized tasks, including:
 
-* Creating users with [`wp user create`](http://wp-cli.org/commands/user/create/) and [`wp user import-csv`](http://wp-cli.org/commands/user/import-csv/).
-* [Deleting options](http://wp-cli.org/commands/option/delete/).
-* [Resizing images](http://wp-cli.org/commands/media/regenerate/).
-* [Creating posts / pages](http://wp-cli.org/commands/post/create/).
-* Quick code execution via [`wp eval`](http://wp-cli.org/commands/eval/), [`wp eval-file`](http://wp-cli.org/commands/eval-file/), and [`wp shell`](http://wp-cli.org/commands/shell/).
+* Creating users with [`wp user create`](https://wp-cli.org/commands/user/create/) and [`wp user import-csv`](https://wp-cli.org/commands/user/import-csv/).
+* [Deleting options](https://wp-cli.org/commands/option/delete/).
+* [Resizing images](https://wp-cli.org/commands/media/regenerate/).
+* [Creating posts / pages](https://wp-cli.org/commands/post/create/).
+* Quick code execution via [`wp eval`](https://wp-cli.org/commands/eval/), [`wp eval-file`](https://wp-cli.org/commands/eval-file/), and [`wp shell`](https://wp-cli.org/commands/shell/).
 * [Writing custom commands](https://github.com/wp-cli/wp-cli/wiki/Commands-Cookbook).
 
 **Only 38% have used community packages**
 
-WP-CLI now has 24 community packages listed in its [Package Index](http://wp-cli.org/package-index/). A good 62% percent of respondents will have the good fortune in the future to discover a helpful community package.
+WP-CLI now has 24 community packages listed in its [Package Index](https://wp-cli.org/package-index/). A good 62% percent of respondents will have the good fortune in the future to discover a helpful community package.
 
 ### Feature requests
 
