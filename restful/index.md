@@ -43,7 +43,7 @@ Just like WordPress has plugins, the future of WP-CLI is [packages of commands](
 
 In this model, WP-CLI becomes the common interface, and supporting application layer, to a rich ecosystem of features. Doing so opens more frontiers for innovation, which leads to a greater selection of ideas to choose from. And because more people are involved in authoring packages, WP-CLI benefits from a larger contributor pool.
 
-As a result of the Kickstarter project, you can install WP-CLI packages from the Package Index with `wp package install`, [read through the commands cookbook](http://wp-cli.org/docs/commands-cookbook/) for a thorough introduction to creating a WP-CLI command, or use `wp scaffold package` ([repo](https://github.com/wp-cli/scaffold-package-command)) for the easiest way to generate the boilerplate for your new WP-CLI package, complete with functional tests.
+As a result of the Kickstarter project, you can install WP-CLI packages from the Package Index with `wp package install`, [read through the commands cookbook](https://wp-cli.org/docs/commands-cookbook/) for a thorough introduction to creating a WP-CLI command, or use `wp scaffold package` ([repo](https://github.com/wp-cli/scaffold-package-command)) for the easiest way to generate the boilerplate for your new WP-CLI package, complete with functional tests.
 
 ### Documentation portal
 

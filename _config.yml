@@ -5,7 +5,7 @@ markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-redirect-from
-url: http://wp-cli.org
+url: https://wp-cli.org
 permalink: /blog/:title.html
 paginate: 10
 paginate_path: /blog/page:num
