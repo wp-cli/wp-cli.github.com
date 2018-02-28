@@ -156,7 +156,7 @@ $delete_option_cmd = function( $args ) {
 WP_CLI::add_command( 'option delete', $delete_option_cmd );
 ```
 
-WP-CLI est livré avec des douzaines de commandes. Il est plus facile qu'il n'y parait de créer vos propres commandes WP-CLI. Lisez le [commands cookbook](https://wp-cli.org/docs/commands-cookbook/) pour en apprendre d'avantage. Parcourez la [documentation sur l'API interne](http://wp-cli.org/docs/internal-api/) pour découvrir une variété de fonctions utiles que vous pouvez utiliser dans votre commande WP-CLI personnalisée.
+WP-CLI est livré avec des douzaines de commandes. Il est plus facile qu'il n'y parait de créer vos propres commandes WP-CLI. Lisez le [commands cookbook](https://wp-cli.org/docs/commands-cookbook/) pour en apprendre d'avantage. Parcourez la [documentation sur l'API interne](https://wp-cli.org/docs/internal-api/) pour découvrir une variété de fonctions utiles que vous pouvez utiliser dans votre commande WP-CLI personnalisée.
 
 ## Contribuer
 

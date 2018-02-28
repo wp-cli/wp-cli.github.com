@@ -55,7 +55,7 @@ Wait, `wp package install`. What in the?
 
 That's right, WP-CLI now has package management. Using `wp cli update --nightly`, you now can:
 
-* `wp package browse` to browse [packages available for installation](http://wp-cli.org/package-index/).
+* `wp package browse` to browse [packages available for installation](https://wp-cli.org/package-index/).
 * `wp package install` to install a given package.
 * `wp package list` to list packages installed locally.
 * `wp package uninstall` to uninstall a given package.
