@@ -3,11 +3,11 @@ layout: default
 title: Interfaz de línea de comandos para WordPress
 ---
 
-[WP-CLI](https://wp-cli.org/) es una completa herramienta para gestionar desde la línea de comandos nuestras instalaciones de [WordPress](https://wordpress.org/). Podemos actualizar nuestras extensiones (plugins), configurar instalaciones multi-site y mucho más sin necesidad de recurrir a un navegador web.
+[WP-CLI](https://wp-cli.org/) es una completa herramienta para gestionar desde la línea de comandos nuestras instalaciones de [WordPress](https://wordpress.org/). Podemos actualizar nuestras extensiones (plugins), configurar instalaciones multi-site y mucho más, sin necesidad de recurrir a un navegador web.
 
 Para estar al día, siga [@wpcli en Twitter](https://twitter.com/wpcli) o [inscríbase a nuestro boletín de información por email](http://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e).
 
-[![Statut du build](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Statut des dépendances](https://gemnasium.com/badges/github.com/wp-cli/wp-cli.svg)](https://gemnasium.com/github.com/wp-cli/wp-cli) [![Temps moyen pour traiter un ticket](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Temps moyen pour traiter un ticket") [![Pourcentage de tickets encore ouverts](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Pourcentage de tickets encore ouverts")
+[![Estado del build](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Estado de las dependencias](https://gemnasium.com/badges/github.com/wp-cli/wp-cli.svg)](https://gemnasium.com/github.com/wp-cli/wp-cli) [![Duración media para tratar un ticket](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Duración media para tratar un ticket") [![Porcentaje de tickets todavía abiertos](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Porcentaje de tickets todavía abiertos")
 
 Enlaces directos: [Uso](#utilisation) &#124; [Instalación](#installation) &#124; [Soporte](#support) &#124; [Extender](#tendre) &#124; [Contribuir](#contribuer) &#124; [Créditos](#crdits)
 
@@ -37,9 +37,9 @@ Para una introducción más completa sobre el uso de WP-CLI, lea la [Guía de in
 
 ¿Ya se siente cómodo con lo básico? Diríjase a la [lista completa de comandos (en)](https://wp-cli.org/commands/) para tener información precisa sobre la gestión de temas y extensiones, la importación/exportación de datos, la ejecución de búsqueda y reemplazo en la base datos, y mucho más.
 
-## Installation
+## Instalación
 
-Descargar el Phar es el método de instalación que recoemndamos. Puede también consultar nuestra documentación sobre [otros métodos de instalación (en)](https://wp-cli.org/docs/installing/).
+Descargar el Phar es el método de instalación que recomendamos. Puede también consultar nuestra documentación sobre [otros métodos de instalación (en)](https://wp-cli.org/docs/installing/).
 
 Antes de instalar WP-CLI, asegúrese de que su entorno responde a las exigencias mínimas :
 
@@ -106,7 +106,7 @@ source /FULL/PATH/TO/wp-completion.bash
 
 ## Soporte
 
-Quienes mantienen WP-CLI y quienes contribuyen al proyecto hacen lo mejor que pueden para responder a todos los nuevos tickets en tiempo oportuno. Para utilizar de la mejor manera su tiempo voluntario, se agradece verificar que no exista ya una respuesta a su pregunta en alguno de los siguientes recursos :
+Quienes mantienen WP-CLI y quienes contribuyen al proyecto hacen lo mejor que pueden para responder a todos los nuevos tickets en un tiempo oportuno. Para utilizar de la mejor manera su tiempo voluntario, se agradece verificar que no exista ya una respuesta a su pregunta en alguno de los siguientes recursos :
 
 - [Problemas comunes y su solución (en)](https://wp-cli.org/docs/common-issues/)
 - [Buenas prácticas para someter un informe de bug (en)](https://wp-cli.org/docs/bug-reports/)
@@ -172,8 +172,8 @@ Le agradecemos que se tome un momento para [leer la guía del contribuidor en pr
 
 WP-CLI es dirigido por :
 
-* [Daniel Bachhuber](https://github.com/danielbachhuber/) - mantenedor actual
-* [Cristi Burcă](https://github.com/scribu) - mantenedor anterior
+* [Daniel Bachhuber](https://github.com/danielbachhuber/) - mantenimiento actual
+* [Cristi Burcă](https://github.com/scribu) - mantenimiento anterior
 * [Andreas Creten](https://github.com/andreascreten) - creador
 
 Para saber más sobre la [gobernanza (en)](https://wp-cli.org/docs/governance/) del proyecto y ver la [lista completa de los contribuidores](https://github.com/wp-cli/wp-cli/contributors).
