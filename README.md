@@ -38,5 +38,7 @@ SUBCOMMANDS
 
 1. Add your language to `[_config.yml](https://github.com/wp-cli/wp-cli.github.com/blob/master/_config.yml)`.
 2. Create a folder under the name of your appropriate language code (IETF language tag). e.g. ja or pt_BR
-3. Copy `index.md` into your language's directory.
+3. Copy the *English* `index.md` into your language's directory.
 4. Translate `index.md`.
+
+Note: Please avoid using a language file other than the English one in the root folder as your source for translating, as it might not be up-to-date. The root `index.md` is considered to be the source of truth and is the only one guaranteed to be current.
