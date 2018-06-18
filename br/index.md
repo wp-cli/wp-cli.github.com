@@ -1,94 +1,104 @@
 ---
 layout: default
-title: Interface para linha de comando em WordPress
+title: Interface para linha de comando para o WordPress
 ---
 
-[WP-CLI](https://wp-cli.org/) é um conjunto de linhas de comando para gerenciar instalações [WordPress](https://wordpress.org/). Você pode atualizar plugins, configurar instalações multisite e muito mais, sem utilizar um navegador web.
+[WP-CLI](https://wp-cli.org/) é a interface em linha de comando para o [WordPress](https://br.wordpress.org/). Você pode atualizar plugins, configurar instalações multisite e muito mais, sem utilizar um navegador web.
 
-Para manter-se atualizado, siga [@wpcli no Twitter](https://twitter.com/wpcli) ou [inscreva-se em nossa newsletter](http://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e).
+A manutenção contínua é <a href="https://make.wordpress.org/cli/2017/04/03/new-co-maintainer-alain-thanks-2017-sponsors/#sponsors">possibilitada por</a>:
+
+<a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://www.dreamhost.com/"><img class="aligncenter size-full wp-image-324" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/dreamhost.png" alt="" width="160" height="30" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/siteground.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
+
+A versão estável mais recente é a [1.5.1](https://make.wordpress.org/cli/2018/04/21/version-1-5-1-released/). Para manter-se atualizado, siga [@wpcli no Twitter](https://twitter.com/wpcli) ou [assine nossa newsletter](https://make.wordpress.org/cli/subscribe/). [Leia nosso plano de ação](https://make.wordpress.org/cli/handbook/roadmap/) para uma visão geral do que está sendo planejado para próximas versões.
 
 [![Build Status](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Dependency Status](https://gemnasium.com/badges/github.com/wp-cli/wp-cli.svg)](https://gemnasium.com/github.com/wp-cli/wp-cli) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Tempo médio para resolver um issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Percentual de issues ainda abertos")
 
-Links rápidos: [Usando](#usando) &#124; [Instalando](#instalando) &#124; [Suporte](#suporte) &#124; [Extendendo](#extendendo) &#124; [Contribuindo](#contribuindo) &#124; [Créditos](#creditos)
+Links rápidos: [Usando](#usando) &#124; [Instalando](#instalando) &#124; [Suporte](#suporte) &#124; [Estendendo](#estendendo) &#124; [Contribuindo](#contribuindo) &#124; [Créditos](#creditos)
 
 ## Usando
 
-O objetivo da WP-CLI é fornecer uma interface em linha de comando para qualquer ação que você queira executar na administração do WordPress. Por exemplo `wp plugin install --activate` ([doc](https://wp-cli.org/commands/plugin/install/)) permite a instação e ativação de um plugin WordPress:
+O objetivo da WP-CLI é fornecer uma interface em linha de comando para muitas das ações que você pode executar na administração do WordPress. Por exemplo `wp plugin install --activate` ([doc](https://developer.wordpress.org/cli/commands/plugin/install/)) permite a instalação e ativação de um plugin WordPress:
 
 ```bash
-$ wp plugin install rest-api --activate
-Installing WordPress REST API (Version 2) (2.0-beta13)
-Downloading install package from https://downloads.wordpress.org/plugin/rest-api.2.0-beta13.zip...
+$ wp plugin install user-switching --activate
+Installing User Switching (1.0.9)
+Downloading install package from https://downloads.wordpress.org/plugin/user-switching.1.0.9.zip...
 Unpacking the package...
 Installing the plugin...
 Plugin installed successfully.
-Activating 'rest-api'...
-Success: Plugin 'rest-api' activated.
+Activating 'user-switching'...
+Plugin 'user-switching' activated.
+Success: Installed 1 of 1 plugins.
 ```
 
-WP-CLI também inclui muitos comandos para ações que não são possíveis através da administração do WordPress. Por exemplo, `wp transient delete --all` ([doc](https://wp-cli.org/commands/transient/delete-all/)) permite deletar uma ou todas as <abbr title='Dados transitórios'>transients</abbr>:
+A WP-CLI também inclui muitos comandos para ações que não são possíveis através da administração do WordPress. Por exemplo, `wp transient delete --all` ([doc](https://developer.wordpress.org/cli/commands/transient/delete/)) permite excluir um ou todos os transients:
 
 ```bash
 $ wp transient delete --all
 Success: 34 transients deleted from the database.
 ```
 
-Para uma introdução mais completa sobre como usar a WP-CLI, leia o [Guia rápido](https://wp-cli.org/docs/quick-start/).
+Para uma introdução mais completa sobre como usar a WP-CLI, leia o [Guia rápido](https://make.wordpress.org/cli/handbook/quick-start/). Veja também os [shell friends](https://make.wordpress.org/cli/handbook/shell-friends/) para saber mais sobre utilitários de linha de comando.
 
-Já se sente confortável com o básico? Vá para a [lista completa de comandos](https://wp-cli.org/commands/) para obter informações detalhadas na gestão de temas e plugins, importação e exportação de dados, operações de busca e substituição  no banco de dados e muito mais.
+Já se sente confortável com o básico? Vá para a [lista completa de comandos](https://developer.wordpress.org/cli/commands/) para informações detalhadas sobre gerenciamento de temas e plugins, importação e exportação de dados, operações de busca e substituição no banco de dados e muito mais.
 
 ## Instalando
 
-Realizar o download do arquivo Phar é o método de instalação que recomendamos. Caso precise, nossa documentação para [métodos alternativos de instação](https://wp-cli.org/docs/installing/).
+Baixar o arquivo Phar é o método de instalação que recomendamos para a maioria dos usuários. Caso precise, veja também a documentação sobre [métodos alternativos de instalação](https://make.wordpress.org/cli/handbook/installing/).
 
-Antes instalar a WP-CLI, certifique-se que seu ambiente possua os requesitos mínimos:
+Antes de instalar a WP-CLI, tenha certeza de que seu ambiente cumpre os requisitos mínimos:
 
 - Ambiente UNIX-like (OS X, Linux, FreeBSD, Cygwin); suporte limitado para ambientes Windows
 - PHP 5.3.29 ou superior
-- WordPress 3.7 ou superior
+- WordPress 3.7 ou superior. Versões do WordPress anteriores à mais recente podem ter funcionalidade reduzida
 
-Após verificar os requesitos, faça o download do arquivo [wp-cli.phar](https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) usando `wget` ou `curl`:
-
-```bash
-$ curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
-```
-
-Em seguida, verifique se está funcionando:
+Após verificar os requisitos, baixe o arquivo [wp-cli.phar](https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) usando `wget` ou `curl`:
 
 ```bash
-$ php wp-cli.phar --info
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 ```
 
-Digite `wp` para utilizar WP-CLI a partir da linha de comando, torne o arquivo executável e mova-o para algum diretório presente em sua variável de ambiente PATH. For example:
+Em seguida, verifique se o arquivo phar está funcionando:
 
 ```bash
-$ chmod +x wp-cli.phar
-$ sudo mv wp-cli.phar /usr/local/bin/wp
+php wp-cli.phar --info
 ```
 
-Se WP-CLI foi instalado com sucesso, ao executar `wp --info` você deverá ver algo como:
+Para usar a WP-CLI na linha de comando usando apenas `wp`, torne o arquivo executável e mova-o para algum diretório presente em sua variável de ambiente PATH. Por exemplo:
+
+```bash
+chmod +x wp-cli.phar
+sudo mv wp-cli.phar /usr/local/bin/wp
+```
+
+Se a WP-CLI foi instalada corretamente, ao executar `wp --info` você deverá ver algo como:
 
 ```bash
 $ wp --info
-PHP binary:    /usr/bin/php5
-PHP version:    5.5.9-1ubuntu4.14
-php.ini used:   /etc/php5/cli/php.ini
+OS:	Darwin 16.7.0 Darwin Kernel Version 16.7.0: Thu Jan 11 22:59:40 PST 2018; root:xnu-3789.73.8~1/RELEASE_X86_64 x86_64
+Shell:	/bin/zsh
+PHP binary:    /usr/local/bin/php
+PHP version:    7.0.22
+php.ini used:   /etc/local/etc/php/7.0/php.ini
 WP-CLI root dir:        /home/wp-cli/.wp-cli
+WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 0.23.0
+WP-CLI version: 1.5.1
 ```
 
 ### Atualizando
 
-WP-CLI pode ser atualizado com `wp cli update` ([doc](https://wp-cli.org/commands/cli/update/)), ou repetindo os passos da instalação.
+WP-CLI pode ser atualizada com `wp cli update` ([doc](https://developer.wordpress.org/cli/commands/cli/update/)) ou repetindo os passos da instalação.
 
-_Quer viver a vida no limite?_ Execute `wp cli update --nightly` para usar a última compilação de desenvolvimento da WP-CLI. Essa versão é bastante estável para utilizar em seu ambiente de desenvolvimento, e sempre inclui as melhores e mais atuais funcionalidades da WP-CLI.
+Se o proprietário do arquivo da WP-CLI for root ou outro usuário do sistema, será necessário executar `sudo wp cli update`.
 
-### Auto-completar
+Quer viver a vida no limite? Execute `wp cli update --nightly` para usar a última compilação de desenvolvimento da WP-CLI. Essa versão é estável o suficiente para ser usada em seu ambiente de desenvolvimento e sempre inclui as melhores e mais recentes funcionalidades da WP-CLI.
 
-WP-CLI também acompanha scripts de auto-completar para Bash ou ZSH. Faça o download [wp-completion.bash](https://github.com/wp-cli/wp-cli/raw/master/utils/wp-completion.bash) e carregue o arquivo para `~/.bash_profile`:
+### Autocompletar com tab
+
+WP-CLI também possui scripts de autocompletar para Bash ou ZSH. Baixe [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/master/utils/wp-completion.bash) e carregue-o através do `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
@@ -96,26 +106,42 @@ source /FULL/PATH/TO/wp-completion.bash
 
 Não se esqueça de executar `source ~/.bash_profile` em seguida.
 
+Se estiver usando zsh como shell, pode ser necessário carregar e iniciar `bashcompinit` antes de carregá-lo. Inclua o seguinte no seu `.zshrc`:
+
+```bash
+autoload bashcompinit
+bashcompinit
+source /FULL/PATH/TO/wp-completion.bash
+```
+
 ## Suporte
 
-Os colaboradores do projeto WP-CLI fazem seu melhor para rsponder a todos os problemas assim que possível. Para que possamos fazer melhor uso do tempo dos voluntários, verifique se já existe uma resposta para sua pergunta em umas das fontes abaixo:
+Os responsáveis e os colaboradores da WP-CLI possuem disponibilidade limitada para atender a questões gerais de suporte. A [versão atual da WP-CLI](https://make.wordpress.org/cli/handbook/roadmap/) é a única com suporte oficial.
 
-- [Questões comuns e suas respostas](https://wp-cli.org/docs/common-issues/)
-- [Melhores práticas para informar um problema](https://wp-cli.org/docs/bug-reports/)
-- [Portal de documentação](https://wp-cli.org/docs/)
-- [Questões abertas ou fechadas no Github](https://github.com/wp-cli/wp-cli/issues?utf8=%E2%9C%93&q=is%3Aissue)
-- [Forum WordPress no StackExchange](http://wordpress.stackexchange.com/questions/tagged/wp-cli)
+Ao procurar por suporte, pesquise primeiro por sua dúvida nas fontes abaixo:
 
-Caso não encontre uma resposta na fontes existentes, fique a vontade para [abrir uma questão](https://github.com/wp-cli/wp-cli/issues/new) com sua dúvida.
+* [Questões comuns e suas respostas](https://make.wordpress.org/cli/handbook/common-issues/)
+* [Manual da WP-CLI](https://make.wordpress.org/cli/handbook/)
+* [Questões abertas ou fechadas no GitHub da WP-CLI](https://github.com/issues?utf8=%E2%9C%93&q=sort%3Aupdated-desc+org%3Awp-cli+is%3Aissue)
+* [Tópicos com a tag 'WP-CLI' no fórum de suporte do WordPress.org](https://wordpress.org/support/topic-tag/wp-cli/)
+* [Questões com a tag 'WP-CLI' no WordPress StackExchange](https://wordpress.stackexchange.com/questions/tagged/wp-cli)
 
-Se você possui uma conta WordPress.org, considere se inscrever no canal `#cli` no [Slack do WordPress.org](https://make.wordpress.org/chat/).
+Se você não encontrou uma resposta em nenhum dos endereços acima, você pode:
 
-## Extendendo
+* Entrar para o canal `#cli` no [Slack Internacional do WordPress.org](https://make.wordpress.org/chat/) para conversar com quem estiver disponível no momento. Esta opção é a melhor para perguntas rápidas.
+* [Criar um novo tópico](https://wordpress.org/support/forum/wp-advanced/#new-post) no fórum internacional do WordPress.org e colocar a tag 'WP-CLI' para que ele seja encontrado pela comunidade.
 
-Um **commando** é uma unidade singular de uma funcionalidade WP-CLI. `wp plugin install` ([doc](https://wp-cli.org/commands/plugin/install/)) é um comando. `wp plugin activate` ([doc](https://wp-cli.org/commands/plugin/activate/)) é outro.
+Issues do GitHub são usadas para acompanhar melhorias e erros dos comandos existentes, não para suporte em geral. Antes de informar um erro, veja [nossas boas práticas](https://make.wordpress.org/cli/handbook/bug-reports/) para que o problema possa ser resolvido em tempo hábil.
 
-A WP-CLI suporta o registro de qualquer classe ou função como um comando, lendo os detalhes de uso através de _PHPdoc Callback_. `WP_CLI::add_command()` ([doc](https://wp-cli.org/docs/internal-api/wp-cli-add-command/)) é utilizado para registo de comandos internos e de terceiros.
+Não faça perguntas de suporte no Twitter. O Twitter não é um lugar aceitável para suporte porque: 1) é difícil conversar com apenas 140 caracteres e 2) o Twitter não é um lugar onde alguém com a mesma pergunta possa procurar por uma resposta de uma conversa anterior.
 
+Lembre-se: libre != gratis; A licença do código aberto dá para você a liberdade de usar e modificar, mas não gera compromissos com o tempo dos outros. Seja respeitoso e regule suas expectativas.
+
+## Estendendo
+
+Um **comando** é a unidade atômica de funcionalidade da WP-CLI. `wp plugin install` ([doc](https://developer.wordpress.org/cli/commands/plugin/install/)) é um comando. `wp plugin activate` ([doc](https://developer.wordpress.org/cli/commands/plugin/activate/)) é outro.
+
+A WP-CLI suporta o registro de qualquer classe ou função como um comando. Ela lê os detalhes de uso através do callback do PHPdoc. `WP_CLI::add_command()` ([doc](https://make.wordpress.org/cli/handbook/internal-api/wp-cli-add-command/)) é usado para registo de comandos internos e de terceiros.
 
 ```php
 /**
@@ -145,36 +171,31 @@ $delete_option_cmd = function( $args ) {
 WP_CLI::add_command( 'option delete', $delete_option_cmd );
 ```
 
-WP-CLI vem com muitos comandos. Criar um comando personalizado para WP-CLi é mais fácil do que parece. Leia o [livro de receitas de comandos](https://wp-cli.org/docs/commands-cookbook/) para aprender mais. Procure a [documentação de API interna](https://wp-cli.org/docs/internal-api/) para descobrir a variedade de funcionalidades úteis que você pode utilizar no seu comando personalizado para WP-CLI.
+A WP-CLI vem com vários comandos. Criar um comando personalizado para WP-CLI é mais fácil do que parece. Leia o [livro de receitas de comandos](https://make.wordpress.org/cli/handbook/commands-cookbook/) para saber mais. Navegue pela [documentação de API interna](https://make.wordpress.org/cli/handbook/internal-api/) para descobrir umaa variedade de funções úteis que você pode utilizar no seu comando personalizado para WP-CLI.
 
 ## Contribuindo
 
-Seja bem vindo e obrigado!
+Nós agradecemos sua iniciativa em contribuir com a WP-CLI. É por sua causa, e pela comunidade à sua volta, que a WP-CLI é um projeto tão legal.
 
-Nós agradecemos sua iniciativa em contribuir com a WP-CLI. É por sua causa e a comunidade a sua volta, que a WP-CLI se tornou um grande projeto.
+**Contribuir não é limitado somente a código.** Nós encorajamos você a contribuir da maneira que melhor se encaixar em suas habilidades, escrevendo tutoriais, com demonstrações em meetups locais, ajudando outros usuários respondendo suas dúvidas no fórum ou revisando nossa documentação.
 
-**Contribuir não é limitado a somente código.** Te encorajamos a contribuir da maneira que melhor se encaixe em suas habilidades, escrevendo tutoriais, com demonstrações em palestras locais, ajudar outros usuários respondendo suas dúvidas no suporte, ou revisando nossa documentação.
+No manual, dê uma olhada nas nossas [diretrizes para contribuir](https://make.wordpress.org/cli/handbook/contributing/) para uma introdução completa sobre como participar. Seguir esses passos ajuda a passar a ideia de que você respeita o tempo dos outros colaboradores. Por sua vez, eles farão o melhor para retribuir esse respeito ao trabalhar com você, nos diferentes fusos horários, em todo o mundo.
 
-De uma olhada com atenção [nesse guia](https://wp-cli.org/docs/contributing/). Seguindo esses passos você estará respeitando o tempo dos outros colaboradoes. Por sua vez, eles farão o melhor para retribuir esse respeito no trabalho com você, nos diferentes fusos horários e em todo o mundo.
+## Liderança
 
-## Criadores e liderança
+A WP-CLI tem dois responsáveis pelo projeto: [danielbachhuber](https://github.com/danielbachhuber) e [schlessera](http://github.com/schlessera).
 
-WP-CLI foi criado e mantido por:
+Quando necessário, [damos permissão de escrita para colaboradores](https://make.wordpress.org/cli/handbook/committers-credo/) que demonstraram sua capacidade durante algum tempo e que se esforçaram para levar o projeto adiante.
 
-* [Daniel Bachhuber](https://github.com/danielbachhuber/) - Líder atual
-* [Cristi Burcă](https://github.com/scribu) - Líder anterior
-* [Andreas Creten](https://github.com/andreascreten) - Criador
-
-Saiba mais sobre os projetos de [governança](https://wp-cli.org/docs/governance/) e veja a [lista completa dos colaboradores](https://github.com/wp-cli/wp-cli/contributors).
+Leia o [documento sobre governança no manual](https://make.wordpress.org/cli/handbook/governance/) para mais detalhes operacionais do projeto.
 
 ## Créditos
-<span id='creditos'></span>
 
-Além das bibliotecas especificadas em [composer.json](/composer.json), utilizamos o código ou idéias dos projetos abaixos:
+Além das bibliotecas especificadas em [composer.json](/composer.json), usamos código ou ideias dos projetos abaixos:
 
-* [Drush](http://drush.ws/) para... muitas coisas
-* [wpshell](http://code.trac.wordpress.org/browser/wpshell) para `wp shell`
-* [Regenerate Thumbnails](http://wordpress.org/plugins/regenerate-thumbnails/) para `wp media regenerate`
+* [Drush](https://github.com/drush-ops/drush) para... muitas coisas
+* [wpshell](https://code.trac.wordpress.org/browser/wpshell) para `wp shell`
+* [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) para `wp media regenerate`
 * [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) para `wp search-replace`
 * [WordPress-CLI-Exporter](https://github.com/Automattic/WordPress-CLI-Exporter) para `wp export`
 * [WordPress-CLI-Importer](https://github.com/Automattic/WordPress-CLI-Importer) para `wp import`
