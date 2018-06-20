@@ -7,7 +7,7 @@ title: वर्डप्रेसको लागि कमाण्ड ला�
 
 अद्यावधिक हुन, [टुइटरमा @wpcli](https://twitter.com/wpcli) फलो गर्नुहोस् वा [इमेल न्यूजलेटरको लागि साइन अप गर्नुहोस्](http://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e) ।
 
-[![Build Status](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Dependency Status](https://gemnasium.com/badges/github.com/wp-cli/wp-cli.svg)](https://gemnasium.com/github.com/wp-cli/wp-cli) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "समस्या समाधान गर्न लाग्ने औसत समय") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "खुला मुद्दाहरू प्रतिशतमा")
+[![Build Status](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "समस्या समाधान गर्न लाग्ने औसत समय") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "खुला मुद्दाहरू प्रतिशतमा")
 
 द्रुत लिंकहरु: [प्रयोग](#section) &#124; [स्थापना](#section-1) &#124; [सहायता](#section-4) &#124; [विस्तार](#section-5) &#124; [योगदान](#section-6) &#124; [श्रेय](#section-8)
 
@@ -43,7 +43,7 @@ Phar फाइल डाउनलोड गरेर स्थापना ग�
 
 स्थापना गर्नु अघि कृपया न्यूनतम आवश्यकताहरू पूरा भएको निश्चित गर्नुहोस्:
 
-- UNIX जस्तै वातावरण (OS X, Linux, FreeBSD, Cygwin); Windows वातावरणमा सीमित समर्थन 
+- UNIX जस्तै वातावरण (OS X, Linux, FreeBSD, Cygwin); Windows वातावरणमा सीमित समर्थन
 - PHP 5.3.29 वा पछि
 - वर्डप्रेस 3.7 वा पछि
 
