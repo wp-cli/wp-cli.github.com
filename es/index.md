@@ -122,7 +122,7 @@ Cuando busques ayuda, primero busca tu pregunta en estos lugares:
 
 * [Problemas comunes y sus soluciones](https://make.wordpress.org/cli/handbook/common-issues/)
 * [WP-CLI handbook](https://make.wordpress.org/cli/handbook/)
-* [Problemas abiertos o cerrados en la organización de WP-CLI GitHub](https://github.com/issues?utf8=%E2%9C%93&q=sort%3Aupdated-desc+org%3Awp-cli+is%3Aissue)
+* [Issues abiertos o cerrados en la organización de WP-CLI GitHub](https://github.com/issues?utf8=%E2%9C%93&q=sort%3Aupdated-desc+org%3Awp-cli+is%3Aissue)
 * [Hilos etiquetados con 'WP-CLI' en el foro de soporte de WordPress.org](https://wordpress.org/support/topic-tag/wp-cli/)
 * [Preguntas etiquetadas con 'WP-CLI' en el WordPress StackExchange](https://wordpress.stackexchange.com/questions/tagged/wp-cli)
 
