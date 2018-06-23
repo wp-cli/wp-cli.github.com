@@ -55,3 +55,6 @@ languages:
 - label: Italiano
   iso-alpha2: it
   path: /it/
+- label: Español
+  iso-alpha2: es
+  path: /es/
