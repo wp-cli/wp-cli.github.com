@@ -5,15 +5,15 @@ title: Interface para linha de comando para o WordPress
 
 [WP-CLI](https://wp-cli.org/) é a interface em linha de comando para o [WordPress](https://br.wordpress.org/). Você pode atualizar plugins, configurar instalações multisite e muito mais, sem utilizar um navegador web.
 
-A manutenção contínua é <a href="https://make.wordpress.org/cli/2017/04/03/new-co-maintainer-alain-thanks-2017-sponsors/#sponsors">possibilitada por</a>:
+A manutenção contínua é possível <a href="https://make.wordpress.org/cli/2017/04/03/new-co-maintainer-alain-thanks-2017-sponsors/#sponsors">graças aos seguintes patrocinadores</a>:
 
 <a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://www.dreamhost.com/"><img class="aligncenter size-full wp-image-324" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/dreamhost.png" alt="" width="160" height="30" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/siteground.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
 
-A versão estável mais recente é a [1.5.1](https://make.wordpress.org/cli/2018/04/21/version-1-5-1-released/). Para manter-se atualizado, siga [@wpcli no Twitter](https://twitter.com/wpcli) ou [assine nossa newsletter](https://make.wordpress.org/cli/subscribe/). [Leia nosso plano de ação](https://make.wordpress.org/cli/handbook/roadmap/) para uma visão geral do que está sendo planejado para próximas versões.
+A versão estável mais recente é a [2.0.0](https://make.wordpress.org/cli/2018/08/08/wp-cli-v2-0-0-release-notes/). Para manter-se atualizado, siga [@wpcli no Twitter](https://twitter.com/wpcli) ou [assine nossa newsletter](https://make.wordpress.org/cli/subscribe/). [Leia nosso plano de ação](https://make.wordpress.org/cli/handbook/roadmap/) para uma visão geral do que está sendo planejado para próximas versões.
 
 [![Build Status](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Tempo médio para resolver um issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Percentual de issues ainda abertos")
 
-Links rápidos: [Usando](#usando) &#124; [Instalando](#instalando) &#124; [Suporte](#suporte) &#124; [Estendendo](#estendendo) &#124; [Contribuindo](#contribuindo) &#124; [Créditos](#creditos)
+Links rápidos: [Usando](#usando) &#124; [Instalando](#instalando) &#124; [Suporte](#suporte) &#124; [Estendendo](#estendendo) &#124; [Contribuindo](#contribuindo) &#124; [Créditos](#créditos)
 
 ## Usando
 
@@ -49,7 +49,7 @@ Baixar o arquivo Phar é o método de instalação que recomendamos para a maior
 Antes de instalar a WP-CLI, tenha certeza de que seu ambiente cumpre os requisitos mínimos:
 
 - Ambiente UNIX-like (OS X, Linux, FreeBSD, Cygwin); suporte limitado para ambientes Windows
-- PHP 5.3.29 ou superior
+- PHP 5.4 ou superior
 - WordPress 3.7 ou superior. Versões do WordPress anteriores à mais recente podem ter funcionalidade reduzida
 
 Após verificar os requisitos, baixe o arquivo [wp-cli.phar](https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) usando `wget` ou `curl`:
@@ -80,12 +80,12 @@ Shell:	/bin/zsh
 PHP binary:    /usr/local/bin/php
 PHP version:    7.0.22
 php.ini used:   /etc/local/etc/php/7.0/php.ini
-WP-CLI root dir:        /home/wp-cli/.wp-cli
+WP-CLI root dir:        /home/wp-cli/.wp-cli/vendor/wp-cli/wp-cli
 WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 1.5.1
+WP-CLI version: 2.0.0
 ```
 
 ### Atualizando
