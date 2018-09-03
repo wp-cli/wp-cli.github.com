@@ -9,7 +9,7 @@ El mantenimiento continuo es <a href="https://make.wordpress.org/cli/2017/04/03/
 
 <a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://www.dreamhost.com/"><img class="aligncenter size-full wp-image-324" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/dreamhost.png" alt="" width="160" height="30" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/siteground.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
 
-La versión estable actual es la [1.5.1](https://make.wordpress.org/cli/2018/04/21/version-1-5-1-released/). Para estar al día, sigue [@wpcli en Twitter](https://twitter.com/wpcli) o [regístrate para recibir actualizaciones por correo electrónico](https://make.wordpress.org/cli/subscribe/). [Consulta la hoja de ruta](https://make.wordpress.org/cli/handbook/roadmap/) para una visión general de lo que está planeado para las próximas versiones.
+La versión estable actual es la [2.0.1](https://make.wordpress.org/cli/2018/08/24/wp-cli-v2-0-1-release-notes/). Para estar al día, sigue [@wpcli en Twitter](https://twitter.com/wpcli) o [regístrate para recibir actualizaciones por correo electrónico](https://make.wordpress.org/cli/subscribe/). [Consulta la hoja de ruta](https://make.wordpress.org/cli/handbook/roadmap/) para una visión general de lo que está planeado para las próximas versiones.
 
 [![Build Status](https://travis-ci.org/wp-cli/wp-cli.svg?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
@@ -49,7 +49,7 @@ La descarga del archivo Phar es nuestro método de instalación recomendado para
 Antes de instalar WP-CLI, asegúrate de que tu entorno cumple con los requisitos mínimos:
 
 - Entorno de tipo UNIX (OS X, Linux, FreeBSD, Cygwin); soporte limitado en el entorno de Windows
-- PHP 5.3.29 o posterior
+- PHP 5.4 o posterior
 - WordPress 3.7 o posterior. Las versiones anteriores a la última versión de WordPress pueden tener funcionalidad degradada
 
 Una vez que hayas verificado los requisitos, descarga el archivo [wp-cli.phar](https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) usando `wget` o `curl` :
@@ -85,7 +85,7 @@ WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 1.5.1
+WP-CLI version: 2.0.1
 ```
 
 ### Actualización
@@ -98,7 +98,7 @@ Si WP-CLI es propiedad de root u otro usuario del sistema, necesitarás ejecutar
 
 ### Autocompletar con el tabulador
 
-WP-CLI también viene con un scripts para autocompletar con el tabulador para Bash y ZSH. Tan sólo descarga [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/master/utils/wp-completion.bash) y usa el comando `source` desde `~/.bash_profile`:
+WP-CLI también viene con un scripts para autocompletar con el tabulador para Bash y ZSH. Tan sólo descarga [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v1.5.1/utils/wp-completion.bash) y usa el comando `source` desde `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
