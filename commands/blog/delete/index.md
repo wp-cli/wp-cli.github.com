@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/blog/delete/
+  - https://developer.wordpress.org/cli/commands/site/delete/
 ---
