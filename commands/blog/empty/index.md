@@ -1,4 +1,4 @@
 ---
 redirect_to:
-  - https://developer.wordpress.org/cli/commands/blog/empty/
+  - https://developer.wordpress.org/cli/commands/site/empty/
 ---
