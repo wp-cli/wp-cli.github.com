@@ -9,7 +9,7 @@ A manutenção contínua é possível <a href="https://make.wordpress.org/cli/20
 
 <a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://www.dreamhost.com/"><img class="aligncenter size-full wp-image-324" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/dreamhost.png" alt="" width="160" height="30" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/siteground.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
 
-A versão estável mais recente é a [2.0.0](https://make.wordpress.org/cli/2018/08/08/wp-cli-v2-0-0-release-notes/). Para manter-se atualizado, siga [@wpcli no Twitter](https://twitter.com/wpcli) ou [assine nossa newsletter](https://make.wordpress.org/cli/subscribe/). [Leia nosso plano de ação](https://make.wordpress.org/cli/handbook/roadmap/) para uma visão geral do que está sendo planejado para próximas versões.
+A versão estável mais recente é a [2.1.0](https://make.wordpress.org/cli/2018/12/18/wp-cli-v2-1-0-release-notes/). Para manter-se atualizado, siga [@wpcli no Twitter](https://twitter.com/wpcli) ou [assine nossa newsletter](https://make.wordpress.org/cli/subscribe/). [Leia nosso plano de ação](https://make.wordpress.org/cli/handbook/roadmap/) para uma visão geral do que está sendo planejado para próximas versões.
 
 [![Build Status](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Tempo médio para resolver um issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Percentual de issues ainda abertos")
 
@@ -17,7 +17,7 @@ Links rápidos: [Usando](#usando) &#124; [Instalando](#instalando) &#124; [Supor
 
 ## Usando
 
-O objetivo da WP-CLI é fornecer uma interface em linha de comando para muitas das ações que você pode executar na administração do WordPress. Por exemplo `wp plugin install --activate` ([doc](https://developer.wordpress.org/cli/commands/plugin/install/)) permite a instalação e ativação de um plugin WordPress:
+O objetivo da WP-CLI é fornecer uma interface em linha de comando para muitas das ações que você pode executar na administração do WordPress. Por exemplo, `wp plugin install --activate` ([doc](https://developer.wordpress.org/cli/commands/plugin/install/)) permite a instalação e ativação de um plugin WordPress:
 
 ```bash
 $ wp plugin install user-switching --activate
@@ -44,7 +44,7 @@ Já se sente confortável com o básico? Vá para a [lista completa de comandos]
 
 ## Instalando
 
-Baixar o arquivo Phar é o método de instalação que recomendamos para a maioria dos usuários. Caso precise, veja também a documentação sobre [métodos alternativos de instalação](https://make.wordpress.org/cli/handbook/installing/).
+Baixar o arquivo Phar é o método de instalação que recomendamos para a maioria dos usuários. Caso precise, veja também a documentação sobre [métodos alternativos de instalação](https://make.wordpress.org/cli/handbook/installing/) ([Composer](https://make.wordpress.org/cli/handbook/installing/#installing-via-composer), [Homebrew](https://make.wordpress.org/cli/handbook/installing/#installing-via-homebrew), [Docker](https://make.wordpress.org/cli/handbook/installing/#installing-via-docker)).
 
 Antes de instalar a WP-CLI, tenha certeza de que seu ambiente cumpre os requisitos mínimos:
 
@@ -85,7 +85,7 @@ WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 2.0.0
+WP-CLI version: 2.1.0
 ```
 
 ### Atualizando
@@ -183,7 +183,7 @@ No manual, dê uma olhada nas nossas [diretrizes para contribuir](https://make.w
 
 ## Liderança
 
-A WP-CLI tem dois responsáveis pelo projeto: [danielbachhuber](https://github.com/danielbachhuber) e [schlessera](http://github.com/schlessera).
+A WP-CLI tem um responsável pelo projeto: [schlessera](http://github.com/schlessera).
 
 Quando necessário, [damos permissão de escrita para colaboradores](https://make.wordpress.org/cli/handbook/committers-credo/) que demonstraram sua capacidade durante algum tempo e que se esforçaram para levar o projeto adiante.
 
