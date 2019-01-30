@@ -1,3 +1,4 @@
 ---
-redirect_to: https://make.wordpress.org/cli/handbook/
+redirect_to:
+  - https://make.wordpress.org/cli/handbook/
 ---
