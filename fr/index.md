@@ -3,13 +3,13 @@ layout: default
 title: Interface en ligne de commande pour WordPress
 ---
 
-[WP-CLI](https://wp-cli.org/) est un ensemble d'outil en ligne de commande pour gérer vos installations [WordPress](https://wordpress.org/). Vous pouvez mettre à jour les extensions, configurer des installations multi-site et beaucoup plus sans avoir recours à un navigateur web.
+[WP-CLI](https://wp-cli.org/fr) est un ensemble d'outil en ligne de commande pour gérer vos installations [WordPress](https://fr.wordpress.org/). Vous pouvez mettre à jour les extensions, configurer des installations multi-site et beaucoup plus sans avoir recours à un navigateur web.
 
 Pour rester à jour, suivez [@wpcli sur Twitter](https://twitter.com/wpcli) ou [inscrivez-vous à notre lettre d'information par email](http://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e).
 
 [![Statut du build](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Temps moyen pour traiter un ticket](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Temps moyen pour traiter un ticket") [![Pourcentage de tickets encore ouverts](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Pourcentage de tickets encore ouverts")
 
-Liens rapides: [Utilisation](#utilisation) &#124; [Installation](#installation) &#124; [Support](#support) &#124; [Étendre](#tendre) &#124; [Contribuer](#contribuer) &#124; [Crédits](#crdits)
+Liens rapides: [Utilisation](#utilisation) &#124; [Installation](#installation) &#124; [Soutien](#soutien) &#124; [Étendre](#etendre) &#124; [Contribuer](#contribuer) &#124; [Crédits](#credits)
 
 ## Utilisation
 
@@ -41,9 +41,9 @@ Vous vous sentez déjà à l'aise avec les bases ? Allez voir la [liste complèt
 
 Télécharger le Phar est la méthode d'installation que nous recommandons. Si vous avez besoin, vous pouvez aussi consulter notre documentation sur [autres méthodes d'installation (en)](https://wp-cli.org/docs/installing/).
 
-Avant d'installer WP-CLI, veuillez vous assurer que votre environnement réponds aux exigences minimales :
+Avant d'installer WP-CLI, veuillez vous assurer que votre environnement répond aux exigences minimales :
 
-- Environnement de type UNIX (OS X, Linux, FreeBSD, Cygwin); le support est limité sur les environnements Windows
+- Environnement de type UNIX (OS X, Linux, FreeBSD, Cygwin); le soutien est limité sur les environnements Windows
 - PHP 5.3.29 ou plus récent
 - WordPress 3.7 ou plus récent
 
@@ -59,7 +59,7 @@ Ensuite, vérifiez que tout fonctionne :
 $ php wp-cli.phar --info
 ```
 
-Pour utiliser WP-CLI à partir de la ligne de commande en tapant `wp`, rendez le fichier exécutable et déplacez le quelque part dans votre `PATH`. Par exemple :
+Pour utiliser WP-CLI à partir de la ligne de commande en tapant `wp`, rendez le fichier exécutable et déplacez-le quelque part dans votre `PATH`. Par exemple :
 
 ```bash
 $ chmod +x wp-cli.phar
@@ -104,7 +104,7 @@ bashcompinit
 source /FULL/PATH/TO/wp-completion.bash
 ```
 
-## Support
+## Soutien
 
 Les mainteneurs de WP-CLI et les contributeurs du projet font de leur mieux pour répondre à tous les nouveaux tickets en temps opportun. Pour utiliser au mieux leur temps bénévole, merci de vérifier s'il n'existe pas déjà une réponse à votre question dans l'une des ressources suivantes :
 
@@ -114,11 +114,11 @@ Les mainteneurs de WP-CLI et les contributeurs du projet font de leur mieux pour
 - [Tickets ouvert ou fermés sur Github](https://github.com/wp-cli/wp-cli/issues?utf8=%E2%9C%93&q=is%3Aissue)
 - [Forum StackExchange WordPress](http://wordpress.stackexchange.com/questions/tagged/wp-cli)
 
-Si vous n'arrivez pas à trouver une réponse en utilisant un de ces liens, rejoignez le canal `#cli` sur [l'organisation Slack WordPress.org](https://make.wordpress.org/chat/) pour voir si un membre de la communauté peut avoir une réponse pour vous. Les professionnels doivent savoir que [runcommand](https://runcommand.io/) fournit du support premium.
+Si vous n'arrivez pas à trouver une réponse en utilisant un de ces liens, rejoignez le canal `#cli` sur [l'organisation Slack WordPress.org](https://make.wordpress.org/chat/) pour voir si un membre de la communauté peut avoir une réponse pour vous. Les professionnels doivent savoir que [runcommand](https://runcommand.io/) fournit du soutien premium.
 
-Les tickets Github, permettent de suivre l'évolution des bugs et améliorations sur les commandes existantes. Ils ne sont pas utilisés pour faire du support. Avant de soumettre un nouveau rapport de bug, merci de passer en revue [nos bonnes pratiques](https://wp-cli.org/docs/bug-reports/) pour vous assurer que votre ticket les respectent.
+Les tickets Github, permettent de suivre l'évolution des bugs et améliorations sur les commandes existantes. Ils ne sont pas utilisés pour faire du soutien. Avant de soumettre un nouveau rapport de bug, merci de passer en revue [nos bonnes pratiques](https://wp-cli.org/docs/bug-reports/) pour vous assurer que votre ticket les respecte.
 
-Merci de ne pas demander du support sur Twitter. Twitter n'est pas un endroit convenable pour faire du support : 1) c'est compliqué d'avoir une conversation en moins de 140 caractères et 2) Twitter n'est pas un endroit où quelqu'un avec la même question peut chercher et obtenir une réponse avant de la poser à nouveau.
+Merci de ne pas demander du soutien sur Twitter. Twitter n'est pas un endroit convenable pour faire du soutien : 1) c'est compliqué d'avoir une conversation en aussi peu de caractères et 2) Twitter n'est pas un endroit où quelqu'un avec la même question peut chercher et obtenir une réponse avant de la poser à nouveau.
 
 Souvenez-vous, libre != gratuit ; la licence open source vous donne la liberté d'utiliser et modifier, mais pas au dépend du temps d'autres personnes. Merci d'être respectueux et de définir vos attentes en conséquence.
 
@@ -126,7 +126,7 @@ Souvenez-vous, libre != gratuit ; la licence open source vous donne la liberté 
 
 Une **commande** est une unité atomique de fonctionnalité WP-CLI. `wp plugin install` ([doc](https://wp-cli.org/commands/plugin/install/)) est une commande. `wp plugin activate` ([doc](https://wp-cli.org/commands/plugin/activate/)) en est une autre.
 
-WP-CLI permet d'enregister n'importe quelle classe, fonction ou closure comme une commande. Les informations d'utilisation sont lues à partir du bloc PHPdoc de la fonction de rappel. `WP_CLI::add_command()` ([doc](https://wp-cli.org/docs/internal-api/wp-cli-add-command/)) est utilisé aussi bien pour l'enregistrement des commandes internes ou externes.
+WP-CLI permet d'enregistrer n'importe quelle classe, fonction ou closure comme une commande. Les informations d'utilisation sont lues à partir du bloc PHPdoc de la fonction de rappel. `WP_CLI::add_command()` ([doc](https://wp-cli.org/docs/internal-api/wp-cli-add-command/)) est utilisé aussi bien pour l'enregistrement des commandes internes ou externes.
 
 ```php
 /**
@@ -162,9 +162,9 @@ WP-CLI est livré avec des douzaines de commandes. Il est plus facile qu'il n'y 
 
 Bienvenue et merci !
 
-Nous apprécions que vous preniez l'iniative de contribuer à WP-CLI. C'est grâce à vous et à la communauté autour de vous que WP-CLI est un project aussi important.
+Nous apprécions que vous preniez l'initiative de contribuer à WP-CLI. C'est grâce à vous et à la communauté autour de vous que WP-CLI est un projet aussi important.
 
-**Contribuer n'est pas limité uniquement à l'écriture de code.** Nous vous encourageons à contribuer de la façon qui vous correspond le mieux, en écrivant des didactitiels, en faisant des démonstrations dans votre groupe d'utilisateur local, à aider les autres avec leurs questions de support, ou en relisant notre documentation.
+**Contribuer n'est pas limité uniquement à l'écriture de code.** Nous vous encourageons à contribuer de la façon qui vous correspond le mieux, en écrivant des tutoriels, en faisant des démonstrations dans votre groupe d'utilisateur local, à aider les autres avec leurs questions de soutien, ou en relisant notre documentation.
 
 Merci de prendre un moment pour [lire le guide du contributeur en profondeur](https://wp-cli.org/docs/contributing/). Suivre ces règles aide à communiquer avec le respect du temps des autres contributeurs du projet. En retour, ils feront de leur mieux pour travailler avec ce même respect, à travers les fuseaux horaires et dans le monde lorsque vous en aurez besoin.
 
