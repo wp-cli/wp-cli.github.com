@@ -9,11 +9,11 @@ Pour rester à jour, suivez [@wpcli sur Twitter](https://twitter.com/wpcli) ou [
 
 [![Statut du build](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Temps moyen pour traiter un ticket](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Temps moyen pour traiter un ticket") [![Pourcentage de tickets encore ouverts](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Pourcentage de tickets encore ouverts")
 
-Liens rapides: [Utilisation](#utilisation) &#124; [Installation](#installation) &#124; [Soutien](#soutien) &#124; [Étendre](#etendre) &#124; [Contribuer](#contribuer) &#124; [Crédits](#credits)
+Liens rapides: [Utilisation](#utilisation) &#124; [Installation](#installation) &#124; [Soutien](#soutien) &#124; [Étendre](#étendre) &#124; [Contribuer](#contribuer) &#124; [Crédits](#crédits)
 
 ## Utilisation
 
-L'objectif de WP-CLI est de fournir une interface en ligne de commande pour toute action qu'il serait utile de faire dans l'administration WordPress. Par exemple, `wp plugin install --activate` ([doc](https://wp-cli.org/commands/plugin/install/)) vous permet d'installer et activer une extension WordPress :
+L'objectif de WP-CLI est de fournir une interface en ligne de commande pour toute action qu'il serait utile de faire dans l'administration WordPress. Par exemple, `wp plugin install --activate` ([doc](https://developer.wordpress.org/cli/commands/plugin/install/)) vous permet d'installer et activer une extension WordPress :
 
 ```bash
 $ wp plugin install rest-api --activate
@@ -26,20 +26,20 @@ Activating 'rest-api'...
 Success: Plugin 'rest-api' activated.
 ```
 
-WP-CLI inclut aussi des commandes pour d'autres choses que vous ne pouvez pas faire dans l'administration WordPress. Par exemple, `wp transient delete-all` ([doc](https://wp-cli.org/commands/transient/delete-all/)) permet de supprimer un ou tous les "transients" :
+WP-CLI inclut aussi des commandes pour d'autres choses que vous ne pouvez pas faire dans l'administration WordPress. Par exemple, `wp transient delete-all` ([doc](https://developer.wordpress.org/cli/commands/transient/delete/)) permet de supprimer un ou tous les "transients" :
 
 ```bash
 $ wp transient delete-all
 Success: 34 transients deleted from the database.
 ```
 
-Pour une introduction plus complète sur l'utilisation de WP-CLI, lisez le [Guide de démarrage rapide (en)](https://wp-cli.org/docs/quick-start/).
+Pour une introduction plus complète sur l'utilisation de WP-CLI, lisez le [Guide de démarrage rapide (en)](https://make.wordpress.org/cli/handbook/quick-start/). Vous pouvez également en apprendre davantage sur l'utilisation de la ligne de commande via des [informations sur l'utilisation du Shell (en)[https://make.wordpress.org/cli/handbook/shell-friends/].
 
-Vous vous sentez déjà à l'aise avec les bases ? Allez voir la [liste complète des commandes (en)](https://wp-cli.org/commands/) pour avoir des informations détaillées sur la gestion des thèmes et extensions, l'import/export de données, l'exécution de rechercher/remplacer dans la base de données et bien plus.
+Vous vous sentez déjà à l'aise avec les bases ? Allez voir la [liste complète des commandes (en)](https://developer.wordpress.org/cli/commands/) pour avoir des informations détaillées sur la gestion des thèmes et extensions, l'import/export de données, l'exécution de rechercher/remplacer dans la base de données et bien plus.
 
 ## Installation
 
-Télécharger le Phar est la méthode d'installation que nous recommandons. Si vous avez besoin, vous pouvez aussi consulter notre documentation sur [autres méthodes d'installation (en)](https://wp-cli.org/docs/installing/).
+Télécharger le Phar est la méthode d'installation que nous recommandons. Si vous avez besoin, vous pouvez aussi consulter notre documentation sur [autres méthodes d'installation (en)](https://make.wordpress.org/cli/handbook/installing/).
 
 Avant d'installer WP-CLI, veuillez vous assurer que votre environnement répond aux exigences minimales :
 
@@ -82,7 +82,7 @@ WP-CLI version: 0.25.0
 
 ### Mise à jour
 
-Vous pouvez mettre à jour WP-CLI avec la commande `wp cli update` ([doc](https://wp-cli.org/commands/cli/update/)), ou en répétant les étapes d'installation.
+Vous pouvez mettre à jour WP-CLI avec la commande `wp cli update` ([doc](https://developer.wordpress.org/cli/commands/cli/update/)), ou en répétant les étapes d'installation.
 
 Vous voulez vivre dangereusement ? Exécutez `wp cli update --nightly` pour installer les derniers nightly build de WP-CLI. Un nightly build est relativement stable pour être utilisé dans votre environnement de développement et inclut toujours les fonctionnalités de WP-CLI les plus récentes.
 
@@ -108,15 +108,15 @@ source /FULL/PATH/TO/wp-completion.bash
 
 Les mainteneurs de WP-CLI et les contributeurs du projet font de leur mieux pour répondre à tous les nouveaux tickets en temps opportun. Pour utiliser au mieux leur temps bénévole, merci de vérifier s'il n'existe pas déjà une réponse à votre question dans l'une des ressources suivantes :
 
-- [Problèmes courants et leur correction (en)](https://wp-cli.org/docs/common-issues/)
-- [Bonnes pratiques pour soumettre un rapport de bug (en)](https://wp-cli.org/docs/bug-reports/)
-- [Documentation (en)](https://wp-cli.org/docs/)
+- [Problèmes courants et leur correction (en)](https://make.wordpress.org/cli/handbook/common-issues/)
+- [Bonnes pratiques pour soumettre un rapport de bug (en)](https://make.wordpress.org/cli/handbook/bug-reports/)
+- [Documentation (en)](https://make.wordpress.org/cli/handbook/)
 - [Tickets ouvert ou fermés sur Github](https://github.com/wp-cli/wp-cli/issues?utf8=%E2%9C%93&q=is%3Aissue)
 - [Forum StackExchange WordPress](http://wordpress.stackexchange.com/questions/tagged/wp-cli)
 
 Si vous n'arrivez pas à trouver une réponse en utilisant un de ces liens, rejoignez le canal `#cli` sur [l'organisation Slack WordPress.org](https://make.wordpress.org/chat/) pour voir si un membre de la communauté peut avoir une réponse pour vous. Les professionnels doivent savoir que [runcommand](https://runcommand.io/) fournit du soutien premium.
 
-Les tickets Github, permettent de suivre l'évolution des bugs et améliorations sur les commandes existantes. Ils ne sont pas utilisés pour faire du soutien. Avant de soumettre un nouveau rapport de bug, merci de passer en revue [nos bonnes pratiques](https://wp-cli.org/docs/bug-reports/) pour vous assurer que votre ticket les respecte.
+Les tickets Github, permettent de suivre l'évolution des bugs et améliorations sur les commandes existantes. Ils ne sont pas utilisés pour faire du soutien. Avant de soumettre un nouveau rapport de bug, merci de passer en revue [nos bonnes pratiques](https://make.wordpress.org/cli/handbook/bug-reports/) pour vous assurer que votre ticket les respecte.
 
 Merci de ne pas demander du soutien sur Twitter. Twitter n'est pas un endroit convenable pour faire du soutien : 1) c'est compliqué d'avoir une conversation en aussi peu de caractères et 2) Twitter n'est pas un endroit où quelqu'un avec la même question peut chercher et obtenir une réponse avant de la poser à nouveau.
 
@@ -124,9 +124,9 @@ Souvenez-vous, libre != gratuit ; la licence open source vous donne la liberté 
 
 ## Étendre
 
-Une **commande** est une unité atomique de fonctionnalité WP-CLI. `wp plugin install` ([doc](https://wp-cli.org/commands/plugin/install/)) est une commande. `wp plugin activate` ([doc](https://wp-cli.org/commands/plugin/activate/)) en est une autre.
+Une **commande** est une unité atomique de fonctionnalité WP-CLI. `wp plugin install` ([doc](https://developer.wordpress.org/cli/commands/plugin/install/)) est une commande. `wp plugin activate` ([doc](https://developer.wordpress.org/cli/commands/plugin/activate/)) en est une autre.
 
-WP-CLI permet d'enregistrer n'importe quelle classe, fonction ou closure comme une commande. Les informations d'utilisation sont lues à partir du bloc PHPdoc de la fonction de rappel. `WP_CLI::add_command()` ([doc](https://wp-cli.org/docs/internal-api/wp-cli-add-command/)) est utilisé aussi bien pour l'enregistrement des commandes internes ou externes.
+WP-CLI permet d'enregistrer n'importe quelle classe, fonction ou closure comme une commande. Les informations d'utilisation sont lues à partir du bloc PHPdoc de la fonction de rappel. `WP_CLI::add_command()` ([doc](https://make.wordpress.org/cli/handbook/internal-api/wp-cli-add-command/)) est utilisé aussi bien pour l'enregistrement des commandes internes ou externes.
 
 ```php
 /**
@@ -156,7 +156,7 @@ $delete_option_cmd = function( $args ) {
 WP_CLI::add_command( 'option delete', $delete_option_cmd );
 ```
 
-WP-CLI est livré avec des douzaines de commandes. Il est plus facile qu'il n'y parait de créer vos propres commandes WP-CLI. Lisez le [commands cookbook](https://wp-cli.org/docs/commands-cookbook/) pour en apprendre d'avantage. Parcourez la [documentation sur l'API interne](https://wp-cli.org/docs/internal-api/) pour découvrir une variété de fonctions utiles que vous pouvez utiliser dans votre commande WP-CLI personnalisée.
+WP-CLI est livré avec des douzaines de commandes. Il est plus facile qu'il n'y parait de créer vos propres commandes WP-CLI. Lisez le [commands cookbook](https://make.wordpress.org/cli/handbook/commands-cookbook/) pour en apprendre d'avantage. Parcourez la [documentation sur l'API interne](https://make.wordpress.org/cli/handbook/internal-api/) pour découvrir une variété de fonctions utiles que vous pouvez utiliser dans votre commande WP-CLI personnalisée.
 
 ## Contribuer
 
@@ -166,17 +166,15 @@ Nous apprécions que vous preniez l'initiative de contribuer à WP-CLI. C'est gr
 
 **Contribuer n'est pas limité uniquement à l'écriture de code.** Nous vous encourageons à contribuer de la façon qui vous correspond le mieux, en écrivant des tutoriels, en faisant des démonstrations dans votre groupe d'utilisateur local, à aider les autres avec leurs questions de soutien, ou en relisant notre documentation.
 
-Merci de prendre un moment pour [lire le guide du contributeur en profondeur](https://wp-cli.org/docs/contributing/). Suivre ces règles aide à communiquer avec le respect du temps des autres contributeurs du projet. En retour, ils feront de leur mieux pour travailler avec ce même respect, à travers les fuseaux horaires et dans le monde lorsque vous en aurez besoin.
+Merci de prendre un moment pour [lire le guide du contributeur en profondeur](https://make.wordpress.org/cli/handbook/contributing/). Suivre ces règles aide à communiquer avec le respect du temps des autres contributeurs du projet. En retour, ils feront de leur mieux pour travailler avec ce même respect, à travers les fuseaux horaires et dans le monde lorsque vous en aurez besoin.
 
 ## Leadership
 
-WP-CLI est dirigé par ces personnes :
+WP-CLI est dirigé et maintenu par : (schlessera)[http://github.com/schlessera].
 
-* [Daniel Bachhuber](https://github.com/danielbachhuber/) - mainteneur actuel
-* [Cristi Burcă](https://github.com/scribu) - mainteneur précédent
-* [Andreas Creten](https://github.com/andreascreten) - créateur
+À l'occasion, il arrive que certains [contributeurs reçoivent des accès plus permissifs](https://make.wordpress.org/cli/handbook/committers-credo/) après avoir démontré leurs capacités et leur temps investis dans le projet.
 
-Pour en savoir plus sur la [gouvernance (en)](https://wp-cli.org/docs/governance/) du projet et voir la [liste complète des contributeurs](https://github.com/wp-cli/wp-cli/contributors).
+Pour en savoir plus sur la [gouvernance (en)](https://make.wordpress.org/cli/handbook/governance/) du projet et voir la [liste complète des contributeurs](https://github.com/wp-cli/wp-cli/contributors).
 
 ## Crédits
 
