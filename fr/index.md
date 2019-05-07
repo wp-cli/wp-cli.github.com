@@ -167,7 +167,7 @@ Bienvenue et merci !
 
 Nous apprécions que vous preniez l'initiative de contribuer à WP-CLI. C'est grâce à vous et à la communauté autour de vous que WP-CLI est un projet aussi important.
 
-**Contribuer n'est pas limité uniquement à l'écriture de code.** Nous vous encourageons à contribuer de la façon qui vous correspond le mieux, en écrivant des tutoriels, en faisant des démonstrations dans votre groupe d'utilisateur local, à aider les autres avec leurs questions de soutien, ou en relisant notre documentation.
+**Contribuer n'est pas limité uniquement à l'écriture de code.** Nous vous encourageons à contribuer de la façon qui vous correspond le mieux, en écrivant des tutoriels, en faisant des démonstrations dans votre groupe d'utilisateurs local, à aider les autres avec leurs questions de soutien, ou en relisant notre documentation.
 
 Merci de prendre un moment pour [lire le guide du contributeur en profondeur](https://make.wordpress.org/cli/handbook/contributing/). Suivre ces règles aide à communiquer avec le respect du temps des autres contributeurs du projet. En retour, ils feront de leur mieux pour travailler avec ce même respect, à travers les fuseaux horaires et dans le monde lorsque vous en aurez besoin.
 
