@@ -176,7 +176,7 @@ Merci de prendre un moment pour [lire le guide du contributeur en profondeur](ht
 
 ## Leadership
 
-WP-CLI est dirigé et maintenu par : (schlessera)[http://github.com/schlessera].
+WP-CLI est dirigé et maintenu par : [schlessera](http://github.com/schlessera).
 
 À l'occasion, il arrive que certains [contributeurs reçoivent des accès plus permissifs](https://make.wordpress.org/cli/handbook/committers-credo/) après avoir démontré leurs capacités et leur temps investis dans le projet.
 
