@@ -39,7 +39,7 @@ Vous vous sentez déjà à l'aise avec les bases ? Allez voir la [liste complèt
 
 ## Installation
 
-Télécharger le Phar est la méthode d'installation que nous recommandons. Si vous avez besoin, vous pouvez aussi consulter notre documentation sur [autres méthodes d'installation (en)](https://make.wordpress.org/cli/handbook/installing/).
+Télécharger le Phar est la méthode d'installation que nous recommandons. Si vous avez besoin, vous pouvez aussi consulter notre documentation sur [d'autres méthodes d'installation (en)](https://make.wordpress.org/cli/handbook/installing/).
 
 Avant d'installer WP-CLI, veuillez vous assurer que votre environnement répond aux exigences minimales :
 
