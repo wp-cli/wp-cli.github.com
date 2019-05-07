@@ -70,14 +70,17 @@ Si WP-CLI a été installé correctement, vous devez obtenir le résultat suivan
 
 ```bash
 $ wp --info
-PHP binary:    /usr/bin/php5
-PHP version:    5.5.9-1ubuntu4.14
-php.ini used:   /etc/php5/cli/php.ini
-WP-CLI root dir:        /home/wp-cli/.wp-cli
+OS:	Darwin 16.7.0 Darwin Kernel Version 16.7.0: Thu Jan 11 22:59:40 PST 2018; root:xnu-3789.73.8~1/RELEASE_X86_64 x86_64
+Shell:	/bin/zsh
+PHP binary:    /usr/local/bin/php
+PHP version:    7.0.22
+php.ini used:   /etc/local/etc/php/7.0/php.ini
+WP-CLI root dir:        /home/wp-cli/.wp-cli/vendor/wp-cli/wp-cli
+WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 0.25.0
+WP-CLI version: 2.1.0
 ```
 
 ### Mise à jour
