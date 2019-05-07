@@ -114,7 +114,10 @@ Les mainteneurs de WP-CLI et les contributeurs du projet font de leur mieux pour
 - [Tickets ouvert ou fermés sur Github](https://github.com/wp-cli/wp-cli/issues?utf8=%E2%9C%93&q=is%3Aissue)
 - [Forum StackExchange WordPress](http://wordpress.stackexchange.com/questions/tagged/wp-cli)
 
-Si vous n'arrivez pas à trouver une réponse en utilisant un de ces liens, rejoignez le canal `#cli` sur [l'organisation Slack WordPress.org](https://make.wordpress.org/chat/) pour voir si un membre de la communauté peut avoir une réponse pour vous. Les professionnels doivent savoir que [runcommand](https://runcommand.io/) fournit du soutien premium.
+Si vous n'arrivez pas à trouver une réponse en utilisant un de ces liens :
+
+- Rejoignez le canal `#cli` sur [l'organisation Slack WordPress.org](https://make.wordpress.org/chat/) pour discuter avec les personnes en ligne à ce moment. Cette option est préférable pour des réponses rapides.
+- [Créez un nouveau ticket](https://wordpress.org/support/forum/wp-advanced/#new-post) dans le forum de soutien WordPress.org en attachant l'étiquette 'WP-CLI' pour qu'il soit vu par la communauté.
 
 Les tickets Github, permettent de suivre l'évolution des bugs et améliorations sur les commandes existantes. Ils ne sont pas utilisés pour faire du soutien. Avant de soumettre un nouveau rapport de bug, merci de passer en revue [nos bonnes pratiques](https://make.wordpress.org/cli/handbook/bug-reports/) pour vous assurer que votre ticket les respecte.
 
