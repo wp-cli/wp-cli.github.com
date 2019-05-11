@@ -8,9 +8,9 @@ title: Command line interface for WordPress
 
 現在のメンテナンスは、以下の企業のサポートにより支えられています。
 
-<a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://www.dreamhost.com/"><img class="aligncenter size-full wp-image-324" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/dreamhost.png" alt="" width="160" height="30" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/siteground.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
+<a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/siteground.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
 
-現在の最新バージョンは [1.4.0](https://make.wordpress.org/cli/2017/10/17/version-1-4-0-released/) です。 最新情報を得たい人は、[@wpcli on Twitter](https://twitter.com/wpcli) をフォローするか、[メーリングリストにサインアップ](http://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e)してください。[ロードマップ](https://make.wordpress.org/cli/handbook/roadmap/)で、今後のリリースの予定をしることができます。
+現在の最新バージョンは [2.2.0](https://make.wordpress.org/cli/2019/04/25/wp-cli-v2-2-0-release-notes/) です。 最新情報を得たい人は、[@wpcli on Twitter](https://twitter.com/wpcli) をフォローするか、[メーリングリストにサインアップ](https://make.wordpress.org/cli/subscribe/)してください。[ロードマップ](https://make.wordpress.org/cli/handbook/roadmap/)で、今後のリリースの予定をしることができます。
 
 [![Build Status](https://travis-ci.org/wp-cli/wp-cli.svg?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
@@ -33,7 +33,7 @@ Plugin 'user-switching' activated.
 Success: Installed 1 of 1 plugins.
 ```
 
-さらに WP-CLI は、WordPress の管理画面ではできない多くのことが可能です。たとえば、`wp transient delete --all` ([doc](https://developer.wordpress.org/cli/commands/transient/delete/)) は、Transient に保存されているすべてのデータを削除することを可能にしています。
+さらに WP-CLI は、WordPress の管理画面ではできない多くのことが可能です。たとえば、`wp transient delete --all` ([ドキュメント](https://developer.wordpress.org/cli/commands/transient/delete/)) は、Transient に保存されているすべてのデータを削除することを可能にしています。
 
 ```bash
 $ wp transient delete --all
@@ -51,7 +51,7 @@ Phar ファイルをダウンロードする方法が、私たちが推奨する
 WP-CLI をインストールする前に、動作環境を確認してください。
 
 - UNIX 系の環境 (OS X, Linux, FreeBSD, Cygwin); Windows では一部の機能に制限があります。
-- PHP 5.3.29 またはそれ以降のバージョン
+- PHP 5.4 またはそれ以降のバージョン
 - WordPress 3.7 またはそれ以降のバージョン
 
 動作条件を再度確認してから、`wget`または`curl`を使用して [wp-cli.phar](https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) をダウンロードしてください。
@@ -77,19 +77,22 @@ $ sudo mv wp-cli.phar /usr/local/bin/wp
 
 ```bash
 $ wp --info
-PHP binary:    /usr/bin/php5
-PHP version:    5.5.9-1ubuntu4.14
-php.ini used:   /etc/php5/cli/php.ini
-WP-CLI root dir:        /home/wp-cli/.wp-cli
+OS:	Darwin 16.7.0 Darwin Kernel Version 16.7.0: Thu Jan 11 22:59:40 PST 2018; root:xnu-3789.73.8~1/RELEASE_X86_64 x86_64
+Shell:	/bin/zsh
+PHP binary:    /usr/local/bin/php
+PHP version:    7.0.22
+php.ini used:   /etc/local/etc/php/7.0/php.ini
+WP-CLI root dir:        /home/wp-cli/.wp-cli/vendor/wp-cli/wp-cli
+WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 1.4.0
+WP-CLI version: 2.1.0
 ```
 
 ## アップデート
 
-WP-CLI をアップデートするには、`wp cli update` ([doc](https://developer.wordpress.org/cli/commands/cli/update/)) を実行するか、上述のインストール方法を再度行う必要があります。
+WP-CLI をアップデートするには、`wp cli update` ([ドキュメント](https://developer.wordpress.org/cli/commands/cli/update/)) を実行するか、上述のインストール方法を再度行う必要があります。
 
 WP-CLI のオーナーが root もしくは他のシステム管理者になっている場合は、`sudo wp cli update` と実行する必要があります。
 
@@ -97,7 +100,7 @@ WP-CLI のオーナーが root もしくは他のシステム管理者になっ�
 
 ## タブ補完
 
-WP-CL には、Bash 及び ZSH 用のタブ補完用のスクリプトがあります。 [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/master/utils/wp-completion.bash) をダウンロードして、`~/.bash_profile` から読み込んでください。
+WP-CL には、Bash 及び ZSH 用のタブ補完用のスクリプトがあります。 [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v1.5.1/utils/wp-completion.bash) をダウンロードして、`~/.bash_profile` から読み込んでください。
 
 ```
 source /FULL/PATH/TO/wp-completion.bash
@@ -121,7 +124,7 @@ WP-CLI のメンテナーとその貢献者たちが一般的な質問に答え�
 
 * [Common issues and their fixes](https://make.wordpress.org/cli/handbook/common-issues/)
 * [WP-CLI handbook](https://make.wordpress.org/cli/handbook/)
-* [Open or closed issues on Github](https://github.com/wp-cli/wp-cli/issues?utf8=%E2%9C%93&q=is%3Aissue)
+* [Open or closed issues in the WP-CLI GitHub organization](https://github.com/issues?utf8=%E2%9C%93&q=sort%3Aupdated-desc+org%3Awp-cli+is%3Aissue)
 * [Threads tagged 'WP-CLI' in the WordPress.org support forum](https://wordpress.org/support/topic-tag/wp-cli/)
 * [Questions tagged 'WP-CLI' in the WordPress StackExchange](https://wordpress.stackexchange.com/questions/tagged/wp-cli)
 
@@ -138,9 +141,9 @@ Twitterでサポート用の質問をたずねるのはおやめください。T
 
 ## 拡張
 
-それぞれの **コマンド** は、WP-CLI の関数の一つとして定義されています。`wp plugin install` ([doc](https://developer.wordpress.org/cli/commands/plugin/install/)) はそのうちのひとつであり、`wp plugin activate` ([doc](https://developer.wordpress.org/cli/commands/plugin/activate/)) は別のもうひとつです。
+それぞれの **コマンド** は、WP-CLI の関数の一つとして定義されています。`wp plugin install` ([ドキュメント](https://developer.wordpress.org/cli/commands/plugin/install/)) はそのうちのひとつであり、`wp plugin activate` ([ドキュメント](https://developer.wordpress.org/cli/commands/plugin/activate/)) は別のもうひとつです。
 
-WP-CLI では、様々な実行可能なクラス、関数、クロージャをコマンドとして実行することが可能です。コマンドとして実行されるために必要な情報は、PHPdoc によって記述します。 `WP_CLI::add_command()` ([doc](https://make.wordpress.org/cli/handbook/internal-api/wp-cli-add-command/)) は、内部コマンド及びサードパーティコマンドの登録に使用されています。
+WP-CLI では、様々な実行可能なクラス、関数、クロージャをコマンドとして実行することが可能です。コマンドとして実行されるために必要な情報は、PHPdoc によって記述します。 `WP_CLI::add_command()` ([ドキュメント](https://make.wordpress.org/cli/handbook/internal-api/wp-cli-add-command/)) は、内部コマンド及びサードパーティコマンドの登録に使用されています。
 
 ```php
 /**
@@ -184,7 +187,7 @@ WP-CLI は、多くのコマンドにより構成されており、カスタム�
 
 ### プロジェクトリーダー
 
-WP-CLI には2人のメンテナーがいます: [danielbachhuber](https://github.com/danielbachhuber) と [schlessera](http://github.com/schlessera) です。
+WP-CLI にはプロジェクトメンテナーがいます: [schlessera](http://github.com/schlessera) です。
 
 能力があり、プロジェクトを発展させるために、時間をかけて投資していることを示してくれたコントリビューターへ、[コミット権限を与えることがあります](https://make.wordpress.org/cli/handbook/committers-credo/)。
 
@@ -201,3 +204,4 @@ WP-CLI には2人のメンテナーがいます: [danielbachhuber](https://githu
 * [WordPress-CLI-Exporter](https://github.com/Automattic/WordPress-CLI-Exporter) for `wp export`
 * [WordPress-CLI-Importer](https://github.com/Automattic/WordPress-CLI-Importer) for `wp import`
 * [wordpress-plugin-tests](https://github.com/benbalter/wordpress-plugin-tests/) for `wp scaffold plugin-tests`
+
