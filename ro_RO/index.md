@@ -21,11 +21,11 @@ WP-CLI oferă o interfață de linie de comandă pentru multe acțiuni pe care l
 
 ```bash
 $ wp plugin install user-switching --activate
-Installing Comutare utilizatori (1.5.0)
-Descarc pachetul de instalare de la https://downloads.wordpress.org/plugin/user-switching.1.5.0.zip...
-Despachetez pachetul...
-Instalez modulul...
-Modulul a fost instalat cu succes.
+Installing User Switching (1.0.9)
+Downloading installation package from https://downloads.wordpress.org/plugin/user-switching.1.0.9.zip...
+Unpacking the package...
+Installing the plugin...
+Plugin installed successfully.
 Activating 'user-switching'...
 Plugin 'user-switching' activated.
 Success: Installed 1 of 1 plugins.
@@ -145,31 +145,32 @@ WP-CLI suportă înregistrarea oricărei clase, funcție, sau închidere apelabi
 
 ```php
 /**
- * Șterge o opțiune din baza de date.
+ * Delete an option from the database.
  *
- * Returnează o eroare dacă opțiunea nu există.
+ * Returns an error if the option didn't exist.
  *
- * ## OPȚIUNI
+ * ## OPTIONS
  *
  * <key>
- * : Cheie pentru opțiune.
+ * : Key for the option.
  *
- * ## EXEMPLE
+ * ## EXAMPLES
  *
  *     $ wp option delete my_option
  *     Success: Deleted 'my_option' option.
  */
 $delete_option_cmd = function( $args ) {
-    list( $key ) = $args;
+	list( $key ) = $args;
 
-    if ( ! delete_option( $key ) ) {
-        WP_CLI::error( "Could not delete '$key' option. Does it exist?" );
-    } else {
-        WP_CLI::success( "Deleted '$key' option." );
-    }
+	if ( ! delete_option( $key ) ) {
+		WP_CLI::error( "Could not delete '$key' option. Does it exist?" );
+	} else {
+		WP_CLI::success( "Deleted '$key' option." );
+	}
 };
 WP_CLI::add_command( 'option delete', $delete_option_cmd );
 ```
+
 WP-CLI vine cu zeci de comenzi. Este mai ușor decât pare să creezi o comandă personalizată WP-CLI. Citește [cartea de bucate a comenzilor](https://make.wordpress.org/cli/handbook/commands-cookbook/) pentru a afla mai multe. Răsfoiește [documentația internă API](https://make.wordpress.org/cli/handbook/internal-api/) pentru a descoperi o varietate de funcții ajutătoare pe care le poți folosi în comanda ta personalizată WP-CLI.
 
 ## Contribuire
