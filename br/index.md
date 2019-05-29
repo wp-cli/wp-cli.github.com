@@ -7,9 +7,9 @@ title: Interface para linha de comando para o WordPress
 
 A manutenção contínua é possível <a href="https://make.wordpress.org/cli/2017/04/03/new-co-maintainer-alain-thanks-2017-sponsors/#sponsors">graças aos seguintes patrocinadores</a>:
 
-<a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://www.dreamhost.com/"><img class="aligncenter size-full wp-image-324" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/dreamhost.png" alt="" width="160" height="30" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/siteground.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
+<a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/siteground.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
 
-A versão estável mais recente é a [2.1.0](https://make.wordpress.org/cli/2018/12/18/wp-cli-v2-1-0-release-notes/). Para manter-se atualizado, siga [@wpcli no Twitter](https://twitter.com/wpcli) ou [assine nossa newsletter](https://make.wordpress.org/cli/subscribe/). [Leia nosso plano de ação](https://make.wordpress.org/cli/handbook/roadmap/) para uma visão geral do que está sendo planejado para próximas versões.
+A versão estável mais recente é a [2.2.0](https://make.wordpress.org/cli/2019/04/25/wp-cli-v2-2-0-release-notes/). Para manter-se atualizado, siga [@wpcli no Twitter](https://twitter.com/wpcli) ou [assine nossa newsletter](https://make.wordpress.org/cli/subscribe/). [Leia nosso plano de ação](https://make.wordpress.org/cli/handbook/roadmap/) para uma visão geral do que está sendo planejado para próximas versões.
 
 [![Build Status](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Tempo médio para resolver um issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Percentual de issues ainda abertos")
 
@@ -22,7 +22,7 @@ O objetivo da WP-CLI é fornecer uma interface em linha de comando para muitas d
 ```bash
 $ wp plugin install user-switching --activate
 Installing User Switching (1.0.9)
-Downloading install package from https://downloads.wordpress.org/plugin/user-switching.1.0.9.zip...
+Downloading installation package from https://downloads.wordpress.org/plugin/user-switching.1.0.9.zip...
 Unpacking the package...
 Installing the plugin...
 Plugin installed successfully.
@@ -133,7 +133,7 @@ Se você não encontrou uma resposta em nenhum dos endereços acima, você pode:
 
 Issues do GitHub são usadas para acompanhar melhorias e erros dos comandos existentes, não para suporte em geral. Antes de informar um erro, veja [nossas boas práticas](https://make.wordpress.org/cli/handbook/bug-reports/) para que o problema possa ser resolvido em tempo hábil.
 
-Não faça perguntas de suporte no Twitter. O Twitter não é um lugar aceitável para suporte porque: 1) é difícil conversar com apenas 140 caracteres e 2) o Twitter não é um lugar onde alguém com a mesma pergunta possa procurar por uma resposta de uma conversa anterior.
+Não faça perguntas de suporte no Twitter. O Twitter não é um lugar aceitável para suporte porque: 1) é difícil conversar com apenas 280 caracteres e 2) o Twitter não é um lugar onde alguém com a mesma pergunta possa procurar por uma resposta de uma conversa anterior.
 
 Lembre-se: libre != gratis; A licença do código aberto dá para você a liberdade de usar e modificar, mas não gera compromissos com o tempo dos outros. Seja respeitoso e regule suas expectativas.
 
