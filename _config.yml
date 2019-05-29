@@ -58,6 +58,6 @@ languages:
 - label: Español
   iso-alpha2: es
   path: /es/
-- label: română
+- label: Română
   iso-alpha2: ro_RO
   path: /ro/
