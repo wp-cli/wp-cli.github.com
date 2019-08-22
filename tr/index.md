@@ -9,7 +9,7 @@ Süregelen bakım, <a href="https://make.wordpress.org/cli/2019/06/27/thanks-to-
 
 <a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://pantheon.io/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/pantheon.png" alt="" width="160" height="50" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/SG_logo.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
 
-Mevcut kararlı sürüm [version 2.3.0](https://make.wordpress.org/cli/2019/08/14/wp-cli-v2-3-0-release-notes/). Duyurular için [@wpcli Twitter](https://twitter.com/wpcli) hesabını takip edebilir ya da [eposta bültenine abone olabilirsiniz](https://make.wordpress.org/cli/subscribe/). Gelecek sürüm planına genel bir bakış için [yol haritasına göz atın](https://make.wordpress.org/cli/handbook/roadmap/).
+Mevcut kararlı sürüm [versiyon 2.3.0](https://make.wordpress.org/cli/2019/08/14/wp-cli-v2-3-0-release-notes/). Duyurular için [@wpcli Twitter](https://twitter.com/wpcli) hesabını takip edebilir ya da [eposta bültenine abone olabilirsiniz](https://make.wordpress.org/cli/subscribe/). Gelecek sürüm planına genel bir bakış için [yol haritasına göz atın](https://make.wordpress.org/cli/handbook/roadmap/).
 
 [![Build Status](https://travis-ci.org/wp-cli/wp-cli.svg?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
@@ -100,7 +100,7 @@ WP-CLI'i  `wp cli update` komutu ([belge](https://developer.wordpress.org/cli/co
 
 Eğer WP-CLI, root veya başka bir sistem kullanıcısı tarafından sahiplenildiyse `sudo wp cli update` çalıştırmanız gerekecektir.
 
-Sınırda yaşamayı seviyor musunuz?  `wp cli update --nightly` komutu ile nightly build sürümüne güncelleyebilirsiniz. Geliştirme ortamınız için nightly build sürümler daha çok yada az stabil olabilir ve her zaman en son ve yeni WP-CLI özelliklerini içerir.
+Sınırda yaşamayı seviyor musunuz?  `wp cli update --nightly` komutu ile nightly build sürümüne güncelleyebilirsiniz. Geliştirme ortamınız için nightly build sürümler daha çok ya da az stabil olabilir ve her zaman en son ve yeni WP-CLI özelliklerini içerir.
 
 ### Sekme tamamlama
 
@@ -149,7 +149,7 @@ Unutmayın, özgür != ücretsiz; açık kaynak lisansı size özgürce kullanma
 
 Bir **Komut** WP-CLI'nin atomik birimidir. `wp plugin install` ([belge](https://developer.wordpress.org/cli/commands/plugin/install/)) bir komuttur.  `wp plugin activate` ([belge](https://developer.wordpress.org/cli/commands/plugin/activate/)) başka bir komuttur.
 
-WP-CLI çağrılabilen herhangi bir sınıfı, fonksiyonu yada anonim fonksiyonu komut olarak kaydetmeyi destekler. Kullanım detaylarını callback'in PHP dökümanından (PHPdoc) okur. `WP_CLI::add_command()` ([belge](https://make.wordpress.org/cli/handbook/internal-api/wp-cli-add-command/)) dahili ve üçüncü-parti komutların kaydedilmesi için kullanılmaktadır.
+WP-CLI çağrılabilen herhangi bir sınıfı, fonksiyonu ya da anonim fonksiyonu komut olarak kaydetmeyi destekler. Kullanım detaylarını callback'in PHP dökümanından (PHPdoc) okur. `WP_CLI::add_command()` ([belge](https://make.wordpress.org/cli/handbook/internal-api/wp-cli-add-command/)) dahili ve üçüncü-parti komutların kaydedilmesi için kullanılmaktadır.
 
 ```php
 /**
@@ -180,7 +180,7 @@ WP_CLI::add_command( 'option delete', $delete_option_cmd );
 ```
 
 
-WP-CLI onlarca komutla hazır olarak gelir. Özel bir WP-CLI komutu oluşturmak görünenden daha kolaydir. Detaylar için [komutlar tarif kitabına](https://make.wordpress.org/cli/handbook/commands-cookbook/) bakabilirsiniz. [Dahili API dökümantasyonunu](https://make.wordpress.org/cli/handbook/internal-api/) gözden geçirerek kendi WP-CLI komutunuzda kullanabileceğiniz faydalı foksyionları keşfedebilirsiniz.
+WP-CLI onlarca komutla hazır olarak gelir. Özel bir WP-CLI komutu oluşturmak görünenden daha kolaydır. Detaylar için [komutlar tarif kitabına](https://make.wordpress.org/cli/handbook/commands-cookbook/) bakabilirsiniz. [Dahili API dökümantasyonunu](https://make.wordpress.org/cli/handbook/internal-api/) gözden geçirerek kendi WP-CLI komutunuzda kullanabileceğiniz faydalı fonksiyonları keşfedebilirsiniz.
 
 
 ## Katkıda Bulunmak
