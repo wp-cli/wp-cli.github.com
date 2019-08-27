@@ -5,11 +5,11 @@ title: Interface para linha de comando para o WordPress
 
 [WP-CLI](https://wp-cli.org/) é a interface em linha de comando para o [WordPress](https://br.wordpress.org/). Você pode atualizar plugins, configurar instalações multisite e muito mais, sem utilizar um navegador web.
 
-A manutenção contínua é possível <a href="https://make.wordpress.org/cli/2017/04/03/new-co-maintainer-alain-thanks-2017-sponsors/#sponsors">graças aos seguintes patrocinadores</a>:
+A manutenção contínua é possível <a href="https://make.wordpress.org/cli/2019/06/27/thanks-to-the-2019-sponsors/">graças aos seguintes patrocinadores</a>:
 
-<a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/siteground.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
+<a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://pantheon.io/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/pantheon.png" alt="" width="160" height="50" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/SG_logo.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
 
-A versão estável mais recente é a [2.2.0](https://make.wordpress.org/cli/2019/04/25/wp-cli-v2-2-0-release-notes/). Para manter-se atualizado, siga [@wpcli no Twitter](https://twitter.com/wpcli) ou [assine nossa newsletter](https://make.wordpress.org/cli/subscribe/). [Leia nosso plano de ação](https://make.wordpress.org/cli/handbook/roadmap/) para uma visão geral do que está sendo planejado para próximas versões.
+A versão estável mais recente é a [2.3.0](https://make.wordpress.org/cli/2019/08/14/wp-cli-v2-3-0-release-notes/). Para manter-se atualizado, siga [@wpcli no Twitter](https://twitter.com/wpcli) ou [assine nossa newsletter](https://make.wordpress.org/cli/subscribe/). [Leia nosso plano de ação](https://make.wordpress.org/cli/handbook/roadmap/) para uma visão geral do que está sendo planejado para próximas versões.
 
 [![Build Status](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Tempo médio para resolver um issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Percentual de issues ainda abertos")
 
@@ -85,7 +85,7 @@ WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 2.1.0
+WP-CLI version: 2.3.0
 ```
 
 ### Atualizando
