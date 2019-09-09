@@ -98,7 +98,7 @@ Si WP-CLI es propiedad de root u otro usuario del sistema, necesitarás ejecutar
 
 ### Autocompletar con el tabulador
 
-WP-CLI también viene con un scripts para autocompletar con el tabulador para Bash y ZSH. Tan sólo descarga [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v1.5.1/utils/wp-completion.bash) y usa el comando `source` desde `~/.bash_profile`:
+WP-CLI también viene con un scripts para autocompletar con el tabulador para Bash y ZSH. Tan sólo descarga [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.3.0/utils/wp-completion.bash) y usa el comando `source` desde `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash

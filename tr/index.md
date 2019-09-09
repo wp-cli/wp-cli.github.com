@@ -104,7 +104,7 @@ Sınırda yaşamayı seviyor musunuz?  `wp cli update --nightly` komutu ile nigh
 
 ### Sekme tamamlama
 
-WP-CLI ayrıca, Bash ve ZSH için sekme tamamlama scripti sunar. Yapmanız gereken sadece [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v1.5.1/utils/wp-completion.bash) dosyasını indirmek ve kaynak olarak `~/.bash_profile` dosyanıza tanımlamak:
+WP-CLI ayrıca, Bash ve ZSH için sekme tamamlama scripti sunar. Yapmanız gereken sadece [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.3.0/utils/wp-completion.bash) dosyasını indirmek ve kaynak olarak `~/.bash_profile` dosyanıza tanımlamak:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash

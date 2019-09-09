@@ -98,7 +98,7 @@ Quer viver a vida no limite? Execute `wp cli update --nightly` para usar a últi
 
 ### Autocompletar com tab
 
-WP-CLI também possui scripts de autocompletar para Bash ou ZSH. Baixe [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/master/utils/wp-completion.bash) e carregue-o através do `~/.bash_profile`:
+WP-CLI também possui scripts de autocompletar para Bash ou ZSH. Baixe [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.3.0/utils/wp-completion.bash) e carregue-o através do `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
