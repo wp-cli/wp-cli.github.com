@@ -98,7 +98,7 @@ Vrei să trăiești viața la limită? Rulează `wp cli update --nightly` pentru
 
 ### Auto-completare
 
-WP-CLI vine de asemenea cu un script de auto-completare pentru Bash și ZSH. Doar descarcă [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v1.5.1/utils/wp-completion.bash) și rulează source pe el din `~/.bash_profile`:
+WP-CLI vine de asemenea cu un script de auto-completare pentru Bash și ZSH. Doar descarcă [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.3.0/utils/wp-completion.bash) și rulează source pe el din `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash

@@ -100,7 +100,7 @@ WP-CLI のオーナーが root もしくは他のシステム管理者になっ�
 
 ## タブ補完
 
-WP-CLI には、Bash 及び ZSH 用のタブ補完用のスクリプトがあります。 [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v1.5.1/utils/wp-completion.bash) をダウンロードして、`~/.bash_profile` から読み込んでください。
+WP-CLI には、Bash 及び ZSH 用のタブ補完用のスクリプトがあります。 [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.3.0/utils/wp-completion.bash) をダウンロードして、`~/.bash_profile` から読み込んでください。
 
 ```
 source /FULL/PATH/TO/wp-completion.bash
