@@ -3,7 +3,7 @@ layout: default
 title: Interface en ligne de commande pour WordPress
 ---
 
-[WP-CLI](https://wp-cli.org/fr) est un ensemble d'outils en ligne de commande pour gérer vos installations [WordPress](https://fr.wordpress.org/). Vous pouvez mettre à jour les extensions, configurer des installations multi-site et beaucoup plus sans avoir recours à un navigateur web.
+[WP-CLI](https://wp-cli.org/fr) est un ensemble d'outils en ligne de commande pour gérer vos installations [WordPress](https://fr.wordpress.org/). Vous pouvez mettre à jour les extensions, configurer des installations multisite et beaucoup plus sans avoir recours à un navigateur web.
 
 L'entretien continu de ce projet est <a href="https://make.wordpress.org/cli/2019/06/27/thanks-to-the-2019-sponsors/">possible grâce à</a> :
 
@@ -37,7 +37,7 @@ $ wp transient delete-all
 Success: 34 transients deleted from the database.
 ```
 
-Pour une introduction plus complète sur l'utilisation de WP-CLI, lisez le [Guide de démarrage rapide (en)](https://make.wordpress.org/cli/handbook/quick-start/). Vous pouvez également en apprendre davantage sur l'utilisation de la ligne de commande via des [informations sur l'utilisation du Shell (en)[https://make.wordpress.org/cli/handbook/shell-friends/].
+Pour une introduction plus complète sur l'utilisation de WP-CLI, lisez le [Guide de démarrage rapide (en)](https://make.wordpress.org/cli/handbook/quick-start/). Vous pouvez également en apprendre davantage sur l'utilisation de la ligne de commande via des [informations sur l'utilisation du Shell (en)](https://make.wordpress.org/cli/handbook/shell-friends/).
 
 Vous vous sentez déjà à l'aise avec les bases ? Allez voir la [liste complète des commandes (en)](https://developer.wordpress.org/cli/commands/) pour avoir des informations détaillées sur la gestion des thèmes et extensions, l'import/export de données, l'exécution de rechercher/remplacer dans la base de données et bien plus.
 
@@ -48,7 +48,7 @@ Télécharger le Phar est la méthode d'installation que nous recommandons. Si v
 Avant d'installer WP-CLI, veuillez vous assurer que votre environnement répond aux exigences minimales :
 
 - Environnement de type UNIX (OS X, Linux, FreeBSD, Cygwin); le soutien est limité sur les environnements Windows
-- PHP 5.3.29 ou plus récent
+- PHP 5.4 ou plus récent
 - WordPress 3.7 ou plus récent
 
 Une fois que vous avez vérifié ces exigences, téléchargez le fichier [wp-cli.phar](https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) en utilisant `wget` ou `curl` :
@@ -84,7 +84,7 @@ WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 2.3.0
+WP-CLI version: 2.4.0
 ```
 
 ### Mise à jour
@@ -95,7 +95,7 @@ Vous voulez vivre dangereusement ? Exécutez `wp cli update --nightly` pour inst
 
 ### Tab completions
 
-WP-CLI contient des scripts d'autocomplétion pour Bash et ZSH. Il suffit de télécharger [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.3.0/utils/wp-completion.bash) et de l'importer dans votre fichier `~/.bash_profile`:
+WP-CLI contient des scripts d'autocomplétion pour Bash et ZSH. Il suffit de télécharger [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.4.0/utils/wp-completion.bash) et de l'importer dans votre fichier `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
