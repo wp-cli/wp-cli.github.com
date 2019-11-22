@@ -9,7 +9,7 @@ title: WordPress 的命令行工具
 
 <a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://pantheon.io/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/pantheon.png" alt="" width="160" height="50" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/SG_logo.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
 
-目前的稳定版本是 [2.4.0](https://make.wordpress.org/cli/2019/11/12/wp-cli-v2-4-0-release-notes/)。如果您想获取最新信息，请在 Twitter 上关注 [@wpcli](https://twitter.com/wpcli) 或者[订阅邮件通知](https://make.wordpress.org/cli/subscribe/)。请参阅 [产品路线图](https://make.wordpress.org/cli/handbook/roadmap/) 来了解未来更新规划。
+目前的稳定版本是 [2.4.0](https://make.wordpress.org/cli/2019/11/12/wp-cli-v2-4-0-release-notes/)。如果您想获取最新信息，请在 Twitter 上关注 [@wpcli](https://twitter.com/wpcli) 或者 [订阅邮件通知](https://make.wordpress.org/cli/subscribe/)。请参阅 [产品路线图](https://make.wordpress.org/cli/handbook/roadmap/) 了解未来更新规划。
 
 [![Build Status](https://travis-ci.org/wp-cli/wp-cli.svg?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
@@ -104,7 +104,7 @@ WP-CLI 带有用于 Bash 和 ZSH 的命令行补全脚本。下载 [wp-completio
 source /FULL/PATH/TO/wp-completion.bash
 ```
 
-不要忘了之后运行 `source〜/ .bash_profile` 。
+在此之后不要忘记运行 `source ~/.bash_profile` 。
 
 对于 ZSH，您可能需要在加载 `bashcompinit` 后加载 `wp-completion.bash`，将以下内容放入您的 `.zshrc` 中：
 
