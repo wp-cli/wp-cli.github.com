@@ -61,6 +61,6 @@ languages:
 - label: Română
   iso-alpha2: ro
   path: /ro/
-- label: Chinese Simplified
+- label: 简体中文
   iso-alpha2: zh-cn
   path: /zh-cn/
