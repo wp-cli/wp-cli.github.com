@@ -15,7 +15,7 @@ She figures that if she manages to load the WP environment from a CLI script, th
 
 Shelly is pleased; her script even works on multisite installs. Both the host name and the path to the WordPress install are hardcoded, but she can figure ways around that later.
 
-With her geeky curiosity satisfied, she lazily types in a google search, to check if anyone else has solved this problem. The first result is a project called WP-CLI. She installs it and tries out a few commands - it seems to work pretty well.
+With her geeky curiosity satisfied, she lazily types in a Google search, to check if anyone else has solved this problem. The first result is a project called WP-CLI. She installs it and tries out a few commands - it seems to work pretty well.
 
 She then goes to the WP-CLI source and searches for 'wp-load.php', to see how it handles the WordPress bootstrapping - 0 results. Puzzled, she starts going through the first file that gets executed and eventually reaches one called `wp-setting-cli.php`. This strikes Shelly as peculiar, since she encountered a similar file in WordPress Core. She signs into the project's IRC channel.
 
