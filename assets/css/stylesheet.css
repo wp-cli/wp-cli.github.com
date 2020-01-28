@@ -575,9 +575,6 @@ body.configuration .global-parameters{
 }
 
 
-
-
-
 /* Blog */
 
 .hentry + .hentry {
@@ -644,7 +641,7 @@ hr:after,
 	padding-bottom: 1em;
 }
 
-/* Accouncement within posts */
+/* Announcement within posts */
 .announcement {
 	padding: 0.3em 1em 0.5em 1em;
 	margin-bottom: 1em;
