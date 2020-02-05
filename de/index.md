@@ -105,7 +105,7 @@ source /ABSOLUTER/PFAD/ZUR/wp-completion.bash
 
 Vergiss nicht, danach `source ~/.bash_profile` auszuführen.
 
-Wenn du zsh für deine Shell benutzt, musst du möglicherweise erst `bashcompinit` laden und starten, bevor du `source`-Befehl nutzt. Füge das folgende in deine `.zshrc` ein:
+Wenn du zsh für deine Shell benutzt, musst du möglicherweise erst `bashcompinit` laden und starten, bevor du den `source`-Befehl nutzt. Füge das folgende in deine `.zshrc` ein:
 
 ```bash
 autoload bashcompinit
