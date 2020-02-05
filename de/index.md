@@ -37,7 +37,7 @@ $ wp transient delete --all
 Success: 34 transients deleted from the database.
 ```
 
-Für eine umfassendere Einführung in die Benutzung von WP-CLI, lies am besten die [Schnellstartanleitung](https://wp-cli.org/docs/quick-start/) (engl.), oder sieh dir [Shell-Freunde](https://make.wordpress.org/cli/handbook/shell-friends/) (engl.) an, um mehr über die Kommandozeilen-Helferlein zu erfahren.
+Für eine umfassendere Einführung in die Benutzung von WP-CLI, lies am besten die [Schnellstartanleitung](https://make.wordpress.org/cli/handbook/quick-start/) (engl.), oder sieh dir [Shell-Freunde](https://make.wordpress.org/cli/handbook/shell-friends/) (engl.) an, um mehr über die Kommandozeilen-Helferlein zu erfahren.
 
 Bereits genug von den Basics? Sieh dir die [komplette Liste an Befehlen](https://developer.wordpress.org/cli/commands/) (engl.) für detailliertere Informationen zur Verwaltung von Themes und Plugins, Datenimport und -export, Suchen/Ersetzen-Operationen in der Datenbank und mehr an.
 
@@ -89,7 +89,7 @@ WP-CLI version: 2.4.0
 
 ### Aktualisieren
 
-Du kannst WP-CLI mittels `wp cli update` ([Dok.](https://wp-cli.org/commands/cli/update/) (engl.)) aktualisieren oder indem du die obigen Installationsschritte wiederholst.
+Du kannst WP-CLI mittels `wp cli update` ([Dok.](https://developer.wordpress.org/cli/commands/cli/update/) (engl.)) aktualisieren oder indem du die obigen Installationsschritte wiederholst.
 
 Wenn WP-CLI dem root-Benutzer oder einem anderen Systembenutzer gehört, musst du `sudo wp cli update` ausführen.
 
