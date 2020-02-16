@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Interfața liniei de comandă pentru WordPress
+dirattr: ltr
 ---
 
 [WP-CLI](https://wp-cli.org/) este interfața liniei de comandă pentru [WordPress](https://wordpress.org/). Poți actualiza module, configura instalări multisit și multe altele, fără să folosești un navigator web.

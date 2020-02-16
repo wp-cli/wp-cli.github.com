@@ -18,9 +18,11 @@
 		{% for lang in site.languages %}<link rel="alternate" hreflang="{{lang.iso-alpha2}}" href="{{site.url}}{{lang.path}}" />
 		{% endfor %}
 	</head>
-
+	
 	{% if page.display_global_parameters %}
 	<body class="display-global-parameters">
+	{% elsif page.dirattr == 'rtl' %}
+	<body class="rtl">
 	{% else %}
 	<body>
 	{% endif %}
