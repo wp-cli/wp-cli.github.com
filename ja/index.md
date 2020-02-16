@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Command line interface for WordPress
+dirattr: ltr
 ---
 
 [WP-CLI](https://wp-cli.org/) は [WordPress](https://wordpress.org/) を管理するためのコマンドラインインターフェースです。
