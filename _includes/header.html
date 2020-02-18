@@ -1,5 +1,5 @@
 <!DOCTYPE html>{% assign hreflang = 'en' %}{% for lang in site.languages %}{% if lang.path == page.url %}{% assign hreflang = lang.iso-alpha2 %}{% endif %}{% endfor %}
-<html hreflang="{{hreflang}}">
+<html hreflang="{{hreflang}}" dir="{{ page.direction }}">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -17,10 +17,11 @@
 
 		{% for lang in site.languages %}<link rel="alternate" hreflang="{{lang.iso-alpha2}}" href="{{site.url}}{{lang.path}}" />
 		{% endfor %}
-	</head>
-
+	</head>	
 	{% if page.display_global_parameters %}
 	<body class="display-global-parameters">
+	{% elsif page.direction == 'rtl' %}
+	<body class="rtl">
 	{% else %}
 	<body>
 	{% endif %}

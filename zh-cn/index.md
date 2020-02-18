@@ -1,6 +1,7 @@
 ---
 layout: default
 title: WordPress 命令行交互界面
+direction: ltr
 ---
 
 [WP-CLI](https://wp-cli.org/) 是一款用于管理 [WordPress](https://wordpress.org/) 的命令行交互界面，无需浏览器即可完成插件更新，多站点设置等许多操作。
