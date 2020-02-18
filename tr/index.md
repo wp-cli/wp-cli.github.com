@@ -1,7 +1,7 @@
 ---
 layout: default
 title: WordPress için Komut Satırı Arayüzü
-dirattr: ltr
+direction: ltr
 ---
 
 [WP-CLI](https://wp-cli.org/), [WordPress](https://wordpress.org/) için komut satırı arayüzüdür. Eklenti güncellemesi, multisite kurulumların yapılandırılması ve daha birçok şeyi web tarayıcısına ihtiyaç duymadan gerçekleştirebilirsiniz.

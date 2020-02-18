@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Kommandozeilen-Benutzeroberfläche für WordPress
-dirattr: ltr
+direction: ltr
 ---
 
 [WP-CLI](https://wp-cli.org/) ist das Kommandozeilen-Werkzeug für [WordPress](https://de.wordpress.org/). Du kannst Plugins aktualisieren, Multisite-Installationen konfigurieren und vieles mehr, ohne einen Browser zu benutzen.
