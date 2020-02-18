@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Interface en ligne de commande pour WordPress
-dirattr: ltr
+direction: ltr
 ---
 
 [WP-CLI](https://wp-cli.org/fr) est un ensemble d'outils en ligne de commande pour gérer vos installations [WordPress](https://fr.wordpress.org/). Vous pouvez mettre à jour les extensions, configurer des installations multisite et beaucoup plus sans avoir recours à un navigateur web.
