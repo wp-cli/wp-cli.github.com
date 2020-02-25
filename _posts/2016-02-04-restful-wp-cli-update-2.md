@@ -124,7 +124,7 @@ I'd much prefer:
 
     wp @wpapi tag create
 
-In the example preceeding, `@wpapi` is an alias for both the target and authentication.
+In the example preceding, `@wpapi` is an alias for both the target and authentication.
 
 In this hypothetical universe, aliases would also be injected into the WP-CLI runtime:
 
@@ -145,4 +145,4 @@ In this hypothetical universe, aliases would also be injected into the WP-CLI ru
 
 There's a bit of thinking to do, and code to write, to get from here to there, though.
 
-Feeling inspired? I want to hear from you! Particularly if you've written custom endpoints I can test against. Please [open a Github issue](https://github.com/danielbachhuber/wp-rest-cli/issues) with questions, feedback, and violent dissent, or [email me directly](mailto:daniel@handbuilt.co).
+Feeling inspired? I want to hear from you! Particularly if you've written custom endpoints I can test against. Please [open a GitHub issue](https://github.com/danielbachhuber/wp-rest-cli/issues) with questions, feedback, and violent dissent, or [email me directly](mailto:daniel@handbuilt.co).

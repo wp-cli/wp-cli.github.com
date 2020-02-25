@@ -10,7 +10,7 @@ Have a question about something related to WP-CLI? You might find an answer in o
 
 - [Common issues and their fixes](https://wp-cli.org/docs/common-issues/)
 - [Documentation portal](https://wp-cli.org/docs/)
-- [Open or closed issues on Github](https://github.com/wp-cli/wp-cli/issues?utf8=%E2%9C%93&q=is%3Aissue)
+- [Open or closed issues on GitHub](https://github.com/wp-cli/wp-cli/issues?utf8=%E2%9C%93&q=is%3Aissue)
 - [runcommand Excerpts](https://runcommand.io/excerpts/)
 - [WordPress StackExchange forums](http://wordpress.stackexchange.com/questions/tagged/wp-cli)
 
