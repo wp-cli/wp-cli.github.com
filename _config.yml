@@ -34,6 +34,9 @@ languages:
 - label: Japanese
   iso-alpha2: ja
   path: /ja/
+- label: Persian (Farsi)
+  iso-alpha2: fa
+  path: /fa/
 - label: Français
   iso-alpha2: fr
   path: /fr/
