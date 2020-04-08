@@ -74,7 +74,7 @@ Profiling works for any CRUD operation.
     Debug (rest): REST command executed 31 queries in 0.023309 seconds. Use --debug=rest to see all queries. (1.634s)
     Success: Updated post.
 
-Hopefully this feature becomes an invaluable part of your REST endpoint development process, as it has mine. Hit me with feedback on [its Github issue](https://github.com/danielbachhuber/wp-rest-cli/issues/42).
+Hopefully this feature becomes an invaluable part of your REST endpoint development process, as it has mine. Hit me with feedback on [its GitHub issue](https://github.com/danielbachhuber/wp-rest-cli/issues/42).
 
 ### Use `wp rest * edit` to edit a resource in your system editor
 
@@ -130,4 +130,4 @@ I'd love your input on the dozens of ideas I have for a more RESTful WP-CLI:
 * Introduce `wp rest * diff` to be able to diff the state of two different WordPresses, a la [Dictator](https://github.com/danielbachhuber/dictator) [[#56](https://github.com/danielbachhuber/wp-rest-cli/issues/56)].
 * Figure out an elegant aliases implementation, so `--http=http://daniel:daniel@wordpress-develop.dev` becomes `@wpdev` [[#2039](https://github.com/wp-cli/wp-cli/issues/2039)]
 
-And I want to hear your ideas too! As well as any feedback, questions, or violent dissent. [Let's chat on Github](https://github.com/danielbachhuber/wp-rest-cli/issues).
+And I want to hear your ideas too! As well as any feedback, questions, or violent dissent. [Let's chat on GitHub](https://github.com/danielbachhuber/wp-rest-cli/issues).
