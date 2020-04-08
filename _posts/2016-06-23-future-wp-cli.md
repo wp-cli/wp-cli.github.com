@@ -6,7 +6,7 @@ title: The future of WP-CLI
 
 As you might be aware, WP-CLI is an indispensable tool for many individuals and companies. We very much appreciate our community of users (although we have no idea how many of you there actually are), and want to ensure our relationship is strong for the years to come.
 
-Just over a month ago, I [started a Github issue](https://github.com/wp-cli/wp-cli/issues/2743) with this question:
+Just over a month ago, I [started a GitHub issue](https://github.com/wp-cli/wp-cli/issues/2743) with this question:
 
 > how do I reduce WP-CLI's bus factor, and more generally lay a foundation for WP-CLI's long-term organizational stability?
 
@@ -16,7 +16,7 @@ Based on our conversation, we think the most important task is to reduce WP-CLI'
 
 * Documentation - Help ensure WP-CLI's documentation is world-class.
 * Marketing / community management - Help spread the word about WP-CLI.
-* Support - Help WP-CLI users where they're asking questions, let it be Github, WordPress.org, Stack Exchange, or elsewhere.
+* Support - Help WP-CLI users where they're asking questions, let it be GitHub, WordPress.org, Stack Exchange, or elsewhere.
 
 Contributions in these areas will always be welcome. Maintainership is a longer-term commitment to the project, focused on ongoing improvements to the specific area. WP-CLI expects its maintainers to commit a few hours per week to the project.
 
