@@ -10,11 +10,11 @@ direction: ltr
 
 <a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://pantheon.io/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/pantheon.png" alt="" width="160" height="50" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/SG_logo.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
 
-Lansarea stabilă curentă este [versiunea 2.3.0](https://make.wordpress.org/cli/2019/08/14/wp-cli-v2-3-0-release-notes/). Pentru anunțuri, urmărește [@wpcli pe Twitter](https://twitter.com/wpcli) sau [înregistrează-te pentru actualizări pe email](https://make.wordpress.org/cli/subscribe/). [Consultă foaia de parcurs](https://make.wordpress.org/cli/handbook/roadmap/) pentru o prezentare generală a ceea ce este plănuit pentru lansările viitoare.
+Lansarea stabilă curentă este [versiunea 2.4.0](https://make.wordpress.org/cli/2019/11/12/wp-cli-v2-4-0-release-notes/). Pentru anunțuri, urmărește [@wpcli pe Twitter](https://twitter.com/wpcli) sau [înregistrează-te pentru actualizări pe email](https://make.wordpress.org/cli/subscribe/). [Consultă foaia de parcurs](https://make.wordpress.org/cli/handbook/roadmap/) pentru o prezentare generală a ceea ce este plănuit pentru lansările viitoare.
 
 [![Stare compilare](https://travis-ci.org/wp-cli/wp-cli.svg?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Durata medie pentru rezolvarea unei probleme](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Durata medie pentru rezolvarea unei probleme") [![Procentul problemelor încă deschise](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Procentul problemelor încă deschise")
 
-Legături rapide: [Folosire](#folosire) &#124; [Instalare](#instalare) &#124; [Asistență](#asistenta) &#124; [Extindere](#extindere) &#124; [Contribuire](#contribuire) &#124; [Credite](#credite)
+Legături rapide: [Folosire](#folosire) &#124; [Instalare](#instalare) &#124; [Asistență](#asistenta) &#124; [Extindere](#extindere) &#124; [Contribuție](#contribuire) &#124; [Credite](#credite)
 
 ## Folosire
 
@@ -86,7 +86,7 @@ WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 2.3.0
+WP-CLI version: 2.4.0
 ```
 
 ### Actualizare
@@ -99,7 +99,7 @@ Vrei să trăiești viața la limită? Rulează `wp cli update --nightly` pentru
 
 ### Auto-completare
 
-WP-CLI vine de asemenea cu un script de auto-completare pentru Bash și ZSH. Doar descarcă [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.3.0/utils/wp-completion.bash) și rulează source pe el din `~/.bash_profile`:
+WP-CLI vine de asemenea cu un script de auto-completare pentru Bash și ZSH. Doar descarcă [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.4.0/utils/wp-completion.bash) și rulează source pe el din `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
@@ -174,7 +174,7 @@ WP_CLI::add_command( 'option delete', $delete_option_cmd );
 
 WP-CLI vine cu zeci de comenzi. Este mai ușor decât pare să creezi o comandă personalizată WP-CLI. Citește [cartea de bucate a comenzilor](https://make.wordpress.org/cli/handbook/commands-cookbook/) pentru a afla mai multe. Răsfoiește [documentația internă API](https://make.wordpress.org/cli/handbook/internal-api/) pentru a descoperi o varietate de funcții ajutătoare pe care le poți folosi în comanda ta personalizată WP-CLI.
 
-## Contribuire
+## Contribuție
 
 Apreciem că ai inițiativa de a contribui la WP-CLI. Datorită ție și comunității din jurul tău, acest WP-CLI este un proiect grozav.
 
