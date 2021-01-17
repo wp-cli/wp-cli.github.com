@@ -50,7 +50,7 @@ La descarga del archivo Phar es nuestro método de instalación recomendado para
 Antes de instalar WP-CLI, asegúrate de que tu entorno cumple con los requisitos mínimos:
 
 - Entorno de tipo UNIX (OS X, Linux, FreeBSD, Cygwin); soporte limitado en el entorno de Windows
-- PHP 5.4 o posterior
+- PHP 5.6 o posterior
 - WordPress 3.7 o posterior. Las versiones anteriores a la última versión de WordPress pueden tener funcionalidad degradada
 
 Una vez que hayas verificado los requisitos, descarga el archivo [wp-cli.phar](https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) usando `wget` o `curl` :
