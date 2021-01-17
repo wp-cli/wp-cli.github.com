@@ -50,7 +50,7 @@ Success: 34 transients deleted from the database.
 在安装 WP-CLI 之前，请确保您的操作环境满足最低要求：
 
 - UNIX 环境（OS X，Linux，FreeBSD，Cygwin），某些功能在 Windows 中将受到限制。
-- PHP 5.4 或更高版本。
+- PHP 5.6 或更高版本。
 - WordPress 3.7 或更高版本，较旧版本在功能上可能会有所减少。
 
 再次检查操作环境，使用  `wget` 或 `curl` 下载 [wp-cli.phar](https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar)：

@@ -55,7 +55,7 @@ Temel şeyleri zaten biliyorum diyorsanız, direkt [komutlara](https://developer
 Lütfen WP-CLI'i kurmadan önce minimum ortam gereksinimlerin karşılandığından emin olunuz:
 
 - UNIX-benzeri işletim sistemi (OS X, Linux, FreeBSD, Cygwin); Windows kısıtlı desteklenir
-- PHP 5.4 veya sonrası
+- PHP 5.6 veya sonrası
 - WordPress 3.7 veya daha üst sürüm. Son WordPress sürümden eski sürümler daha az işlevsellik sunabilir
 
 Gerensinimleri karşıladıktan sonra, [wp-cli.phar](https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) dosyasını `wget` veya `curl` ile indirin:

@@ -50,7 +50,7 @@ Success: 34 transients deleted from the database.
 قبل از نصب WP-CLI، لطفا از دارا بودن حداقل امکانات مورد نیاز مطمئن شوید:
 
 - سیستم‌های یونیکسی (OS X, Linux, FreeBSD, Cygwin); در ویندوز کمتر پشتیبانی می‌شود
-- PHP 5.4 or later
+- PHP 5.6 or later
 - وردپرس 3.7 به بالا. در نسخه‌های قدیمی‌تر ممکن است با مشکل روبرو شوید
 
  وقتی از داشتن حداقل امکانات مطمئن شدید، پرونده [wp-cli.phar](https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) را بصورت `wget` یا `curl` دریافت کیند:
