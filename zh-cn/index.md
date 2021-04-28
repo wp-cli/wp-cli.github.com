@@ -12,7 +12,7 @@ direction: ltr
 
 目前的稳定版本是 [2.4.0](https://make.wordpress.org/cli/2019/11/12/wp-cli-v2-4-0-release-notes/)。如果您想获取最新信息，请在 Twitter 上关注 [@wpcli](https://twitter.com/wpcli) 或者 [订阅邮件通知](https://make.wordpress.org/cli/subscribe/)。请参阅 [产品路线图](https://make.wordpress.org/cli/handbook/roadmap/) 了解未来更新规划。
 
-[![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
+[![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
 导航链接：[使用](#使用) &#124; [安装](#安装) &#124; [支持](#支持) &#124; [扩展](#扩展) &#124; [贡献](#贡献) &#124; [参考](#参考)
 

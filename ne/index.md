@@ -8,7 +8,7 @@ direction: ltr
 
 अद्यावधिक हुन, [टुइटरमा @wpcli](https://twitter.com/wpcli) फलो गर्नुहोस् वा [इमेल न्यूजलेटरको लागि साइन अप गर्नुहोस्](http://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e) ।
 
-[![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "समस्या समाधान गर्न लाग्ने औसत समय") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "खुला मुद्दाहरू प्रतिशतमा")
+[![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "समस्या समाधान गर्न लाग्ने औसत समय") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "खुला मुद्दाहरू प्रतिशतमा")
 
 द्रुत लिंकहरु: [प्रयोग](#section) &#124; [स्थापना](#section-1) &#124; [सहायता](#section-4) &#124; [विस्तार](#section-5) &#124; [योगदान](#section-6) &#124; [श्रेय](#section-8)
 
