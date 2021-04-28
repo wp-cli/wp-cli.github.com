@@ -12,7 +12,7 @@ Süregelen bakım, <a href="https://make.wordpress.org/cli/2019/06/27/thanks-to-
 
 Mevcut kararlı sürüm [versiyon 2.3.0](https://make.wordpress.org/cli/2019/08/14/wp-cli-v2-3-0-release-notes/). Duyurular için [@wpcli Twitter](https://twitter.com/wpcli) hesabını takip edebilir ya da [eposta bültenine abone olabilirsiniz](https://make.wordpress.org/cli/subscribe/). Gelecek sürüm planına genel bir bakış için [yol haritasına göz atın](https://make.wordpress.org/cli/handbook/roadmap/).
 
-[![Build Status](https://travis-ci.org/wp-cli/wp-cli.svg?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
+[![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
 
 
