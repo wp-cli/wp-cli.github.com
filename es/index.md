@@ -12,7 +12,7 @@ El mantenimiento continuo es <a href="https://make.wordpress.org/cli/2017/04/03/
 
 La versión estable actual es la [2.1.0](https://make.wordpress.org/cli/2018/12/18/wp-cli-v2-1-0-release-notes/). Para estar al día, sigue [@wpcli en Twitter](https://twitter.com/wpcli) o [regístrate para recibir actualizaciones por correo electrónico](https://make.wordpress.org/cli/subscribe/). [Consulta la hoja de ruta](https://make.wordpress.org/cli/handbook/roadmap/) para una visión general de lo que está planeado para las próximas versiones.
 
-[![Build Status](https://travis-ci.org/wp-cli/wp-cli.svg?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
+[![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
 Enlaces rápidos: [Uso](#uso) &#124; [Instalación](#instalación) &#124; [Soporte](#soporte) &#124; [Extendiendo](#extendiendo) &#124; [Contribuyendo](#contribuyendo) &#124; [Créditos](#créditos)
 
