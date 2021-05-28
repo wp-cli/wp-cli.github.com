@@ -147,7 +147,7 @@ Por favor, no hagas preguntas de soporte en Twitter. Twitter no es un lugar acep
 
 Recuerda, libre != gratis; la licencia open source te da la libertad de usar y modificar, pero no a expensas del tiempo de otras personas. Por favor, se respetuoso y establece tus expectativas en consecuencia.
 
-## Extendiendo
+## Extender
 
 Un **comando** es la unidad atómica de la funcionalidad de WP-CLI. `wp plugin install` ([doc](https://developer.wordpress.org/cli/commands/plugin/install/)) es un comando. `wp plugin activate` ([doc](https://developer.wordpress.org/cli/commands/plugin/activate/)) es otro.
 
