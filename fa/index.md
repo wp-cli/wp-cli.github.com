@@ -12,7 +12,7 @@ direction: rtl
 
 نگارش پایدار فعلی [version 2.4.0](https://make.wordpress.org/cli/2019/11/12/wp-cli-v2-4-0-release-notes/)است. برای پیگیری اعلانات، [@wpcli on Twitter](https://twitter.com/wpcli) را دنبال کنید یا [برای دریافت ایمیل ثبت‌نام کنید](https://make.wordpress.org/cli/subscribe/). برای بررسی برنامه‌ریزی‌های آینده انتشار [نقشه راه را برررسی کنید](https://make.wordpress.org/cli/handbook/roadmap/).
 
-[![وضعیت ساخت](https://travis-ci.org/wp-cli/wp-cli.svg?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![زمان متوسط برای رفع مشکل](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "زمان متوسط برای رفع مشکل") [![درصد مشکلات باز](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "درصد مشکلات باز")
+[![وضعیت ساخت](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![زمان متوسط برای رفع مشکل](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "زمان متوسط برای رفع مشکل") [![درصد مشکلات باز](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "درصد مشکلات باز")
 
 پیوندهای سریع: [استفاده](#using) &#124; [نصب](#installing) &#124; [پشتیبانی](#support) &#124; [گسترش](#extending) &#124; [مشارکت](#contributing) &#124; [همکاران](#credits)
 
