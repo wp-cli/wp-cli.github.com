@@ -13,7 +13,7 @@ Das aktuelle stabile Release ist [Version 2.4.0](https://make.wordpress.org/cli/
 
 [![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Durchschnittliche Zeit, bis ein Problem behoben wurde](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Durchschnittliche Zeit, bis ein Problem behoben wurde") [![Prozentuale Anzahl an offenen Problemen](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Prozentuale Anzahl an offenen Problemen")
 
-Quick links: [Benutzung](#using) &#124; [Installation](#installing) &#124; [Support](#support) &#124; [Erweitern](#extending) &#124; [Mitwirken](#contributing) &#124; [Credits](#credits)
+Quick links: [Benutzung](#benutzung) &#124; [Installation](#installation) &#124; [Support](#support) &#124; [Erweitern](#erweitern) &#124; [Mitwirken](#mitwirken) &#124; [Credits](#credits)
 
 ## Benutzung
 
