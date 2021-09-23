@@ -12,7 +12,7 @@ direction: ltr
 
 Lansarea stabilă curentă este [versiunea 2.4.0](https://make.wordpress.org/cli/2019/11/12/wp-cli-v2-4-0-release-notes/). Pentru anunțuri, urmărește [@wpcli pe Twitter](https://twitter.com/wpcli) sau [înregistrează-te pentru actualizări pe email](https://make.wordpress.org/cli/subscribe/). [Consultă foaia de parcurs](https://make.wordpress.org/cli/handbook/roadmap/) pentru o prezentare generală a ceea ce este plănuit pentru lansările viitoare.
 
-[![Stare compilare](https://travis-ci.org/wp-cli/wp-cli.svg?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Durata medie pentru rezolvarea unei probleme](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Durata medie pentru rezolvarea unei probleme") [![Procentul problemelor încă deschise](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Procentul problemelor încă deschise")
+[![Stare compilare](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Durata medie pentru rezolvarea unei probleme](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Durata medie pentru rezolvarea unei probleme") [![Procentul problemelor încă deschise](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Procentul problemelor încă deschise")
 
 Legături rapide: [Folosire](#folosire) &#124; [Instalare](#instalare) &#124; [Asistență](#asistenta) &#124; [Extindere](#extindere) &#124; [Contribuție](#contribuire) &#124; [Credite](#credite)
 
