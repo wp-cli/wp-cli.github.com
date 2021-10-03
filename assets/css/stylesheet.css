@@ -453,7 +453,7 @@ body.display-global-parameters #main_content {
 
 @media (max-width: 970px) {
 	#main_content {
-		padding: 0 20px;
+		padding: 0; /* parent .container will provide needed spacement */
 		margin: 0;
 	}
 }
