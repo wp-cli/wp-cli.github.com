@@ -288,6 +288,19 @@ header h1 {
 	margin-bottom: 20px;
 }
 
+@media (max-width: 970px) {
+	header h1 {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 690px) {
+	/* Avoid collision with the language selector */
+	header h1 {
+		padding-top: 40px;
+	}
+}
+
 header h1 img {
 	vertical-align: middle;
 }
@@ -436,6 +449,13 @@ body.display-global-parameters #main_content {
 	margin: 0 -20px;
 	box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 970px) {
+	#main_content {
+		padding: 0; /* parent .container will provide needed spacement */
+		margin: 0;
+	}
 }
 
 #main_content h1 {
@@ -707,14 +727,8 @@ hr:after,
 	}
 }
 
-@media (max-width: 970px) {
-	header h1 {
-		margin-left: 0;
-	}
-}
-
 @media (max-width: 690px) {
-	.main-nav li a {
+	.main-nav li:not(:nth-child(5)) a {
 		padding-left: 0;
 	}
 
