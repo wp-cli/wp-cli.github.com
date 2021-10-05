@@ -6,11 +6,16 @@ direction: ltr
 
 [WP-CLI](https://wp-cli.org/) é a interface em linha de comando para o [WordPress](https://br.wordpress.org/). Você pode atualizar plugins, configurar instalações multisite e muito mais, sem utilizar um navegador web.
 
-A manutenção contínua é possível <a href="https://make.wordpress.org/cli/2019/06/27/thanks-to-the-2019-sponsors/">graças aos seguintes patrocinadores</a>:
+A manutenção contínua é possível graças aos seguintes patrocinadores:
 
-<a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://pantheon.io/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/pantheon.png" alt="" width="160" height="50" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/SG_logo.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
+<a href="https://automattic.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" alt="" width="320" height="70" class="aligncenter size-full wp-image-347" /></a>
+<a href="https://www.bluehost.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full wp-image-335" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="320" height="52" /></a>
+<a href="https://pantheon.io/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full wp-image-333" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.wordpress.org/cli/files/2019/06/pantheon.png" alt="" width="320" height="100" /></a>
+<a href="https://www.siteground.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full wp-image-332" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.wordpress.org/cli/files/2019/06/SG_logo.png" alt="" width="320" height="66" /></a>
+<a href="https://wpengine.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full wp-image-333" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="320" height="60" /></a>
+<a href="https://www.cloudways.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full wp-image-3229" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.wordpress.org/cli/files/2021/02/Cloudways-Logo-e1612285267691.png" alt="" width="320" height="62" /></a>
 
-A versão estável mais recente é a [2.4.0](https://make.wordpress.org/cli/2019/11/12/wp-cli-v2-4-0-release-notes/). Para manter-se atualizado, siga [@wpcli no Twitter](https://twitter.com/wpcli) ou [assine nossa newsletter](https://make.wordpress.org/cli/subscribe/). [Leia nosso plano de ação](https://make.wordpress.org/cli/handbook/roadmap/) para uma visão geral do que está sendo planejado para próximas versões.
+A versão estável mais recente é a [2.5.0](https://make.wordpress.org/cli/2021/05/19/wp-cli-v2-5-0-release-notes/). Para manter-se atualizado, siga [@wpcli no Twitter](https://twitter.com/wpcli) ou [assine nossa newsletter](https://make.wordpress.org/cli/subscribe/). [Leia nosso plano de ação](https://make.wordpress.org/cli/handbook/roadmap/) para uma visão geral do que está sendo planejado para próximas versões.
 
 [![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Tempo médio para resolver um issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Percentual de issues ainda abertos")
 
@@ -76,17 +81,21 @@ Se a WP-CLI foi instalada corretamente, ao executar `wp --info` você deverá ve
 
 ```bash
 $ wp --info
-OS:	Darwin 16.7.0 Darwin Kernel Version 16.7.0: Thu Jan 11 22:59:40 PST 2018; root:xnu-3789.73.8~1/RELEASE_X86_64 x86_64
-Shell:	/bin/zsh
-PHP binary:    /usr/local/bin/php
-PHP version:    7.0.22
-php.ini used:   /etc/local/etc/php/7.0/php.ini
-WP-CLI root dir:        /home/wp-cli/.wp-cli/vendor/wp-cli/wp-cli
-WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
+OS:     Linux 4.19.128-microsoft-standard #1 SMP Tue Jun 23 12:58:10 UTC 2020 x86_64
+Shell:  /usr/bin/zsh
+PHP binary:     /usr/bin/php
+PHP version:    8.0.5
+php.ini used:   /etc/php/8.0/cli/php.ini
+MySQL binary:   /usr/bin/mysql
+MySQL version:  mysql  Ver 8.0.23-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
+SQL modes:
+WP-CLI root dir:        /home/wp-cli/
+WP-CLI vendor dir:      /home/wp-cli/vendor
+WP_CLI phar path:
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
-WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
-WP-CLI project config:
-WP-CLI version: 2.4.0
+WP-CLI global config:
+WP-CLI project config:  /home/wp-cli/wp-cli.yml
+WP-CLI version: 2.5.0
 ```
 
 ### Atualizando
@@ -95,11 +104,11 @@ WP-CLI pode ser atualizada com `wp cli update` ([doc](https://developer.wordpres
 
 Se o proprietário do arquivo da WP-CLI for root ou outro usuário do sistema, será necessário executar `sudo wp cli update`.
 
-Quer viver a vida no limite? Execute `wp cli update --nightly` para usar a última compilação de desenvolvimento da WP-CLI. Essa versão é estável o suficiente para ser usada em seu ambiente de desenvolvimento e sempre inclui as melhores e mais recentes funcionalidades da WP-CLI.
+Quer viver no limite? Execute `wp cli update --nightly` para usar a última compilação de desenvolvimento da WP-CLI. Essa versão é estável o suficiente para ser usada em seu ambiente de desenvolvimento e sempre inclui as melhores e mais recentes funcionalidades da WP-CLI.
 
 ### Autocompletar com tab
 
-WP-CLI também possui scripts de autocompletar para Bash ou ZSH. Baixe [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.4.0/utils/wp-completion.bash) e carregue-o através do `~/.bash_profile`:
+A WP-CLI também possui scripts de autocompletar para Bash ou ZSH. Baixe [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.4.0/utils/wp-completion.bash) e carregue-o através do `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
