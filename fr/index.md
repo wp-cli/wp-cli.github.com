@@ -6,9 +6,35 @@ direction: ltr
 
 [WP-CLI](https://wp-cli.org/fr) est un ensemble d'outils en ligne de commande pour gérer vos installations [WordPress](https://fr.wordpress.org/). Vous pouvez mettre à jour les extensions, configurer des installations multisite et beaucoup plus sans avoir recours à un navigateur web.
 
-L'entretien continu de ce projet est <a href="https://make.wordpress.org/cli/2019/06/27/thanks-to-the-2019-sponsors/">possible grâce à</a> :
+L'entretien continu de ce projet est possible grâce à :
 
-<a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://pantheon.io/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/pantheon.png" alt="" width="160" height="50" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/SG_logo.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
+<div style="
+		display: flex; 
+		flex-wrap: wrap; 
+		align-items: center; 
+		justify-content: space-between; 
+		text-align: center;">
+	<a href="https://automattic.com/" style="width:49%; margin-bottom: 10px">
+		<img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" alt="Automattic" width="320" height="70" style="height: auto" />
+	</a>
+	<a href="https://www.bluehost.com/" style="width:49%; margin-bottom: 10px">
+		<img style="height: auto" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="Bluehost" width="320" height="52" />
+	</a>
+	<a href="https://pantheon.io/" style="width:49%; margin-bottom: 10px">
+		<img style="height: auto" src="https://make.wordpress.org/cli/files/2019/06/pantheon.png" alt="Pantheon" width="320" height="100" />
+	</a>
+	<a href="https://www.siteground.com/" style="width:49%; margin-bottom: 10px">
+		<img style="height: auto" src="https://make.wordpress.org/cli/files/2019/06/SG_logo.png" alt="SiteGround" width="320" height="66" />
+	</a>
+	<a href="https://wpengine.com/" style="width:49%; margin-bottom: 10px">
+		<img style="height: auto" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="WP Engine" width="320" height="60" />
+	</a>
+	<a href="https://www.cloudways.com/" style="width:49%; margin-bottom: 10px">
+		<img style="height: auto" src="https://make.wordpress.org/cli/files/2021/02/Cloudways-Logo-e1612285267691.png" alt="Cloudways" width="320" height="62" />
+	</a>
+</div>
+
+La dernière version stable est la [version 2.5.0](https://make.wordpress.org/cli/2021/05/19/wp-cli-v2-5-0-release-notes/).
 
 Pour rester à jour, suivez [@wpcli sur Twitter](https://twitter.com/wpcli) ou [inscrivez-vous à notre lettre d'information par email](https://make.wordpress.org/cli/subscribe/).
 
@@ -31,7 +57,7 @@ Activating 'rest-api'...
 Success: Plugin 'rest-api' activated.
 ```
 
-WP-CLI inclut aussi des commandes pour d'autres actions que vous ne pouvez pas faire dans l'administration WordPress. Par exemple, `wp transient delete-all` ([doc](https://developer.wordpress.org/cli/commands/transient/delete/)) permet de supprimer un ou tous les "transients" :
+WP-CLI inclut aussi des commandes pour d'autres actions que vous ne pouvez pas faire dans l'administration WordPress. Par exemple, `wp transient delete-all` ([doc](https://developer.wordpress.org/cli/commands/transient/delete/)) permet de supprimer un ou tous les transients :
 
 ```bash
 $ wp transient delete-all
@@ -75,17 +101,17 @@ Si WP-CLI a été installé correctement, vous devez obtenir le résultat suivan
 
 ```bash
 $ wp --info
-OS:	Darwin 16.7.0 Darwin Kernel Version 16.7.0: Thu Jan 11 22:59:40 PST 2018; root:xnu-3789.73.8~1/RELEASE_X86_64 x86_64
+OS:	Ubuntu 20.04
 Shell:	/bin/zsh
 PHP binary:    /usr/local/bin/php
-PHP version:    7.0.22
-php.ini used:   /etc/local/etc/php/7.0/php.ini
+PHP version:    8.0.12
+php.ini used:   /etc/local/etc/php/8.0/php.ini
 WP-CLI root dir:        /home/wp-cli/.wp-cli/vendor/wp-cli/wp-cli
 WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 2.4.0
+WP-CLI version: 2.5.0
 ```
 
 ### Mise à jour
@@ -96,7 +122,7 @@ Vous voulez vivre dangereusement ? Exécutez `wp cli update --nightly` pour inst
 
 ### Tab completions
 
-WP-CLI contient des scripts d'autocomplétion pour Bash et ZSH. Il suffit de télécharger [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.4.0/utils/wp-completion.bash) et de l'importer dans votre fichier `~/.bash_profile`:
+WP-CLI contient des scripts d'autocomplétion pour Bash et ZSH. Il suffit de télécharger [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.5.0/utils/wp-completion.bash) et de l'importer dans votre fichier `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
@@ -183,7 +209,9 @@ Merci de prendre un moment pour [lire le guide du contributeur en profondeur](ht
 
 WP-CLI est dirigé et maintenu par : [schlessera](https://github.com/schlessera).
 
-À l'occasion, il arrive que certains [contributeurs reçoivent des accès plus permissifs](https://make.wordpress.org/cli/handbook/committers-credo/) après avoir démontré leurs capacités et leur temps investis dans le projet.
+La version francophone de ce site est maintenue par : [Maxime Jobin](https://github.com/maximejobin)
+
+À l'occasion, il arrive que certains [contributeurs reçoivent des accès plus permissifs (en)](https://make.wordpress.org/cli/handbook/committers-credo/) après avoir démontré leurs capacités et leur temps investis dans le projet.
 
 Pour en savoir plus sur la [gouvernance (en)](https://make.wordpress.org/cli/handbook/governance/) du projet et voir la [liste complète des contributeurs](https://github.com/wp-cli/wp-cli/contributors).
 
