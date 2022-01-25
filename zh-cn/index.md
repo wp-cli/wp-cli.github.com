@@ -96,7 +96,7 @@ chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
 ```
 
-如果 WP-CI 安装成功，当您运行 `wp --info` 时，可以看到类似下面的回显：
+如果 WP-CLI 安装成功，当您运行 `wp --info` 时，可以看到类似下面的回显：
 
 ```bash
 $ wp --info
