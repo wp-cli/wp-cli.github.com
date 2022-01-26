@@ -31,7 +31,7 @@ Ongoing maintenance is made possible by:
 	</a>
 </div>
 
-The current stable release is [version 2.5.0](https://make.wordpress.org/cli/2021/05/19/wp-cli-v2-5-0-release-notes/). For announcements, follow [@wpcli on Twitter](https://twitter.com/wpcli) or [sign up for email updates](https://make.wordpress.org/cli/subscribe/). [Check out the roadmap](https://make.wordpress.org/cli/handbook/roadmap/) for an overview of what's planned for upcoming releases.
+The current stable release is [version 2.6.0](https://make.wordpress.org/cli/2022/01/25/wp-cli-v2-6-0-release-notes/). For announcements, follow [@wpcli on Twitter](https://twitter.com/wpcli) or [sign up for email updates](https://make.wordpress.org/cli/subscribe/). [Check out the roadmap](https://make.wordpress.org/cli/handbook/roadmap/) for an overview of what's planned for upcoming releases.
 
 [![Testing](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
@@ -97,13 +97,13 @@ If WP-CLI was installed successfully, you should see something like this when yo
 
 ```bash
 $ wp --info
-OS:     Linux 4.19.128-microsoft-standard #1 SMP Tue Jun 23 12:58:10 UTC 2020 x86_64
+OS:     Linux 5.10.60.1-microsoft-standard-WSL2 #1 SMP Wed Aug 25 23:20:18 UTC 2021 x86_64
 Shell:  /usr/bin/zsh
-PHP binary:     /usr/bin/php
-PHP version:    8.0.5
-php.ini used:   /etc/php/8.0/cli/php.ini
+PHP binary:     /usr/bin/php8.1
+PHP version:    8.1.0
+php.ini used:   /etc/php/8.1/cli/php.ini
 MySQL binary:   /usr/bin/mysql
-MySQL version:  mysql  Ver 8.0.23-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
+MySQL version:  mysql  Ver 8.0.27-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
 SQL modes:
 WP-CLI root dir:        /home/wp-cli/
 WP-CLI vendor dir:      /home/wp-cli/vendor
@@ -111,7 +111,7 @@ WP_CLI phar path:
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:
 WP-CLI project config:  /home/wp-cli/wp-cli.yml
-WP-CLI version: 2.5.0
+WP-CLI version: 2.6.0
 ```
 
 ### Updating
@@ -124,7 +124,7 @@ Want to live life on the edge? Run `wp cli update --nightly` to use the latest n
 
 ### Tab completions
 
-WP-CLI also comes with a tab completion script for Bash and ZSH. Just download [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.5.0/utils/wp-completion.bash) and source it from `~/.bash_profile`:
+WP-CLI also comes with a tab completion script for Bash and ZSH. Just download [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.6.0/utils/wp-completion.bash) and source it from `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
