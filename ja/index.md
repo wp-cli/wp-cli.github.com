@@ -9,14 +9,33 @@ direction: ltr
 
 下記のサポーターの協力で継続的なメンテナンスが行われています。
 
-<a href="https://automattic.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" alt="" width="320" height="70" class="aligncenter size-full wp-image-347" /></a>
-<a href="https://www.bluehost.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full wp-image-335" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="320" height="52" /></a>
-<a href="https://pantheon.io/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full wp-image-333" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.wordpress.org/cli/files/2019/06/pantheon.png" alt="" width="320" height="100" /></a>
-<a href="https://www.siteground.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full wp-image-332" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.wordpress.org/cli/files/2019/06/SG_logo.png" alt="" width="320" height="66" /></a>
-<a href="https://wpengine.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full wp-image-333" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="320" height="60" /></a>
-<a href="https://www.cloudways.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full wp-image-3229" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.wordpress.org/cli/files/2021/02/Cloudways-Logo-e1612285267691.png" alt="" width="320" height="62" /></a>
+<div style="
+		display: flex; 
+		flex-wrap: wrap; 
+		align-items: center; 
+		justify-content: space-between; 
+		text-align: center;">
+	<a href="https://automattic.com/" style="width:49%; margin-bottom: 10px">
+		<img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" alt="Automattic" width="320" height="70" style="height: auto" />
+	</a>
+	<a href="https://www.bluehost.com/" style="width:49%; margin-bottom: 10px">
+		<img style="height: auto" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="Bluehost" width="320" height="52" />
+	</a>
+	<a href="https://pantheon.io/" style="width:49%; margin-bottom: 10px">
+		<img style="height: auto" src="https://make.wordpress.org/cli/files/2019/06/pantheon.png" alt="Pantheon" width="320" height="100" />
+	</a>
+	<a href="https://www.siteground.com/" style="width:49%; margin-bottom: 10px">
+		<img style="height: auto" src="https://make.wordpress.org/cli/files/2019/06/SG_logo.png" alt="SiteGround" width="320" height="66" />
+	</a>
+	<a href="https://wpengine.com/" style="width:49%; margin-bottom: 10px">
+		<img style="height: auto" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="WP Engine" width="320" height="60" />
+	</a>
+	<a href="https://www.cloudways.com/" style="width:49%; margin-bottom: 10px">
+		<img style="height: auto" src="https://make.wordpress.org/cli/files/2021/02/Cloudways-Logo-e1612285267691.png" alt="Cloudways" width="320" height="62" />
+	</a>
+</div>
 
-現在の安定バージョンは [2.5.0](https://make.wordpress.org/cli/2021/05/19/wp-cli-v2-5-0-release-notes/) です。 最新情報を得たい人は、[@wpcli on Twitter](https://twitter.com/wpcli) をフォローするか、[メーリングリストにサインアップ](https://make.wordpress.org/cli/subscribe/)してください。[ロードマップ](https://make.wordpress.org/cli/handbook/roadmap/)で、今後のリリースの予定を知ることができます。
+現在の安定バージョンは [2.6.0](https://make.wordpress.org/cli/2022/01/25/wp-cli-v2-6-0-release-notes/) です。 最新情報を得たい人は、[@wpcli on Twitter](https://twitter.com/wpcli) をフォローするか、[メーリングリストにサインアップ](https://make.wordpress.org/cli/subscribe/)してください。[ロードマップ](https://make.wordpress.org/cli/handbook/roadmap/)で、今後のリリースの予定を知ることができます。
 
 [![Testing](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
@@ -83,13 +102,13 @@ sudo mv wp-cli.phar /usr/local/bin/wp
 
 ```bash
 $ wp --info
-OS:     Linux 4.19.128-microsoft-standard #1 SMP Tue Jun 23 12:58:10 UTC 2020 x86_64
+OS:     Linux 5.10.60.1-microsoft-standard-WSL2 #1 SMP Wed Aug 25 23:20:18 UTC 2021 x86_64
 Shell:  /usr/bin/zsh
-PHP binary:     /usr/bin/php
-PHP version:    8.0.5
-php.ini used:   /etc/php/8.0/cli/php.ini
+PHP binary:     /usr/bin/php8.1
+PHP version:    8.1.0
+php.ini used:   /etc/php/8.1/cli/php.ini
 MySQL binary:   /usr/bin/mysql
-MySQL version:  mysql  Ver 8.0.23-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
+MySQL version:  mysql  Ver 8.0.27-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
 SQL modes:
 WP-CLI root dir:        /home/wp-cli/
 WP-CLI vendor dir:      /home/wp-cli/vendor
@@ -97,7 +116,7 @@ WP_CLI phar path:
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:
 WP-CLI project config:  /home/wp-cli/wp-cli.yml
-WP-CLI version: 2.5.0
+WP-CLI version: 2.6.0
 ```
 
 ## アップデート
@@ -110,7 +129,7 @@ WP-CLI のオーナーが root もしくは他のシステム管理者になっ�
 
 ## タブ補完
 
-WP-CLI には、Bash および ZSH 向けのタブ補完スクリプトがあります。 [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.5.0/utils/wp-completion.bash) をダウンロードして、`~/.bash_profile` で読み込んでください。
+WP-CLI には、Bash および ZSH 向けのタブ補完スクリプトがあります。 [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.6.0/utils/wp-completion.bash) をダウンロードして、`~/.bash_profile` で読み込んでください。
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
