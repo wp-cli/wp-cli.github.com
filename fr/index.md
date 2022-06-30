@@ -34,7 +34,7 @@ L'entretien continu de ce projet est possible grâce à :
 	</a>
 </div>
 
-La dernière version stable est la [version 2.5.0](https://make.wordpress.org/cli/2021/05/19/wp-cli-v2-5-0-release-notes/).
+La dernière version stable est la [version 2.6.0](https://make.wordpress.org/cli/2022/01/25/wp-cli-v2-6-0-release-notes/).
 
 Pour rester à jour, suivez [@wpcli sur Twitter](https://twitter.com/wpcli) ou [inscrivez-vous à notre lettre d'information par email](https://make.wordpress.org/cli/subscribe/).
 
@@ -104,14 +104,14 @@ $ wp --info
 OS:	Ubuntu 20.04
 Shell:	/bin/zsh
 PHP binary:    /usr/local/bin/php
-PHP version:    8.0.12
-php.ini used:   /etc/local/etc/php/8.0/php.ini
+PHP version:    8.1.0
+php.ini used:   /etc/local/etc/php/php.ini
 WP-CLI root dir:        /home/wp-cli/.wp-cli/vendor/wp-cli/wp-cli
 WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 2.5.0
+WP-CLI version: 2.6.0
 ```
 
 ### Mise à jour
@@ -122,7 +122,7 @@ Vous voulez vivre dangereusement ? Exécutez `wp cli update --nightly` pour inst
 
 ### Tab completions
 
-WP-CLI contient des scripts d'autocomplétion pour Bash et ZSH. Il suffit de télécharger [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.5.0/utils/wp-completion.bash) et de l'importer dans votre fichier `~/.bash_profile`:
+WP-CLI contient des scripts d'autocomplétion pour Bash et ZSH. Il suffit de télécharger [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.6.0/utils/wp-completion.bash) et de l'importer dans votre fichier `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
