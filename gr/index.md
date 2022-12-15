@@ -48,7 +48,7 @@ Success: 34 transients deleted from the database.
 - PHP 5.3.29 ή νεότερη
 - WordPress 3.7 ή νεότερο
 
-Μόλις επιβεβαιώσετε τις απαιτήσεις, μεταφορτώστε το αρχείο [wp-cli.phar](https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) χρησιμοποιώντας την εντολή `wget` ή `curl`:
+Μόλις επιβεβαιώσετε τις απαιτήσεις, μεταφορτώστε το αρχείο [wp-cli.phar](https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) χρησιμοποιώντας την εντολή `wget` ή `curl`:
 
 ```bash
 $ curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
