@@ -58,7 +58,7 @@ Antes de instalar a WP-CLI, tenha certeza de que seu ambiente cumpre os requisit
 - PHP 5.6 ou superior
 - WordPress 3.7 ou superior. Versões do WordPress anteriores à mais recente podem ter funcionalidade reduzida
 
-Após verificar os requisitos, baixe o arquivo [wp-cli.phar](https://raw.github.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) usando `wget` ou `curl`:
+Após verificar os requisitos, baixe o arquivo [wp-cli.phar](https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) usando `wget` ou `curl`:
 
 ```bash
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
