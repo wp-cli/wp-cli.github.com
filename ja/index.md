@@ -116,7 +116,7 @@ WP_CLI phar path:
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:
 WP-CLI project config:  /home/wp-cli/wp-cli.yml
-WP-CLI version: 2.8.0
+WP-CLI version: 2.8.1
 ```
 
 ## アップデート
