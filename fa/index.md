@@ -99,7 +99,7 @@ WP-CLI version: 2.8.1
 
 ### کامل‌سازی با تب
 
-WP-CLI دارای قابلیت کامل‌سازی با تب برای بش و ZSH است. کافیست [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.4.0/utils/wp-completion.bash) را دریافت و از `~/.bash_profile` سورس کنید:
+WP-CLI دارای قابلیت کامل‌سازی با تب برای بش و ZSH است. کافیست [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.8.1/utils/wp-completion.bash) را دریافت و از `~/.bash_profile` سورس کنید:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash

@@ -124,7 +124,7 @@ Lebst du gerne gefährlich? Führe `wp cli update --nightly` aus, um den letzten
 
 ### Tab-Vervollständigung
 
-Für WP-CLI gibt es auch ein Skript zur Autovervollständigung von Befehlen für Bash und ZSH. Lade einfach die [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.6.0/utils/wp-completion.bash) herunter und referenziere sie in der `~/.bash_profile`-Datei:
+Für WP-CLI gibt es auch ein Skript zur Autovervollständigung von Befehlen für Bash und ZSH. Lade einfach die [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.8.1/utils/wp-completion.bash) herunter und referenziere sie in der `~/.bash_profile`-Datei:
 
 ```bash
 source /ABSOLUTER/PFAD/ZUR/wp-completion.bash

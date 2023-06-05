@@ -124,7 +124,7 @@ Vous voulez vivre dangereusement ? Exécutez `wp cli update --nightly` pour inst
 
 ### Autocomplétion
 
-WP-CLI contient des scripts d'autocomplétion pour Bash et ZSH. Il suffit de télécharger [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.7.1/utils/wp-completion.bash) et de l'importer dans votre fichier `~/.bash_profile`:
+WP-CLI contient des scripts d'autocomplétion pour Bash et ZSH. Il suffit de télécharger [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.8.1/utils/wp-completion.bash) et de l'importer dans votre fichier `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash

@@ -127,7 +127,7 @@ WP-CLI version: 2.5.0
 
 ### Tab 命令行补全
 
-WP-CLI 带有用于 Bash 和 ZSH 的命令行补全脚本。下载 [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.5.0/utils/wp-completion.bash) 并在 `~/.bash_profile` 中加载即可，例如：
+WP-CLI 带有用于 Bash 和 ZSH 的命令行补全脚本。下载 [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.8.1/utils/wp-completion.bash) 并在 `~/.bash_profile` 中加载即可，例如：
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
