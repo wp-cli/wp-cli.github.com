@@ -129,7 +129,7 @@ WP-CLI は、`wp cli update` ([ドキュメント](https://developer.wordpress.o
 
 ## タブ補完
 
-WP-CLI には、Bash および Zsh 向けのタブ補完スクリプトがあります。スクリプトを使うときは [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.6.0/utils/wp-completion.bash) をダウンロードして、`~/.bash_profile` で読み込みます。
+WP-CLI には、Bash および Zsh 向けのタブ補完スクリプトがあります。スクリプトを使うときは [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.8.1/utils/wp-completion.bash) をダウンロードして、`~/.bash_profile` で読み込みます。
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash

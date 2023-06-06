@@ -34,7 +34,7 @@ direction: ltr
 	</a>
 </div>
 
-目前的稳定版本是 [2.5.0](https://make.wordpress.org/cli/2021/05/19/wp-cli-v2-5-0-release-notes/)。如果您想获取最新信息，请在 Twitter 上关注 [@wpcli](https://twitter.com/wpcli) 或者 [订阅邮件通知](https://make.wordpress.org/cli/subscribe/)。参阅 [产品路线图](https://make.wordpress.org/cli/handbook/roadmap/) 了解未来版本的更新规划。
+目前的稳定版本是 [2.5.0](https://make.wordpress.org/cli/2023/06/05/wp-cli-v2-8-1-release-notes/)。如果您想获取最新信息，请在 Twitter 上关注 [@wpcli](https://twitter.com/wpcli) 或者 [订阅邮件通知](https://make.wordpress.org/cli/subscribe/)。参阅 [产品路线图](https://make.wordpress.org/cli/handbook/roadmap/) 了解未来版本的更新规划。
 
 [![Testing](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
@@ -127,7 +127,7 @@ WP-CLI version: 2.5.0
 
 ### Tab 命令行补全
 
-WP-CLI 带有用于 Bash 和 ZSH 的命令行补全脚本。下载 [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.5.0/utils/wp-completion.bash) 并在 `~/.bash_profile` 中加载即可，例如：
+WP-CLI 带有用于 Bash 和 ZSH 的命令行补全脚本。下载 [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.8.1/utils/wp-completion.bash) 并在 `~/.bash_profile` 中加载即可，例如：
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash

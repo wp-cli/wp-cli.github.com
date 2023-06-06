@@ -10,7 +10,7 @@ Süregelen bakım, <a href="https://make.wordpress.org/cli/2019/06/27/thanks-to-
 
 <a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://pantheon.io/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/pantheon.png" alt="" width="160" height="50" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/SG_logo.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
 
-Mevcut kararlı sürüm [versiyon 2.3.0](https://make.wordpress.org/cli/2019/08/14/wp-cli-v2-3-0-release-notes/). Duyurular için [@wpcli Twitter](https://twitter.com/wpcli) hesabını takip edebilir ya da [eposta bültenine abone olabilirsiniz](https://make.wordpress.org/cli/subscribe/). Gelecek sürüm planına genel bir bakış için [yol haritasına göz atın](https://make.wordpress.org/cli/handbook/roadmap/).
+Mevcut kararlı sürüm [versiyon 2.3.0](https://make.wordpress.org/cli/2023/06/05/wp-cli-v2-8-1-release-notes/). Duyurular için [@wpcli Twitter](https://twitter.com/wpcli) hesabını takip edebilir ya da [eposta bültenine abone olabilirsiniz](https://make.wordpress.org/cli/subscribe/). Gelecek sürüm planına genel bir bakış için [yol haritasına göz atın](https://make.wordpress.org/cli/handbook/roadmap/).
 
 [![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
@@ -105,7 +105,7 @@ Sınırda yaşamayı seviyor musunuz?  `wp cli update --nightly` komutu ile nigh
 
 ### Sekme tamamlama
 
-WP-CLI ayrıca, Bash ve ZSH için sekme tamamlama scripti sunar. Yapmanız gereken sadece [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.3.0/utils/wp-completion.bash) dosyasını indirmek ve kaynak olarak `~/.bash_profile` dosyanıza tanımlamak:
+WP-CLI ayrıca, Bash ve ZSH için sekme tamamlama scripti sunar. Yapmanız gereken sadece [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.8.1/utils/wp-completion.bash) dosyasını indirmek ve kaynak olarak `~/.bash_profile` dosyanıza tanımlamak:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
