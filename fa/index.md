@@ -10,7 +10,7 @@ direction: rtl
 
 <a href="https://automattic.com/"><img src="https://make.wordpress.org/cli/files/2017/04/automattic-1.png" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" alt="" width="160" height="35" class="aligncenter size-full wp-image-347" /></a> <a href="https://www.bluehost.com/"><img class="aligncenter size-full wp-image-335" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/bluehost.png" alt="" width="160" height="26" /></a> <a href="https://pantheon.io/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/pantheon.png" alt="" width="160" height="50" /></a> <a href="https://www.siteground.com/"><img class="aligncenter size-full wp-image-332" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2019/06/SG_logo.png" alt="" width="160" height="33" /></a> <a href="https://wpengine.com/"><img class="aligncenter size-full wp-image-333" style="width:19%;height:auto;display:inline-block;vertical-align:middle;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="160" height="30" /></a>
 
-نگارش پایدار فعلی [version 2.8.1](https://make.wordpress.org/cli/2023/06/05/wp-cli-v2-8-1-release-notes/)است. برای پیگیری اعلانات، [@wpcli on Twitter](https://twitter.com/wpcli) را دنبال کنید یا [برای دریافت ایمیل ثبت‌نام کنید](https://make.wordpress.org/cli/subscribe/). برای بررسی برنامه‌ریزی‌های آینده انتشار [نقشه راه را برررسی کنید](https://make.wordpress.org/cli/handbook/roadmap/).
+نگارش پایدار فعلی [version 2.9.0](https://make.wordpress.org/cli/2023/10/25/wp-cli-v2-9-0-release-notes/)است. برای پیگیری اعلانات، [@wpcli on Twitter](https://twitter.com/wpcli) را دنبال کنید یا [برای دریافت ایمیل ثبت‌نام کنید](https://make.wordpress.org/cli/subscribe/). برای بررسی برنامه‌ریزی‌های آینده انتشار [نقشه راه را برررسی کنید](https://make.wordpress.org/cli/handbook/roadmap/).
 
 [![وضعیت ساخت](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![زمان متوسط برای رفع مشکل](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "زمان متوسط برای رفع مشکل") [![درصد مشکلات باز](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "درصد مشکلات باز")
 
@@ -86,7 +86,7 @@ WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 2.8.1
+WP-CLI version: 2.9.0
 ```
 
 ### به‌روزرسانی
@@ -99,7 +99,7 @@ WP-CLI version: 2.8.1
 
 ### کامل‌سازی با تب
 
-WP-CLI دارای قابلیت کامل‌سازی با تب برای بش و ZSH است. کافیست [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.8.1/utils/wp-completion.bash) را دریافت و از `~/.bash_profile` سورس کنید:
+WP-CLI دارای قابلیت کامل‌سازی با تب برای بش و ZSH است. کافیست [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.9.0/utils/wp-completion.bash) را دریافت و از `~/.bash_profile` سورس کنید:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
