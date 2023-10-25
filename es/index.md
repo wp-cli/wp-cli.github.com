@@ -15,7 +15,7 @@ El mantenimiento continuo es posible gracias a:
 <a href="https://wpengine.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full wp-image-333" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.wordpress.org/cli/files/2017/04/wpengine.png" alt="" width="320" height="60" /></a>
 <a href="https://www.cloudways.com/" style="height:100px;width:49%;display:inline-block;position:relative;"><img class="aligncenter size-full wp-image-3229" style="max-height:100%;max-width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;" src="https://make.wordpress.org/cli/files/2021/02/Cloudways-Logo-e1612285267691.png" alt="" width="320" height="62" /></a>
 
-La versión estable actual es la [2.8.1](https://make.wordpress.org/cli/2023/06/05/wp-cli-v2-8-1-release-notes/). Para estar al día, sigue [@wpcli en Twitter](https://twitter.com/wpcli) o [regístrate para recibir actualizaciones por correo electrónico](https://make.wordpress.org/cli/subscribe/). [Consulta la hoja de ruta](https://make.wordpress.org/cli/handbook/roadmap/) para una visión general de lo que está planeado para las próximas versiones.
+La versión estable actual es la [2.9.0](https://make.wordpress.org/cli/2023/10/25/wp-cli-v2-9-0-release-notes/). Para estar al día, sigue [@wpcli en Twitter](https://twitter.com/wpcli) o [regístrate para recibir actualizaciones por correo electrónico](https://make.wordpress.org/cli/subscribe/). [Consulta la hoja de ruta](https://make.wordpress.org/cli/handbook/roadmap/) para una visión general de lo que está planeado para las próximas versiones.
 
 [![Testing](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
@@ -95,7 +95,7 @@ WP_CLI phar path:
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:
 WP-CLI project config:  /home/wp-cli/wp-cli.yml
-WP-CLI version: 2.8.1
+WP-CLI version: 2.9.0
 ```
 
 ### Actualización
@@ -108,7 +108,7 @@ Si WP-CLI es propiedad de root u otro usuario del sistema, necesitarás ejecutar
 
 ### Autocompletar con el tabulador
 
-WP-CLI también viene con un scripts para autocompletar con el tabulador para Bash y ZSH. Tan sólo descarga [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.8.1/utils/wp-completion.bash) y usa el comando `source` desde `~/.bash_profile`:
+WP-CLI también viene con un scripts para autocompletar con el tabulador para Bash y ZSH. Tan sólo descarga [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.9.0/utils/wp-completion.bash) y usa el comando `source` desde `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
