@@ -36,11 +36,12 @@ L'entretien continu de ce projet est possible grâce à :
 	</a>
 </div>
 
-La dernière version stable est la [version 2.9.0](https://make.wordpress.org/cli/2023/10/25/wp-cli-v2-9-0-release-notes/).
+La dernière version stable est la [version 2.10.0](https://make.wordpress.org/cli/2024/02/08/wp-cli-v2-10-0-release-notes/).
 
 Pour rester à jour, suivez [@wpcli sur Twitter](https://twitter.com/wpcli) ou [inscrivez-vous à notre lettre d'information par email](https://make.wordpress.org/cli/subscribe/).
 
-[![Statut du build](https://travis-ci.org/wp-cli/wp-cli.png?branch=master)](https://travis-ci.org/wp-cli/wp-cli) [![Temps moyen pour traiter un ticket](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Temps moyen pour traiter un ticket") [![Pourcentage de tickets encore ouverts](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Pourcentage de tickets encore ouverts")
+[![Testing](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml) [![Temps moyen pour traiter un ticket](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Temps moyen pour traiter un ticket") [![Pourcentage de tickets encore ouverts](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Pourcentage de tickets encore ouverts")
+
 
 Liens rapides: [Utilisation](#utilisation) &#124; [Installation](#installation) &#124; [Soutien](#soutien) &#124; [Étendre](#étendre) &#124; [Contribuer](#contribuer) &#124; [Crédits](#crédits)
 
@@ -113,7 +114,7 @@ WP-CLI vendor dir:	    /home/wp-cli/.wp-cli/vendor
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:   /home/wp-cli/.wp-cli/config.yml
 WP-CLI project config:
-WP-CLI version: 2.9.0
+WP-CLI version: 2.10.0
 ```
 
 ### Mise à jour
@@ -124,7 +125,7 @@ Vous voulez vivre dangereusement ? Exécutez `wp cli update --nightly` pour inst
 
 ### Autocomplétion
 
-WP-CLI contient des scripts d'autocomplétion pour Bash et ZSH. Il suffit de télécharger [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.9.0/utils/wp-completion.bash) et de l'importer dans votre fichier `~/.bash_profile`:
+WP-CLI contient des scripts d'autocomplétion pour Bash et ZSH. Il suffit de télécharger [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.10.0/utils/wp-completion.bash) et de l'importer dans votre fichier `~/.bash_profile`:
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
