@@ -36,7 +36,7 @@ L'entretien continu de ce projet est possible grâce à :
 	</a>
 </div>
 
-La dernière version stable est la [version 2.11.0](https://make.wordpress.org/cli/2024/08/08/wp-cli-v2-11-0-release-notes/).
+La dernière version stable est la [version 2.11.0](https://make.wordpress.org/cli/2025/05/07/wp-cli-v2-12-0-release-notes/).
 
 Pour rester à jour, suivez [@wpcli sur Twitter](https://twitter.com/wpcli) ou [inscrivez-vous à notre lettre d'information par email](https://make.wordpress.org/cli/subscribe/).
 

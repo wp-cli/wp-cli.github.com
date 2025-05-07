@@ -35,7 +35,7 @@ direction: ltr
 	</a>
 </div>
 
-現在の安定バージョンは [2.11.0](https://make.wordpress.org/cli/2024/08/08/wp-cli-v2-11-0-release-notes/) です。 最新情報を得たい人は、[@wpcli on Twitter](https://twitter.com/wpcli) をフォローするか、[メーリングリストにサインアップ](https://make.wordpress.org/cli/subscribe/)してください。[ロードマップ](https://make.wordpress.org/cli/handbook/roadmap/)で今後のリリース予定を知ることができます。
+現在の安定バージョンは [2.11.0](https://make.wordpress.org/cli/2025/05/07/wp-cli-v2-12-0-release-notes/) です。 最新情報を得たい人は、[@wpcli on Twitter](https://twitter.com/wpcli) をフォローするか、[メーリングリストにサインアップ](https://make.wordpress.org/cli/subscribe/)してください。[ロードマップ](https://make.wordpress.org/cli/handbook/roadmap/)で今後のリリース予定を知ることができます。
 
 [![Testing](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
@@ -129,7 +129,7 @@ WP-CLI は、`wp cli update` ([ドキュメント](https://developer.wordpress.o
 
 ## タブ補完
 
-WP-CLI には、Bash および zsh 向けのタブ補完スクリプトがあります。スクリプトを使うときは [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.9.0/utils/wp-completion.bash) をダウンロードして、`~/.bash_profile` で読み込みます。
+WP-CLI には、Bash および zsh 向けのタブ補完スクリプトがあります。スクリプトを使うときは [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.12.0/utils/wp-completion.bash) をダウンロードして、`~/.bash_profile` で読み込みます。
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash

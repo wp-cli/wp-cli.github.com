@@ -31,7 +31,7 @@ Die laufende Pflege wird ermöglicht durch:
 	</a>
 </div>
 
-Das aktuelle stabile Release ist [Version 2.9.0](https://make.wordpress.org/cli/2023/10/25/wp-cli-v2-9-0-release-notes/) (engl.). Folge für Ankündigungen [@wpcli auf Twitter](https://twitter.com/wpcli) oder [registriere dich für Aktualisierungen per E-Mail](https://make.wordpress.org/cli/subscribe/) (engl.). [Sieh dir die Roadmap an](https://make.wordpress.org/cli/handbook/roadmap/) (engl.), um einen Überblick zu erhalten, was in zukünftigen Releases geplant ist.
+Das aktuelle stabile Release ist [Version 2.12.0](https://make.wordpress.org/cli/2025/05/07/wp-cli-v2-12-0-release-notes/) (engl.). Folge für Ankündigungen [@wpcli auf Twitter](https://twitter.com/wpcli) oder [registriere dich für Aktualisierungen per E-Mail](https://make.wordpress.org/cli/subscribe/) (engl.). [Sieh dir die Roadmap an](https://make.wordpress.org/cli/handbook/roadmap/) (engl.), um einen Überblick zu erhalten, was in zukünftigen Releases geplant ist.
 
 [![Testing](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Durchschnittliche Zeit, bis ein Problem behoben wurde](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Durchschnittliche Zeit, bis ein Problem behoben wurde") [![Prozentuale Anzahl an offenen Problemen](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Prozentuale Anzahl an offenen Problemen")
 
@@ -111,7 +111,7 @@ WP_CLI phar path:
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:
 WP-CLI project config:  /home/wp-cli/wp-cli.yml
-WP-CLI version: 2.9.0
+WP-CLI version: 2.12.0
 ```
 
 ### Aktualisieren
@@ -124,7 +124,7 @@ Lebst du gerne gefährlich? Führe `wp cli update --nightly` aus, um den letzten
 
 ### Tab-Vervollständigung
 
-Für WP-CLI gibt es auch ein Skript zur Autovervollständigung von Befehlen für Bash und ZSH. Lade einfach die [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.9.0/utils/wp-completion.bash) herunter und referenziere sie in der `~/.bash_profile`-Datei:
+Für WP-CLI gibt es auch ein Skript zur Autovervollständigung von Befehlen für Bash und ZSH. Lade einfach die [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.12.0/utils/wp-completion.bash) herunter und referenziere sie in der `~/.bash_profile`-Datei:
 
 ```bash
 source /ABSOLUTER/PFAD/ZUR/wp-completion.bash
