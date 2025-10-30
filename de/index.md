@@ -220,8 +220,8 @@ Lies dir das [Verwaltungsdokument im Handbuch](https://make.wordpress.org/cli/ha
 Neben den Bibliotheken, die in der [composer.json](composer.json)-Datei erwähnt werden, benutzen wir Code oder Ideen von folgenden Projekten:
 
 * [Drush](https://github.com/drush-ops/drush) (engl.) für… viele Dinge
-* [wpshell](http://code.trac.wordpress.org/browser/wpshell) (engl.) für `wp shell`
-* [Regenerate Thumbnails](http://de.wordpress.org/plugins/regenerate-thumbnails/) für `wp media regenerate`
+* [wpshell](https://code.trac.wordpress.org/browser/wpshell) (engl.) für `wp shell`
+* [Regenerate Thumbnails](https://de.wordpress.org/plugins/regenerate-thumbnails/) für `wp media regenerate`
 * [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) (engl.) für `wp search-replace`
 * [WordPress-CLI-Exporter](https://github.com/Automattic/WordPress-CLI-Exporter) (engl.) für `wp export`
 * [WordPress-CLI-Importer](https://github.com/Automattic/WordPress-CLI-Importer) (engl.) für `wp import`

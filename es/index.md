@@ -193,7 +193,7 @@ Lee atentamente nuestras [pautas de colaboración en el manual](https://make.wor
 
 ## Liderazgo
 
-WP-CLI tiene un encargado del mantenimiento del proyecto: [schlessera](http://github.com/schlessera).
+WP-CLI tiene un encargado del mantenimiento del proyecto: [schlessera](https://github.com/schlessera).
 
 En ocasiones, [concedemos permisos de escritura a los colaboradores](https://make.wordpress.org/cli/handbook/committers-credo/) que han demostrado, durante un período de tiempo, que son capaces e invirtieron en avanzar el proyecto.
 
