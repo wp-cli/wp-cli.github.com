@@ -209,7 +209,7 @@ Lies unsere [Guidelines im Handbuch](https://make.wordpress.org/cli/handbook/con
 
 ## Projektleitung
 
-WP-CLI hat einen Projektbetreuer: [schlessera](http://github.com/schlessera) (engl.).
+WP-CLI hat einen Projektbetreuer: [schlessera](https://github.com/schlessera) (engl.).
 
 Gelegentlich [vergeben wir Schreibzugriff an Mitwirkende](https://make.wordpress.org/cli/handbook/committers-credo/), die über längere Zeit gezeigt haben, dass sie in der Lage sind, in das Projekt zu investieren und es voranzubringen.
 
