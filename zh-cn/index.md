@@ -4,9 +4,9 @@ title: WP-CLI | WP-CLI
 direction: ltr
 ---
 
-[WP-CLI](https://wp-cli.org/) 是一款用于管理 [WordPress](https://wordpress.org/) 的命令行界面，无需浏览器即可完成插件更新、多站点设置等操作。
+[WP-CLI](https://wp-cli.org/) 是 [WordPress](https://wordpress.org/) 的命令行接口。无需使用浏览器，你即可更新插件、配置多站点安装以及完成更多操作。
 
-持续的维护是通过以下方式实现的：
+持续维护由以下机构赞助：
 
 <div style="
 		display: flex; 
@@ -34,15 +34,15 @@ direction: ltr
 	</a>
 </div>
 
-目前的稳定版本是 [2.5.0](https://make.wordpress.org/cli/2025/05/07/wp-cli-v2-12-0-release-notes/)。如果您想获取最新信息，请在 Twitter 上关注 [@wpcli](https://twitter.com/wpcli) 或者 [订阅邮件通知](https://make.wordpress.org/cli/subscribe/)。参阅 [产品路线图](https://make.wordpress.org/cli/handbook/roadmap/) 了解未来版本的更新规划。
+当前稳定版本为 [2.12.0](https://make.wordpress.org/cli/2025/05/07/wp-cli-v2-12-0-release-notes/)。获取公告可关注 [Twitter 上的 @wpcli](https://twitter.com/wpcli) 或 [订阅邮件更新](https://make.wordpress.org/cli/subscribe/)。前往[路线图](https://make.wordpress.org/cli/handbook/roadmap/)查看未来版本的规划概览。
 
 [![Testing](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
-导航链接：[使用](#使用) &#124; [安装](#安装) &#124; [支持](#支持) &#124; [扩展](#扩展) &#124; [贡献](#贡献) &#124; [参考](#参考)
+快速链接：[使用](#使用) &#124; [安装](#安装) &#124; [支持](#支持) &#124; [扩展](#扩展) &#124; [贡献](#贡献) &#124; [致谢](#致谢)
 
 ## 使用
 
-WP-CLI 为您在 WordPress 后台管理中的许多操作提供了一个命令行接口。例如，使用 `wp plugin install --activate`([说明文档](https://developer.wordpress.org/cli/commands/plugin/install/)) 安装并激活一个 WordPress 插件：
+WP-CLI 为许多你可能在 WordPress 管理后台执行的操作提供了命令行界面。例如，`wp plugin install --activate`（[文档](https://developer.wordpress.org/cli/commands/plugin/install/)）可以让你安装并激活一个 WordPress 插件：
 
 ```bash
 $ wp plugin install user-switching --activate
@@ -56,57 +56,57 @@ Plugin 'user-switching' activated.
 Success: Installed 1 of 1 plugins.
 ```
 
-WP-CLI 还包含许多您无法在 WordPress 后台管理中执行的操作命令。例如，`wp transient delete --all`（[说明文档](https://developer.wordpress.org/cli/commands/transient/delete/)）可以删除一个或所有的 Transients ：
+WP-CLI 也包含许多你无法在后台直接完成的命令。例如，`wp transient delete --all`（[文档](https://developer.wordpress.org/cli/commands/transient/delete/)）可以删除一个或所有 transient（临时缓存）：
 
 ```bash
 $ wp transient delete --all
 Success: 34 transients deleted from the database.
 ```
 
-有关如何使用 WP-CLI 的更多内容请阅读《[Quick Start](https://make.wordpress.org/cli/handbook/quick-start/)》。您也可以在 [Shell Friends](https://make.wordpress.org/cli/handbook/shell-friends/) 了解实用的命令行工具。
+如需更完整的使用介绍，请阅读[快速入门指南](https://make.wordpress.org/cli/handbook/quick-start/)。或者，查看[shell friends](https://make.wordpress.org/cli/handbook/shell-friends/)学习常用的命令行工具。
 
-如果已经熟悉基本命令，可以到 [WP-CLI Commands](https://developer.wordpress.org/cli/commands/) 了解更多有关主题及插件管理、数据导入与导出以及数据库操作的内容。
+已经熟悉基础？前往[完整命令列表](https://developer.wordpress.org/cli/commands/)获取关于管理主题与插件、数据导入导出、执行数据库搜索替换等的详细信息。
 
 ## 安装
 
-我们推荐使用下载 Phar 文件的安装方法，如果需要使用[其他安装方法](https://make.wordpress.org/cli/handbook/installing/)（[Composer](https://make.wordpress.org/cli/handbook/installing/#installing-via-composer), [Homebrew](https://make.wordpress.org/cli/handbook/installing/#installing-via-homebrew), [Docker](https://make.wordpress.org/cli/handbook/installing/#installing-via-docker)），请参阅相关文档。
+对于大多数用户，我们推荐通过下载 Phar 文件的方式安装。必要时也可以参阅[其它安装方法](https://make.wordpress.org/cli/handbook/installing/)（[Composer](https://make.wordpress.org/cli/handbook/installing/#installing-via-composer)、[Homebrew](https://make.wordpress.org/cli/handbook/installing/#installing-via-homebrew)、[Docker](https://make.wordpress.org/cli/handbook/installing/#installing-via-docker)）。
 
-在安装 WP-CLI 之前，请确保您的操作环境满足最低要求：
+在安装 WP-CLI 之前，请确保你的环境满足以下最低要求：
 
-- UNIX 环境（OS X，Linux，FreeBSD，Cygwin），某些功能在 Windows 中将受到限制。
-- PHP 5.6 或更高版本。
-- WordPress 3.7 或更高版本，较旧版本在功能上可能会有所减少。
+- 类 UNIX 环境（OS X、Linux、FreeBSD、Cygwin）；Windows 环境支持有限
+- PHP 5.6 或更高版本
+- WordPress 3.7 或更高版本。低于最新版的 WordPress 可能会有功能退化
 
-检查好了操作环境，使用  `wget` 或 `curl` 下载 [wp-cli.phar](https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar)：
+确认满足要求后，使用 `wget` 或 `curl` 下载 [wp-cli.phar](https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar) 文件：
 
 ```bash
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 ```
 
-然后，检查 Phar 文件确保其正常运行：
+接着，检查 Phar 文件以确认其是否可用：
 
 ```bash
 php wp-cli.phar --info
 ```
 
-要使用 `wp` 执行 WP-CLI 命令，必须有执行权限并且 `PATH` 已在环境变量中注册，例如：
+若希望在命令行中通过 `wp` 使用 WP-CLI，请将该文件设为可执行并移动到 `PATH` 中的某个位置。例如：
 
 ```bash
 chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
 ```
 
-如果 WP-CLI 安装成功，当您运行 `wp --info` 时，可以看到类似下面的回显：
+如果 WP-CLI 安装成功，运行 `wp --info` 应看到类似如下的输出：
 
 ```bash
 $ wp --info
-OS:     Linux 4.19.128-microsoft-standard #1 SMP Tue Jun 23 12:58:10 UTC 2020 x86_64
+OS:     Linux 5.10.60.1-microsoft-standard-WSL2 #1 SMP Wed Aug 25 23:20:18 UTC 2021 x86_64
 Shell:  /usr/bin/zsh
-PHP binary:     /usr/bin/php
-PHP version:    8.0.5
-php.ini used:   /etc/php/8.0/cli/php.ini
+PHP binary:     /usr/bin/php8.1
+PHP version:    8.1.0
+php.ini used:   /etc/php/8.1/cli/php.ini
 MySQL binary:   /usr/bin/mysql
-MySQL version:  mysql  Ver 8.0.23-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
+MySQL version:  mysql  Ver 8.0.27-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
 SQL modes:
 WP-CLI root dir:        /home/wp-cli/
 WP-CLI vendor dir:      /home/wp-cli/vendor
@@ -114,28 +114,28 @@ WP_CLI phar path:
 WP-CLI packages dir:    /home/wp-cli/.wp-cli/packages/
 WP-CLI global config:
 WP-CLI project config:  /home/wp-cli/wp-cli.yml
-WP-CLI version: 2.5.0
+WP-CLI version: 2.12.0
 ```
 
 ### 更新
 
-您可以用 `wp cli update`（[说明文档](https://developer.wordpress.org/cli/commands/cli/update/)）更新 WP-CLI，或者重复上述安装方法。
+你可以通过 `wp cli update`（[文档](https://developer.wordpress.org/cli/commands/cli/update/)）更新 WP-CLI，或重复安装步骤进行更新。
 
-如果 WP-CLI 是由 root 或其他系统用户拥有，则需要执行 `sudo wp cli update` 操作。
+如果 WP-CLI 由 root 或其他系统用户拥有，你需要运行 `sudo wp cli update`。
 
-如果您想体验最新版本，可以运行 `wp cli update --nightly` 来安装最新的 Nightly Builds 版本（每天更新的版本，不要用到生产环境） WP-CLI 工具。该版本在开发环境中有一定的稳定性，并且始终包含最新和最出色的 WP-CLI 功能。
+想体验前沿版本？运行 `wp cli update --nightly` 以使用最新的每夜构建。每夜构建在开发环境中总体上足够稳定，并且始终包含最新与最棒的 WP-CLI 功能。
 
-### Tab 命令行补全
+### Tab 自动补全
 
-WP-CLI 带有用于 Bash 和 ZSH 的命令行补全脚本。下载 [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.12.0/utils/wp-completion.bash) 并在 `~/.bash_profile` 中加载即可，例如：
+WP-CLI 还提供适用于 Bash 与 ZSH 的 Tab 补全脚本。只需下载 [wp-completion.bash](https://raw.githubusercontent.com/wp-cli/wp-cli/v2.12.0/utils/wp-completion.bash) 并在 `~/.bash_profile` 中进行 source：
 
 ```bash
 source /FULL/PATH/TO/wp-completion.bash
 ```
 
-然后运行 `source ~/.bash_profile` 使其生效.
+别忘了随后运行 `source ~/.bash_profile`。
 
-如果使用 zsh，需要在加载 `bashcompinit` 后载入 `wp-completion.bash`，将下面的内容放入 `.zshrc` 中即可：
+如果你的 shell 使用 zsh，在 source 之前可能需要加载并启动 `bashcompinit`。将以下内容放入你的 `.zshrc`：
 
 ```bash
 autoload bashcompinit
@@ -145,36 +145,32 @@ source /FULL/PATH/TO/wp-completion.bash
 
 ## 支持
 
-WP-CLI 的维护者和贡献者只有有限的时间回答常见问题，只有[最新版](https://make.wordpress.org/cli/handbook/roadmap/)的 WP-CLI 受到官方支持。
+WP-CLI 的维护者与贡献者在处理一般支持问题上的时间有限。[WP-CLI 的当前版本](https://make.wordpress.org/cli/handbook/roadmap/)是唯一官方支持的版本。
 
-在寻求帮助时，请首先在下面资源中搜索您的问题：
+在寻找支持时，请先在以下渠道搜索你的问题：
 
-* [Common issues and their fixes](https://make.wordpress.org/cli/handbook/common-issues/)
-* [WP-CLI handbook](https://make.wordpress.org/cli/handbook/)
-* [Open or closed issues in the WP-CLI GitHub organization](https://github.com/issues?utf8=%E2%9C%93&q=sort%3Aupdated-desc+org%3Awp-cli+is%3Aissue)
-* [Threads tagged 'WP-CLI' in the WordPress.org support forum](https://wordpress.org/support/topic-tag/wp-cli/)
-* [Questions tagged 'WP-CLI' in the WordPress StackExchange](https://wordpress.stackexchange.com/questions/tagged/wp-cli)
+- [常见问题与解决方案](https://make.wordpress.org/cli/handbook/common-issues/)
+- [WP-CLI 手册](https://make.wordpress.org/cli/handbook/)
+- [WP-CLI 组织下的 GitHub 问题（开放或已关闭）](https://github.com/issues?utf8=%E2%9C%93&q=sort%3Aupdated-desc+org%3Awp-cli+is%3Aissue)
+- [WordPress.org 论坛中标记为“WP-CLI”的讨论串](https://wordpress.org/support/topic-tag/wp-cli/)
+- [WordPress StackExchange 上标记为“WP-CLI”的问题](https://wordpress.stackexchange.com/questions/tagged/wp-cli)
 
-如果上面任何一种方式都找不到答案：
+如果在上述渠道仍未找到答案，你可以：
 
-* 加入 [WordPress.org 的 Slack](https://make.wordpress.org/chat/) 中的 `#cli` 频道，与当时可能有空的人聊天（这是最快的方法）。
-* 在 [WordPress 支持论坛](https://wordpress.org/support/forum/wp-advanced/#new-post) 上发布新帖子，并用 「wp-cli」标记它（以便被找到）。
+- 加入 [WordPress.org Slack](https://make.wordpress.org/chat/) 的 `#cli` 频道，与当时在线的社区成员交流。该选项最适合快速问题。
+- 在 WordPress.org 支持论坛[发布新帖](https://wordpress.org/support/forum/wp-advanced/#new-post)，并添加“WP-CLI”标签，以便被社区看到。
 
-GitHub Issues 用于跟踪现有命令的改进和 BUG，而不是常规支持。在提交 BUG 报告之前，请务必阅读手册中的 [Bug Reports](https://make.wordpress.org/cli/handbook/bug-reports/)，以确保您的问题得到及时解决。
+GitHub issue 用于跟踪现有命令的增强与缺陷，而不是一般支持。提交缺陷报告之前，请先[阅读我们的最佳实践](https://make.wordpress.org/cli/handbook/bug-reports/)，以帮助确保你的问题能得到及时处理。
 
-请不要在 Twitter 上提出问题，因为：
+请不要在 Twitter 上提出支持问题。Twitter 并非合适的支持渠道，因为：1）在 280 个字符内难以进行对话；2）Twitter 不是一个可以让有相同问题的人检索以往对话的地方。
 
-1）一般很难用 280 个字符的对话解决问题；
-
-2）如果其他人与您拥有相同的问题，他们不能通过搜索其他人的历史聊天记录来获取答案。
-
-开源许可证授予您使用和修改的权利，但不授予您浪费他人时间的权利。请您保持尊重！
+请记住，libre != gratis；开源许可赋予你使用与修改的自由，但并不意味着他人的时间承诺。请保持尊重，并合理设置你的期望。
 
 ## 扩展
 
-每个**命令**都被定义为一个 WP-CLI 功能，`wp plugin install`（[说明文档](https://developer.wordpress.org/cli/commands/plugin/install/)）是一个，而 `wp plugin activate`（[说明文档](https://developer.wordpress.org/cli/commands/plugin/activate/)）是另一个。
+**命令** 是 WP-CLI 功能的原子单位。`wp plugin install`（[文档](https://developer.wordpress.org/cli/commands/plugin/install/)）是一个命令，`wp plugin activate`（[文档](https://developer.wordpress.org/cli/commands/plugin/activate/)）是另一个命令。
 
-WP-CLI 支持各种可执行类、函数和闭包作为命令被执行。其在 PHPdoc 中读取详细的使用信息。使用 `WP_CLI::add_command()`（[说明文档](https://make.wordpress.org/cli/handbook/internal-api/wp-cli-add-command/)）来注册内部命令和第三方命令。
+WP-CLI 支持将任意可调用的类、函数或闭包注册为命令。它会从回调的 PHPDoc 中读取用法细节。`WP_CLI::add_command()`（[文档](https://make.wordpress.org/cli/handbook/internal-api/wp-cli-add-command/)）既用于内部命令也用于第三方命令的注册。
 
 ```php
 /**
@@ -204,32 +200,32 @@ $delete_option_cmd = function( $args ) {
 WP_CLI::add_command( 'option delete', $delete_option_cmd );
 ```
 
-WP-CLI 包含丰富的命令。创建自定义的 WP-CLI 命令比看起来的要更加容易。阅读 [Commands Cookbook](https://make.wordpress.org/cli/handbook/commands-cookbook/) 了解更多内容，浏览 [Internal API](https://make.wordpress.org/cli/handbook/internal-api/) 发现更多创建自定义命令的实用功能。
+WP-CLI 自带数十个命令。创建自定义 WP-CLI 命令并没有看起来那么难。阅读[命令手册](https://make.wordpress.org/cli/handbook/commands-cookbook/)了解更多。浏览[内部 API 文档](https://make.wordpress.org/cli/handbook/internal-api/)，发现可在自定义命令中使用的多种辅助函数。
 
 ## 贡献
 
-感谢您主动为 WP-CLI 做出贡献！正因为您和社区的支持，才能使 WP-CLI 更加出色！
+感谢你主动为 WP-CLI 做出贡献。正因为有你以及你周围的社区，WP-CLI 才能成为如此优秀的项目。
 
-**贡献不仅限于代码**，我们鼓励您在能力范围内作出贡献。比如编写教程、在会议上进行演示、帮助其他用户解决他们的问题，或者协助我们修改文档。
+**贡献不局限于代码。** 我们鼓励你以最适合自己能力的方式贡献，比如撰写教程、在本地聚会上进行演示、帮助其他用户解决支持问题，或完善我们的文档。
 
-如果要参与该项目，请仔细阅读手册中的 [Contributing](https://make.wordpress.org/cli/handbook/contributing/) 。遵循这些准则有助于与该项目的其他贡献者进行交流，他们将竭尽全力与您合作。
+请阅读[手册中的贡献指南](https://make.wordpress.org/cli/handbook/contributing/)，以全面了解你可以如何参与。遵循这些指南能传达你尊重项目其他贡献者时间的态度。相应地，他们也会尽力在与你合作时回馈这种尊重，不论时区与地域。
 
 ## 管理者
 
-WP-CLI 项目维护者： [schlessera](http://github.com/schlessera)。
+WP-CLI 目前有一位项目维护者：[schlessera](http://github.com/schlessera)。
 
-我们将写权限授予[受信任的贡献者](https://make.wordpress.org/cli/handbook/committers-credo/)，这些贡献者已经证明他们有能力并有时间开发该项目。
+在特定情况下，我们会[授予贡献者写入权限](https://make.wordpress.org/cli/handbook/committers-credo/)，前提是他们在一段时间内证明了自己有能力并致力于推动项目前进。
 
-阅读手册中的 [Governance](https://make.wordpress.org/cli/handbook/governance/)，获取有关该项目的更多操作详细信息。
+请阅读[手册中的治理文档](https://make.wordpress.org/cli/handbook/governance/)，了解项目的更多运作细节。
 
-## 参考
+## 致谢
 
-除了 [composer.json](https://wp-cli.org/composer.json) 中定义的库之外，我们还使用了以下项目的代码或想法：
+除了在 [composer.json](composer.json) 中定义的库之外，我们还使用或借鉴了以下项目的代码或思想：
 
-* [Drush](https://github.com/drush-ops/drush) 用于很多事情
-* [wpshell](https://code.trac.wordpress.org/browser/wpshell) 用于 `wp shell`
-* [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) 用于 `wp media regenerate`
-* [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) 用于 `wp search-replace`
-* [WordPress-CLI-Exporter](https://github.com/Automattic/WordPress-CLI-Exporter) 用于 `wp export`
-* [WordPress-CLI-Importer](https://github.com/Automattic/WordPress-CLI-Importer) 用于 `wp import`
-* [wordpress-plugin-tests](https://github.com/benbalter/wordpress-plugin-tests/) 用于 `wp scaffold plugin-tests`
+- [Drush](https://github.com/drush-ops/drush)
+- [wpshell](https://code.trac.wordpress.org/browser/wpshell)（用于 `wp shell`）
+- [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)（用于 `wp media regenerate`）
+- [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB)（用于 `wp search-replace`）
+- [WordPress-CLI-Exporter](https://github.com/Automattic/WordPress-CLI-Exporter)（用于 `wp export`）
+- [WordPress-CLI-Importer](https://github.com/Automattic/WordPress-CLI-Importer)（用于 `wp import`）
+- [wordpress-plugin-tests](https://github.com/benbalter/wordpress-plugin-tests/)（用于 `wp scaffold plugin-tests`）
