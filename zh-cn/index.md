@@ -216,7 +216,7 @@ WP-CLI 包含丰富的命令。创建自定义的 WP-CLI 命令比看起来的�
 
 ## 管理者
 
-WP-CLI 项目维护者： [schlessera](http://github.com/schlessera)。
+WP-CLI 项目维护者： [schlessera](https://github.com/schlessera)。
 
 我们将写权限授予[受信任的贡献者](https://make.wordpress.org/cli/handbook/committers-credo/)，这些贡献者已经证明他们有能力并有时间开发该项目。
 

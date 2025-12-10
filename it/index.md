@@ -6,9 +6,9 @@ direction: ltr
 
 [WP-CLI](https://wp-cli.org/)  è un insieme di strumenti da linea di comando per la gestione delle installazioni [WordPress](https://wordpress.org/). Potete aggiornare plugin, configurare installazioni multisito e molto altro, senza utilizzare un browser web.
 
-Per rimanere aggiornati, seguite [@wpcli su Twitter](https://twitter.com/wpcli) oppure [iscrivetevi alla nostra newsletter](http://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e).
+Per rimanere aggiornati, seguite [@wpcli su Twitter](https://twitter.com/wpcli) oppure [iscrivetevi alla nostra newsletter](https://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e).
 
-[![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
+[![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
 Collegamenti rapidi: [Utilizzo](#utilizzo) &#124; [Installazione](#installazione) &#124; [Supporto](#supporto) &#124; [Estendere](#estendere) &#124; [Contribuire](#contribuire) &#124; [Crediti](#crediti)
 
@@ -113,7 +113,7 @@ I manutentori e i contributori di WP-CLI sono volontari, hanno limitate disponib
 - [Portale della documentazione](https://wp-cli.org/docs/)
 - [Problemi segnalati o estinti su Github](https://github.com/wp-cli/wp-cli/issues?utf8=%E2%9C%93&q=is%3Aissue)
 - [Estratti di runcommand](https://runcommand.io/excerpts/)
-- [Forum di WordPress su StackExchange](http://wordpress.stackexchange.com/questions/tagged/wp-cli)
+- [Forum di WordPress su StackExchange](https://wordpress.stackexchange.com/questions/tagged/wp-cli)
 
 Se non trovare delle risposte in questi posti, entrate al canale `#cli` su [WordPress.org Slack organization](https://make.wordpress.org/chat/) per vedere se qualche membro della comunità può offrirvele.
 
@@ -185,9 +185,9 @@ Leggi di più riguardo la [politica del progetto](https://wp-cli.org/docs/govern
 
 Oltre alle librerie definite in [composer.json](composer.json), abbiamo adottato codice o spunti dai seguenti progetti:
 
-* [Drush](http://drush.ws/) per... un mucchio di cose
-* [wpshell](http://code.trac.wordpress.org/browser/wpshell) per `wp shell`
-* [Regenerate Thumbnails](http://wordpress.org/plugins/regenerate-thumbnails/) per `wp media regenerate`
+* [Drush](https://www.drush.org/) per... un mucchio di cose
+* [wpshell](https://code.trac.wordpress.org/browser/wpshell) per `wp shell`
+* [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) per `wp media regenerate`
 * [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) per `wp search-replace`
 * [WordPress-CLI-Exporter](https://github.com/Automattic/WordPress-CLI-Exporter) per `wp export`
 * [WordPress-CLI-Importer](https://github.com/Automattic/WordPress-CLI-Importer) per `wp import`

@@ -216,7 +216,7 @@ WP-CLI は多くのコマンドで構成され、意外と簡単にカスタム�
 
 ### プロジェクトリーダー
 
-WP-CLI にはプロジェクトメンテナーがいます: [schlessera](http://github.com/schlessera) です。
+WP-CLI にはプロジェクトメンテナーがいます: [schlessera](https://github.com/schlessera) です。
 
 能力があり、プロジェクト発展のため時間をかけていることを示してくれた貢献者には[コミット権限を与えることがあります](https://make.wordpress.org/cli/handbook/committers-credo/)。
 

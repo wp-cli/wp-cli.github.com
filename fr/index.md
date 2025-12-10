@@ -222,7 +222,7 @@ Pour en savoir plus sur la [gouvernance (en)](https://make.wordpress.org/cli/han
 
 Derrière les librairies définies dans le fichier [composer.json](composer.json), nous avons utilisé du code et des idées venant des projets suivants :
 
-* [Drush](http://drush.ws/) pour... pas mal de choses
+* [Drush](https://www.drush.org/) pour... pas mal de choses
 * [wpshell](https://code.trac.wordpress.org/browser/wpshell) pour `wp shell`
 * [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) pour `wp media regenerate`
 * [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) pour `wp search-replace`
