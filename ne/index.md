@@ -6,9 +6,9 @@ direction: ltr
 
 [WP-CLI](https://wp-cli.org/) कमाण्ड लाइन औजारहरुको संग्रह हो जुन [वर्डप्रेस](https://wordpress.org/) व्यवस्थापन गर्न प्रयोग गरिन्छ । ब्राउजर बिना नै प्लगिन अद्यावधिक गर्न, बहुसाइट कन्फिगर गर्न तथा अन्य धेरै कामको लागि यो प्रयोग गर्न सकिन्छ ।
 
-अद्यावधिक हुन, [टुइटरमा @wpcli](https://twitter.com/wpcli) फलो गर्नुहोस् वा [इमेल न्यूजलेटरको लागि साइन अप गर्नुहोस्](http://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e) ।
+अद्यावधिक हुन, [टुइटरमा @wpcli](https://twitter.com/wpcli) फलो गर्नुहोस् वा [इमेल न्यूजलेटरको लागि साइन अप गर्नुहोस्](https://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e) ।
 
-[![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "समस्या समाधान गर्न लाग्ने औसत समय") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "खुला मुद्दाहरू प्रतिशतमा")
+[![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "समस्या समाधान गर्न लाग्ने औसत समय") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "खुला मुद्दाहरू प्रतिशतमा")
 
 द्रुत लिंकहरु: [प्रयोग](#section) &#124; [स्थापना](#section-1) &#124; [सहायता](#section-4) &#124; [विस्तार](#section-5) &#124; [योगदान](#section-6) &#124; [श्रेय](#section-8)
 
@@ -113,7 +113,7 @@ source /FULL/PATH/TO/wp-completion.bash
 - [बग प्रतिवेदनको लागि उत्तम अभ्यासहरू](https://wp-cli.org/docs/bug-reports/)
 - [दस्तावेज पोर्टल](https://wp-cli.org/docs/)
 - [Github मा खुल्ला तथा बन्द समस्याहरु](https://github.com/wp-cli/wp-cli/issues?utf8=%E2%9C%93&q=is%3Aissue)
-- [वर्डप्रेस StackExchange फोरम](http://wordpress.stackexchange.com/questions/tagged/wp-cli)
+- [वर्डप्रेस StackExchange फोरम](https://wordpress.stackexchange.com/questions/tagged/wp-cli)
 
 यदि तपाईंले ती स्रोतहरूमा आफ्नो जवाफ पाउन सक्नुभएन भने [WordPress.org Slack organization](https://make.wordpress.org/chat/) मा `#cli` च्यानलमा सामेल भई प्रश्न सोध्न सक्नुहुन्छ। व्यावसायिक प्रयोगकर्ताहरुले प्रिमियम सहायताको लागि [runcommand](https://runcommand.io/) मा पनि सम्पर्क गर्न सक्नुहुन्छ ।
 
@@ -179,9 +179,9 @@ WP-CLI मा यी व्यक्तिहरूको नेतृत्व 
 
 [composer.json](composer.json) मा परिभाषित बाहेक हामीले निम्न परियोजनाहरुबाट कोड वा विचारहरु प्रयोग गरेका छौं:
 
-* [Drush](http://drush.ws/) धेरै कुराहरुको लागि
-* [wpshell](http://code.trac.wordpress.org/browser/wpshell) `wp shell` को लागि
-* [Regenerate Thumbnails](http://wordpress.org/plugins/regenerate-thumbnails/) `wp media regenerate` को लागि
+* [Drush](https://www.drush.org/) धेरै कुराहरुको लागि
+* [wpshell](https://code.trac.wordpress.org/browser/wpshell) `wp shell` को लागि
+* [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) `wp media regenerate` को लागि
 * [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) `wp search-replace` को लागि
 * [WordPress-CLI-Exporter](https://github.com/Automattic/WordPress-CLI-Exporter) `wp export` को लागि
 * [WordPress-CLI-Importer](https://github.com/Automattic/WordPress-CLI-Importer) `wp import` को लागि

@@ -184,7 +184,7 @@ Citește prin [ghidul de contribuire din manual](https://make.wordpress.org/cli/
 
 ## Leadership
 
-WP-CLI are un întreținător de proiect: [schlessera](http://github.com/schlessera).
+WP-CLI are un întreținător de proiect: [schlessera](https://github.com/schlessera).
 
 Ocazional, noi [acordăm acces de scriere contribuitorilor](https://make.wordpress.org/cli/handbook/committers-credo/) care au demonstrat, de-a lungul unei perioade de timp, că sunt capabili și investesc în avansarea proiectului.
 

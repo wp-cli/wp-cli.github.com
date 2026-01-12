@@ -209,7 +209,7 @@ Lies unsere [Guidelines im Handbuch](https://make.wordpress.org/cli/handbook/con
 
 ## Projektleitung
 
-WP-CLI hat einen Projektbetreuer: [schlessera](http://github.com/schlessera) (engl.).
+WP-CLI hat einen Projektbetreuer: [schlessera](https://github.com/schlessera) (engl.).
 
 Gelegentlich [vergeben wir Schreibzugriff an Mitwirkende](https://make.wordpress.org/cli/handbook/committers-credo/), die über längere Zeit gezeigt haben, dass sie in der Lage sind, in das Projekt zu investieren und es voranzubringen.
 
@@ -220,8 +220,8 @@ Lies dir das [Verwaltungsdokument im Handbuch](https://make.wordpress.org/cli/ha
 Neben den Bibliotheken, die in der [composer.json](composer.json)-Datei erwähnt werden, benutzen wir Code oder Ideen von folgenden Projekten:
 
 * [Drush](https://github.com/drush-ops/drush) (engl.) für… viele Dinge
-* [wpshell](http://code.trac.wordpress.org/browser/wpshell) (engl.) für `wp shell`
-* [Regenerate Thumbnails](http://de.wordpress.org/plugins/regenerate-thumbnails/) für `wp media regenerate`
+* [wpshell](https://code.trac.wordpress.org/browser/wpshell) (engl.) für `wp shell`
+* [Regenerate Thumbnails](https://de.wordpress.org/plugins/regenerate-thumbnails/) für `wp media regenerate`
 * [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) (engl.) für `wp search-replace`
 * [WordPress-CLI-Exporter](https://github.com/Automattic/WordPress-CLI-Exporter) (engl.) für `wp export`
 * [WordPress-CLI-Importer](https://github.com/Automattic/WordPress-CLI-Importer) (engl.) für `wp import`

@@ -197,7 +197,7 @@ Nasıl katılacağınıza dair kapsamlı bir giriş için [el kitabındaki katk�
 
 ## Yönetim
 
-WP-CLI'nın bir proje sorumlusu vardır: [schlessera](http://github.com/schlessera).
+WP-CLI'nın bir proje sorumlusu vardır: [schlessera](https://github.com/schlessera).
 
 Zaman zaman, belli bir süre için yetenekli olduklarını kanıtlamış ve projeyi ileriye taşıyabilecek katılımcılara [yazma izni veriyoruz](https://make.wordpress.org/cli/handbook/committers-credo/).
 

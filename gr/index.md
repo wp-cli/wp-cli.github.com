@@ -6,9 +6,9 @@ direction: ltr
 
 Το [WP-CLI](https://wp-cli.org/) είναι ένα σύνολο από εργαλεία γραμμής εντολών για τη διαχείριση εγκαταστάσεων [WordPress](https://wordpress.org/). Μπορείτε να ενημερώνετε πρόσθετα, να ρυθμίζετε εγκαταστάσεις πολλαπλών ιστοτόπων και πολλά περισσότερα, χωρίς τη χρήση περιηγητή.
 
-Για να μένετε ενημερωμένοι, ακολουθήστε το [@wpcli στο Twitter](https://twitter.com/wpcli) ή [εγγραφείτε για το ενημερωτικό μας δελτίο](http://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e).
+Για να μένετε ενημερωμένοι, ακολουθήστε το [@wpcli στο Twitter](https://twitter.com/wpcli) ή [εγγραφείτε για το ενημερωτικό μας δελτίο](https://wp-cli.us13.list-manage.com/subscribe?u=0615e4d18f213891fc000adfd&id=8c61d7641e).
 
-[![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](http://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](http://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
+[![Testing](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/wp-cli/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
 Γρήγοροι σύνδεσμοι: [Χρήση](#using) &#124; [Εγκατάσταση](#installing) &#124; [Υποστήριξη](#support) &#124; [Επέκταση](#extending) &#124; [Συνεισφορά](#contributing) &#124; [Ευχαριστίες](#credits)
 
@@ -113,7 +113,7 @@ source /FULL/PATH/TO/wp-completion.bash
 - [Βέλτιστες πρακτικές για υποβολή αναφοράς σφάλματος](https://wp-cli.org/docs/bug-reports/)
 - [Πύλη τεκμηρίωσης](https://wp-cli.org/docs/)
 - [Ανοιχτά ή κλειστά θέματα στο Github](https://github.com/wp-cli/wp-cli/issues?utf8=%E2%9C%93&q=is%3Aissue)
-- [WordPress StackExchange forums](http://wordpress.stackexchange.com/questions/tagged/wp-cli)
+- [WordPress StackExchange forums](https://wordpress.stackexchange.com/questions/tagged/wp-cli)
 
 Αν δε μπορείτε να βρείτε απάντηση σε ένα από τις υπάρχουσες πηγές, [δημιουργήστε ένα θέμα](https://github.com/wp-cli/wp-cli/issues/new) με την ερώτησή σας.
 
@@ -181,9 +181,9 @@ WP_CLI::add_command( 'option delete', $delete_option_cmd );
 
 Εκτός τις βιβλιοθήκες που ορίζονται στο [composer.json](composer.json), έχουμε χρησιμοποιήσει κώδικα ή ιδέες από τα ακόλουθα έργα:
 
-* [Drush](http://drush.ws/) για... πολλά πράγματα
-* [wpshell](http://code.trac.wordpress.org/browser/wpshell) για το `wp shell`
-* [Regenerate Thumbnails](http://wordpress.org/plugins/regenerate-thumbnails/) για το `wp media regenerate`
+* [Drush](https://www.drush.org/) για... πολλά πράγματα
+* [wpshell](https://code.trac.wordpress.org/browser/wpshell) για το `wp shell`
+* [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) για το `wp media regenerate`
 * [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) για το `wp search-replace`
 * [WordPress-CLI-Exporter](https://github.com/Automattic/WordPress-CLI-Exporter) για το `wp export`
 * [WordPress-CLI-Importer](https://github.com/Automattic/WordPress-CLI-Importer) για το `wp import`
