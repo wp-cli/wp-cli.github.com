@@ -31,7 +31,7 @@ Ongoing maintenance is made possible by:
 	</a>
 </div>
 
-The current stable release is [version 2.12.0](https://make.wordpress.org/cli/2025/05/07/wp-cli-v2-12-0-release-notes/). For announcements, follow [@wpcli on Twitter](https://twitter.com/wpcli) or [sign up for email updates](https://make.wordpress.org/cli/subscribe/). [Check out the roadmap](https://make.wordpress.org/cli/handbook/roadmap/) for an overview of what's planned for upcoming releases.
+The current stable release is [version 2.12.0](https://make.wordpress.org/cli/2025/05/07/wp-cli-v2-12-0-release-notes/). For announcements, follow [@wpcli on X](https://x.com/wpcli) or [sign up for email updates](https://make.wordpress.org/cli/subscribe/). [Check out the roadmap](https://make.wordpress.org/cli/handbook/roadmap/) for an overview of what's planned for upcoming releases.
 
 [![Testing](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
@@ -159,7 +159,7 @@ If you didn't find an answer in one of the venues above, you can:
 
 GitHub issues are meant for tracking enhancements to and bugs of existing commands, not general support. Before submitting a bug report, please [review our best practices](https://make.wordpress.org/cli/handbook/bug-reports/) to help ensure your issue is addressed in a timely manner.
 
-Please do not ask support questions on Twitter. Twitter isn't an acceptable venue for support because: 1) it's hard to hold conversations in under 280 characters, and 2) Twitter isn't a place where someone with your same question can search for an answer in a prior conversation.
+Please do not ask support questions on X. X isn't an acceptable venue for support because: 1) it's hard to hold conversations in under 280 characters, and 2) X isn't a place where someone with your same question can search for an answer in a prior conversation.
 
 Remember, libre != gratis; the open source license grants you the freedom to use and modify, but not commitments of other people's time. Please be respectful, and set your expectations accordingly.
 
@@ -209,7 +209,7 @@ Read through our [contributing guidelines in the handbook](https://make.wordpres
 
 ## Leadership
 
-WP-CLI has one project maintainer: [schlessera](https://github.com/schlessera).
+WP-CLI has two project maintainers: [schlessera](https://github.com/schlessera) and [swissspidy](https://github.com/swissspidy).
 
 On occasion, we [grant write access to contributors](https://make.wordpress.org/cli/handbook/committers-credo/) who have demonstrated, over a period of time, that they are capable and invested in moving the project forward.
 
