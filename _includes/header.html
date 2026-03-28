@@ -12,19 +12,19 @@
 		<link rel="shortcut icon" href="/assets/img/favicon.jpg" />
 		<link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom Feed">
 
-		<title>{{ page.title }} | WP-CLI</title>
-		<meta name="description" content="{{ page.description | default: 'The command line interface for WordPress' }}">
+		<title>{% if page.title == "WP-CLI" or page.title == nil %}WP-CLI - The command line interface for WordPress{% else %}{{ page.title }} | WP-CLI{% endif %}</title>
+		<meta name="description" content="{{ page.description | default: 'WP-CLI is the command-line interface for WordPress. You can update plugins, configure multisite installations and much more, without using a web browser.' }}">
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="{{ page.title | default: 'WP-CLI' }}" />
+		<meta property="og:title" content="{% if page.title == "WP-CLI" or page.title == nil %}WP-CLI - The command line interface for WordPress{% else %}{{ page.title }}{% endif %}" />
 		<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-		<meta property="og:description" content="{{ page.description | default: 'The command line interface for WordPress' }}" />
+		<meta property="og:description" content="{{ page.description | default: 'WP-CLI is the command-line interface for WordPress. You can update plugins, configure multisite installations and much more, without using a web browser.' }}" />
 		<meta property="og:site_name" content="WP-CLI" />
 		<meta property="og:image" content="{{ site.url }}/assets/img/wp-cli-og-image.png" />
 		<meta property="og:image:alt" content="WP-CLI Logo" />
 		<meta property="og:locale" content="en_US" />
 		<meta name="twitter:site" content="@wpcli" />
-		<meta name="twitter:title" content="{{ page.title | default: 'WP-CLI' }}" />
-		<meta name="twitter:description" content="{{ page.description | default: 'The command line interface for WordPress' }}" />
+		<meta name="twitter:title" content="{% if page.title == "WP-CLI" or page.title == nil %}WP-CLI - The command line interface for WordPress{% else %}{{ page.title }}{% endif %}" />
+		<meta name="twitter:description" content="{{ page.description | default: 'WP-CLI is the command-line interface for WordPress. You can update plugins, configure multisite installations and much more, without using a web browser.' }}" />
 		<meta name="twitter:image" content="{{ site.url }}/assets/img/wp-cli-og-image.png" />
 		<meta name="twitter:card" content="summary_large_image" />
 
